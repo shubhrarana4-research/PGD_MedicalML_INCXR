@@ -1,0 +1,2462 @@
+
+RUN: C:\Users\Shubhra_PhD\miniconda3\python.exe -u D:\October_Experiments\INCXR\incxr_densenet121_lossmia.py --data-root D:\October_Experiments\INCXR\data\IN-CXR --split-dir D:\October_Experiments\INCXR\exp\incxr_16 --output-dir D:\October_Experiments\INCXR\results\incxr_densenet121 --epochs 100 --batch-size 64 --num-workers 0
+
+========================================================================
+IN-CXR — DenseNet-121 — LOSS MIA
+========================================================================
+Candidates          : 12600
+Target members      : 6300
+Target nonmembers   : 6300
+Classes             : 2
+Candidate path col  : relative_path
+Image size          : 224
+Epochs              : 100
+Batch size          : 64
+Grad accumulation   : 1
+Effective batch     : 64
+Seed                : 314159265
+Min nonzero FPR     : 0.015873%
+NOTE: requested FPR 0.01% is below empirical FPR resolution for this number of nonmembers.
+========================================================================
+
+Training on device: cuda
+DenseNet-121 params: 6,955,906
+AMP                : True
+
+Epoch 001/100  loss=1.277720  acc=50.365%  lr=0.0999753  time=28.0s
+Epoch 002/100  loss=0.700267  acc=56.476%  lr=0.0999013  time=25.6s
+Epoch 003/100  loss=0.634954  acc=64.794%  lr=0.0997781  time=25.7s
+Epoch 004/100  loss=0.598843  acc=68.651%  lr=0.0996057  time=25.8s
+Epoch 005/100  loss=0.575336  acc=70.397%  lr=0.0993844  time=25.3s
+Epoch 006/100  loss=0.550403  acc=72.159%  lr=0.0991144  time=25.7s
+Epoch 007/100  loss=0.531028  acc=73.651%  lr=0.0987958  time=25.8s
+Epoch 008/100  loss=0.519065  acc=74.508%  lr=0.0984292  time=25.7s
+Epoch 009/100  loss=0.498163  acc=75.794%  lr=0.0980147  time=25.7s
+Epoch 010/100  loss=0.501985  acc=75.937%  lr=0.0975528  time=25.1s
+Epoch 011/100  loss=0.489208  acc=76.730%  lr=0.097044  time=25.4s
+Epoch 012/100  loss=0.475310  acc=77.302%  lr=0.0964888  time=25.5s
+Epoch 013/100  loss=0.480965  acc=76.556%  lr=0.0958877  time=25.4s
+Epoch 014/100  loss=0.469785  acc=78.206%  lr=0.0952414  time=25.3s
+Epoch 015/100  loss=0.463635  acc=77.873%  lr=0.0945503  time=25.3s
+Epoch 016/100  loss=0.463617  acc=78.190%  lr=0.0938153  time=25.7s
+Epoch 017/100  loss=0.457784  acc=78.810%  lr=0.0930371  time=25.4s
+Epoch 018/100  loss=0.456241  acc=78.540%  lr=0.0922164  time=25.4s
+Epoch 019/100  loss=0.466395  acc=77.937%  lr=0.091354  time=25.4s
+Epoch 020/100  loss=0.447219  acc=79.063%  lr=0.0904508  time=25.4s
+Epoch 021/100  loss=0.440618  acc=79.190%  lr=0.0895078  time=25.3s
+Epoch 022/100  loss=0.447135  acc=78.683%  lr=0.0885257  time=25.5s
+Epoch 023/100  loss=0.424294  acc=80.524%  lr=0.0875056  time=25.2s
+Epoch 024/100  loss=0.434820  acc=79.508%  lr=0.0864484  time=25.1s
+Epoch 025/100  loss=0.424306  acc=80.286%  lr=0.0853553  time=25.1s
+Epoch 026/100  loss=0.423853  acc=80.206%  lr=0.0842274  time=25.1s
+Epoch 027/100  loss=0.415004  acc=81.032%  lr=0.0830656  time=25.0s
+Epoch 028/100  loss=0.413131  acc=81.079%  lr=0.0818712  time=24.9s
+Epoch 029/100  loss=0.408794  acc=80.968%  lr=0.0806454  time=25.0s
+Epoch 030/100  loss=0.407723  acc=80.794%  lr=0.0793893  time=24.9s
+Epoch 031/100  loss=0.406875  acc=81.556%  lr=0.0781042  time=25.0s
+Epoch 032/100  loss=0.411535  acc=80.937%  lr=0.0767913  time=25.3s
+Epoch 033/100  loss=0.399173  acc=81.571%  lr=0.0754521  time=25.4s
+Epoch 034/100  loss=0.391555  acc=82.635%  lr=0.0740877  time=25.6s
+Epoch 035/100  loss=0.403655  acc=81.206%  lr=0.0726995  time=25.5s
+Epoch 036/100  loss=0.387883  acc=82.381%  lr=0.071289  time=25.5s
+Epoch 037/100  loss=0.390918  acc=82.429%  lr=0.0698574  time=25.2s
+Epoch 038/100  loss=0.388535  acc=82.143%  lr=0.0684062  time=25.1s
+Epoch 039/100  loss=0.379900  acc=83.222%  lr=0.0669369  time=25.0s
+Epoch 040/100  loss=0.395061  acc=81.778%  lr=0.0654508  time=25.1s
+Epoch 041/100  loss=0.386418  acc=82.286%  lr=0.0639496  time=25.6s
+Epoch 042/100  loss=0.376234  acc=82.984%  lr=0.0624345  time=25.4s
+Epoch 043/100  loss=0.370464  acc=83.492%  lr=0.0609072  time=25.6s
+Epoch 044/100  loss=0.365063  acc=83.508%  lr=0.0593691  time=25.1s
+Epoch 045/100  loss=0.365264  acc=83.571%  lr=0.0578217  time=25.0s
+Epoch 046/100  loss=0.359714  acc=83.984%  lr=0.0562667  time=25.0s
+Epoch 047/100  loss=0.354829  acc=84.222%  lr=0.0547054  time=25.1s
+Epoch 048/100  loss=0.352865  acc=83.952%  lr=0.0531395  time=25.2s
+Epoch 049/100  loss=0.345097  acc=84.302%  lr=0.0515705  time=25.0s
+Epoch 050/100  loss=0.347361  acc=84.413%  lr=0.05  time=25.0s
+Epoch 051/100  loss=0.344343  acc=84.667%  lr=0.0484295  time=25.0s
+Epoch 052/100  loss=0.337095  acc=85.365%  lr=0.0468605  time=25.0s
+Epoch 053/100  loss=0.333357  acc=85.000%  lr=0.0452946  time=25.1s
+Epoch 054/100  loss=0.320867  acc=85.841%  lr=0.0437333  time=24.9s
+Epoch 055/100  loss=0.329688  acc=85.127%  lr=0.0421783  time=25.0s
+Epoch 056/100  loss=0.322625  acc=85.413%  lr=0.0406309  time=24.9s
+Epoch 057/100  loss=0.314541  acc=85.556%  lr=0.0390928  time=25.3s
+Epoch 058/100  loss=0.314453  acc=85.571%  lr=0.0375655  time=25.7s
+Epoch 059/100  loss=0.319062  acc=85.952%  lr=0.0360504  time=25.6s
+Epoch 060/100  loss=0.301846  acc=86.794%  lr=0.0345492  time=25.6s
+Epoch 061/100  loss=0.293836  acc=87.238%  lr=0.0330631  time=25.5s
+Epoch 062/100  loss=0.291823  acc=87.317%  lr=0.0315938  time=25.0s
+Epoch 063/100  loss=0.290358  acc=86.905%  lr=0.0301426  time=25.0s
+Epoch 064/100  loss=0.274891  acc=88.238%  lr=0.028711  time=25.0s
+Epoch 065/100  loss=0.284672  acc=87.762%  lr=0.0273005  time=25.0s
+Epoch 066/100  loss=0.259054  acc=88.635%  lr=0.0259123  time=25.2s
+Epoch 067/100  loss=0.258954  acc=88.302%  lr=0.0245479  time=24.6s
+Epoch 068/100  loss=0.259858  acc=88.730%  lr=0.0232087  time=24.4s
+Epoch 069/100  loss=0.251606  acc=88.810%  lr=0.0218958  time=24.6s
+Epoch 070/100  loss=0.244956  acc=89.397%  lr=0.0206107  time=24.4s
+Epoch 071/100  loss=0.248763  acc=89.175%  lr=0.0193546  time=24.3s
+Epoch 072/100  loss=0.233538  acc=90.016%  lr=0.0181288  time=24.4s
+Epoch 073/100  loss=0.221560  acc=90.254%  lr=0.0169344  time=24.5s
+Epoch 074/100  loss=0.212081  acc=90.889%  lr=0.0157726  time=24.3s
+Epoch 075/100  loss=0.219413  acc=90.381%  lr=0.0146447  time=24.4s
+Epoch 076/100  loss=0.199616  acc=91.492%  lr=0.0135516  time=24.3s
+Epoch 077/100  loss=0.198871  acc=91.492%  lr=0.0124944  time=24.5s
+Epoch 078/100  loss=0.200323  acc=91.508%  lr=0.0114743  time=25.2s
+Epoch 079/100  loss=0.174569  acc=92.540%  lr=0.0104922  time=25.1s
+Epoch 080/100  loss=0.164344  acc=92.968%  lr=0.00954915  time=25.2s
+Epoch 081/100  loss=0.156779  acc=93.746%  lr=0.00864597  time=25.3s
+Epoch 082/100  loss=0.148363  acc=93.730%  lr=0.0077836  time=25.2s
+Epoch 083/100  loss=0.151831  acc=93.825%  lr=0.0069629  time=25.4s
+Epoch 084/100  loss=0.138256  acc=94.270%  lr=0.00618467  time=25.1s
+Epoch 085/100  loss=0.110472  acc=95.222%  lr=0.00544967  time=25.1s
+Epoch 086/100  loss=0.113661  acc=95.397%  lr=0.00475865  time=25.4s
+Epoch 087/100  loss=0.108201  acc=95.571%  lr=0.00411227  time=25.2s
+Epoch 088/100  loss=0.097748  acc=96.016%  lr=0.00351118  time=25.3s
+Epoch 089/100  loss=0.084502  acc=97.016%  lr=0.00295596  time=25.3s
+Epoch 090/100  loss=0.081153  acc=96.635%  lr=0.00244717  time=25.1s
+Epoch 091/100  loss=0.069822  acc=97.397%  lr=0.00198532  time=25.1s
+Epoch 092/100  loss=0.061312  acc=97.556%  lr=0.00157084  time=25.3s
+Epoch 093/100  loss=0.057743  acc=97.889%  lr=0.00120416  time=24.9s
+Epoch 094/100  loss=0.052120  acc=98.254%  lr=0.000885637  time=24.8s
+Epoch 095/100  loss=0.048370  acc=98.349%  lr=0.000615583  time=25.2s
+Epoch 096/100  loss=0.048749  acc=98.000%  lr=0.000394265  time=25.3s
+Epoch 097/100  loss=0.041300  acc=98.508%  lr=0.000221902  time=25.5s
+Epoch 098/100  loss=0.038072  acc=98.540%  lr=9.86636e-05  time=25.2s
+Epoch 099/100  loss=0.040830  acc=98.556%  lr=2.4672e-05  time=25.5s
+Epoch 100/100  loss=0.036612  acc=98.873%  lr=0  time=25.4s
+
+Saved target checkpoint: D:\October_Experiments\INCXR\results\incxr_densenet121\target\target_densenet121.pt
+
+Evaluating all candidates...
+
+========================================================================
+TARGET MODEL
+========================================================================
+Architecture         : DenseNet-121
+Parameters           : 6,955,906
+Member accuracy      : 99.222%
+Nonmember accuracy   : 82.841%
+Accuracy gap         : 16.381%
+Member loss          : 0.024613
+Nonmember loss       : 0.718822
+Loss gap             : 0.694208
+
+========================================================================
+LOSS MIA
+========================================================================
+AUC                  : 0.596970
+Best bal. accuracy   : 0.604127
+TPR @ FPR 1%         : 0.0000%  (actual FPR=0.000000%)
+TPR @ FPR 0.1%       : 0.0000%  (actual FPR=0.000000%)
+TPR @ FPR 0.01%      : 0.0000%  (actual FPR=0.000000%)
+  NOTE: 0.01% FPR is below the minimum nonzero empirical FPR; this is effectively a zero-FP operating point.
+
+Saved results under : D:\October_Experiments\INCXR\results\incxr_densenet121
+========================================================================
+
+RUN: C:\Users\Shubhra_PhD\miniconda3\python.exe -u D:\October_Experiments\INCXR\incxr_densenet121_rmia_fixed.py --project D:\October_Experiments\INCXR --stage all --device cuda --attack-device cuda --workers 0 --infer-batch-size 32 --x-chunk 64
+
+============================================================================
+IN-CXR DENSENET-121 RMIA PREFLIGHT
+============================================================================
+Candidates          : 12600
+Members             : 6300
+Nonmembers          : 6300
+Reference models    : 16
+IN refs/candidate   : 8
+OUT refs/candidate  : 8
+Queries             : 18
+Target checkpoint   : D:\October_Experiments\INCXR\results\incxr_densenet121\target\target_densenet121.pt
+Architecture        : DenseNet-121 scratch
+Parameters          : 6955906
+Image size          : 224
+Reflect pad         : 28
+Normalization       : NONE
+Epochs              : 100
+Batch               : 64
+Grad accum          : 1
+LR / momentum / WD  : 0.1 0.9 0.0005
+RMIA a/gamma/T      : 0.3 2.0 2.0
+Taylor m/n          : 0.6 4
+Trim                : 0.2
+Min nonzero FPR     : 0.00015873015873015873 (0.015873%)
+Complete refs       : []
+Incomplete refs     : []
+Missing refs        : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+NOTE: DenseNet preprocessing differs from the earlier ResNet-50 run; this is not a perfectly pure architecture-only ablation.
+============================================================================
+
+========================================================================
+TRAIN ref_00: n=6229 seed=314160265 device=cuda
+========================================================================
+ref_00 epoch 001/100 loss=0.932976 acc=55.129% lr=0.099975328 time=26.7s
+ref_00 epoch 002/100 loss=0.706523 acc=59.913% lr=0.099901336 time=24.8s
+ref_00 epoch 003/100 loss=0.624478 acc=66.993% lr=0.099778098 time=24.8s
+ref_00 epoch 004/100 loss=0.596736 acc=69.465% lr=0.099605735 time=24.7s
+ref_00 epoch 005/100 loss=0.576670 acc=69.754% lr=0.099384417 time=24.7s
+ref_00 epoch 006/100 loss=0.562236 acc=72.034% lr=0.099114363 time=24.8s
+ref_00 epoch 007/100 loss=0.541207 acc=73.688% lr=0.098795838 time=24.7s
+ref_00 epoch 008/100 loss=0.530385 acc=74.009% lr=0.098429158 time=24.8s
+ref_00 epoch 009/100 loss=0.516494 acc=74.956% lr=0.098014684 time=24.8s
+ref_00 epoch 010/100 loss=0.503332 acc=76.449% lr=0.097552826 time=24.7s
+ref_00 epoch 011/100 loss=0.512133 acc=75.582% lr=0.097044038 time=24.9s
+ref_00 epoch 012/100 loss=0.495722 acc=76.096% lr=0.096488824 time=24.8s
+ref_00 epoch 013/100 loss=0.487404 acc=76.336% lr=0.095887731 time=24.7s
+ref_00 epoch 014/100 loss=0.479525 acc=76.979% lr=0.095241353 time=24.8s
+ref_00 epoch 015/100 loss=0.469494 acc=78.118% lr=0.094550326 time=24.7s
+ref_00 epoch 016/100 loss=0.475254 acc=77.139% lr=0.093815334 time=24.8s
+ref_00 epoch 017/100 loss=0.458714 acc=78.440% lr=0.093037101 time=24.7s
+ref_00 epoch 018/100 loss=0.454895 acc=79.162% lr=0.092216396 time=24.9s
+ref_00 epoch 019/100 loss=0.455017 acc=78.680% lr=0.091354029 time=25.0s
+ref_00 epoch 020/100 loss=0.444548 acc=79.242% lr=0.09045085 time=24.7s
+ref_00 epoch 021/100 loss=0.440456 acc=79.355% lr=0.089507751 time=25.1s
+ref_00 epoch 022/100 loss=0.444774 acc=79.419% lr=0.088525662 time=25.4s
+ref_00 epoch 023/100 loss=0.432967 acc=79.611% lr=0.087505553 time=25.2s
+ref_00 epoch 024/100 loss=0.424201 acc=80.189% lr=0.086448431 time=25.2s
+ref_00 epoch 025/100 loss=0.417599 acc=80.687% lr=0.085355339 time=25.2s
+ref_00 epoch 026/100 loss=0.430827 acc=79.788% lr=0.084227355 time=25.3s
+ref_00 epoch 027/100 loss=0.421769 acc=80.559% lr=0.083065593 time=25.2s
+ref_00 epoch 028/100 loss=0.428019 acc=79.740% lr=0.081871199 time=25.3s
+ref_00 epoch 029/100 loss=0.418703 acc=80.912% lr=0.080645353 time=25.3s
+ref_00 epoch 030/100 loss=0.404567 acc=81.217% lr=0.079389263 time=25.5s
+ref_00 epoch 031/100 loss=0.413944 acc=81.265% lr=0.078104169 time=25.4s
+ref_00 epoch 032/100 loss=0.402682 acc=81.731% lr=0.07679134 time=25.3s
+ref_00 epoch 033/100 loss=0.398411 acc=81.859% lr=0.075452071 time=25.5s
+ref_00 epoch 034/100 loss=0.410738 acc=81.410% lr=0.074087684 time=25.4s
+ref_00 epoch 035/100 loss=0.402067 acc=81.859% lr=0.072699525 time=24.8s
+ref_00 epoch 036/100 loss=0.405771 acc=81.377% lr=0.071288965 time=25.1s
+ref_00 epoch 037/100 loss=0.395752 acc=82.196% lr=0.069857395 time=25.1s
+ref_00 epoch 038/100 loss=0.387555 acc=82.325% lr=0.068406228 time=25.0s
+ref_00 epoch 039/100 loss=0.387053 acc=82.421% lr=0.066936896 time=24.8s
+ref_00 epoch 040/100 loss=0.398968 acc=81.891% lr=0.06545085 time=24.9s
+ref_00 epoch 041/100 loss=0.393181 acc=82.164% lr=0.063949555 time=24.9s
+ref_00 epoch 042/100 loss=0.386686 acc=82.453% lr=0.062434494 time=25.3s
+ref_00 epoch 043/100 loss=0.376995 acc=82.967% lr=0.060907162 time=25.1s
+ref_00 epoch 044/100 loss=0.383492 acc=82.421% lr=0.059369066 time=23.8s
+ref_00 epoch 045/100 loss=0.372977 acc=83.545% lr=0.057821723 time=23.9s
+ref_00 epoch 046/100 loss=0.368947 acc=83.448% lr=0.056266662 time=23.9s
+ref_00 epoch 047/100 loss=0.369426 acc=83.288% lr=0.054705416 time=24.0s
+ref_00 epoch 048/100 loss=0.361347 acc=84.058% lr=0.053139526 time=24.0s
+ref_00 epoch 049/100 loss=0.358155 acc=84.074% lr=0.051570538 time=24.0s
+ref_00 epoch 050/100 loss=0.355826 acc=84.187% lr=0.05 time=23.8s
+ref_00 epoch 051/100 loss=0.358117 acc=83.914% lr=0.048429462 time=24.0s
+ref_00 epoch 052/100 loss=0.350667 acc=84.363% lr=0.046860474 time=23.9s
+ref_00 epoch 053/100 loss=0.344037 acc=84.460% lr=0.045294584 time=23.9s
+ref_00 epoch 054/100 loss=0.334178 acc=85.118% lr=0.043733338 time=23.8s
+ref_00 epoch 055/100 loss=0.340682 acc=85.375% lr=0.042178277 time=25.0s
+ref_00 epoch 056/100 loss=0.325734 acc=85.760% lr=0.040630934 time=24.8s
+ref_00 epoch 057/100 loss=0.330403 acc=85.150% lr=0.039092838 time=24.9s
+ref_00 epoch 058/100 loss=0.332933 acc=85.680% lr=0.037565506 time=25.1s
+ref_00 epoch 059/100 loss=0.327301 acc=85.728% lr=0.036050445 time=24.9s
+ref_00 epoch 060/100 loss=0.320915 acc=85.535% lr=0.03454915 time=24.9s
+ref_00 epoch 061/100 loss=0.309414 acc=86.418% lr=0.033063104 time=25.0s
+ref_00 epoch 062/100 loss=0.312741 acc=86.226% lr=0.031593772 time=24.9s
+ref_00 epoch 063/100 loss=0.311920 acc=86.338% lr=0.030142605 time=25.1s
+ref_00 epoch 064/100 loss=0.311430 acc=86.418% lr=0.028711035 time=24.9s
+ref_00 epoch 065/100 loss=0.304405 acc=86.515% lr=0.027300475 time=24.9s
+ref_00 epoch 066/100 loss=0.289748 acc=87.478% lr=0.025912316 time=25.1s
+ref_00 epoch 067/100 loss=0.287319 acc=87.783% lr=0.024547929 time=24.9s
+ref_00 epoch 068/100 loss=0.279425 acc=88.200% lr=0.02320866 time=24.9s
+ref_00 epoch 069/100 loss=0.270304 acc=87.960% lr=0.021895831 time=24.9s
+ref_00 epoch 070/100 loss=0.266966 acc=88.618% lr=0.020610737 time=24.8s
+ref_00 epoch 071/100 loss=0.262212 acc=88.457% lr=0.019354647 time=24.9s
+ref_00 epoch 072/100 loss=0.258849 acc=88.891% lr=0.018128801 time=25.0s
+ref_00 epoch 073/100 loss=0.242570 acc=89.645% lr=0.016934407 time=24.8s
+ref_00 epoch 074/100 loss=0.238822 acc=90.127% lr=0.015772645 time=24.9s
+ref_00 epoch 075/100 loss=0.241001 acc=89.645% lr=0.014644661 time=24.9s
+ref_00 epoch 076/100 loss=0.223393 acc=90.576% lr=0.013551569 time=24.9s
+ref_00 epoch 077/100 loss=0.225850 acc=90.624% lr=0.012494447 time=24.9s
+ref_00 epoch 078/100 loss=0.206858 acc=90.946% lr=0.011474338 time=24.9s
+ref_00 epoch 079/100 loss=0.202147 acc=91.556% lr=0.010492249 time=25.0s
+ref_00 epoch 080/100 loss=0.191888 acc=92.230% lr=0.0095491503 time=24.9s
+ref_00 epoch 081/100 loss=0.183303 acc=92.134% lr=0.0086459713 time=24.8s
+ref_00 epoch 082/100 loss=0.187679 acc=91.973% lr=0.0077836037 time=24.9s
+ref_00 epoch 083/100 loss=0.164524 acc=93.289% lr=0.0069628986 time=24.9s
+ref_00 epoch 084/100 loss=0.152688 acc=93.546% lr=0.006184666 time=25.0s
+ref_00 epoch 085/100 loss=0.138529 acc=94.542% lr=0.0054496738 time=25.0s
+ref_00 epoch 086/100 loss=0.140742 acc=94.477% lr=0.0047586474 time=24.9s
+ref_00 epoch 087/100 loss=0.119487 acc=95.280% lr=0.0041122687 time=24.9s
+ref_00 epoch 088/100 loss=0.118520 acc=95.200% lr=0.0035111757 time=25.4s
+ref_00 epoch 089/100 loss=0.110261 acc=95.409% lr=0.0029559616 time=25.4s
+ref_00 epoch 090/100 loss=0.104181 acc=95.826% lr=0.0024471742 time=25.3s
+ref_00 epoch 091/100 loss=0.092974 acc=96.324% lr=0.0019853157 time=25.2s
+ref_00 epoch 092/100 loss=0.076231 acc=97.223% lr=0.0015708419 time=25.2s
+ref_00 epoch 093/100 loss=0.077108 acc=97.158% lr=0.0012041619 time=25.6s
+ref_00 epoch 094/100 loss=0.065199 acc=97.544% lr=0.00088563746 time=25.3s
+ref_00 epoch 095/100 loss=0.060359 acc=97.688% lr=0.00061558297 time=25.1s
+ref_00 epoch 096/100 loss=0.061693 acc=97.656% lr=0.00039426493 time=24.9s
+ref_00 epoch 097/100 loss=0.054779 acc=98.106% lr=0.00022190177 time=24.8s
+ref_00 epoch 098/100 loss=0.057244 acc=97.704% lr=9.8663579e-05 time=25.0s
+ref_00 epoch 099/100 loss=0.055570 acc=98.074% lr=2.4671982e-05 time=24.9s
+ref_00 epoch 100/100 loss=0.051554 acc=98.090% lr=0 time=24.8s
+
+========================================================================
+TRAIN ref_01: n=6313 seed=314160266 device=cuda
+========================================================================
+ref_01 epoch 001/100 loss=1.119246 acc=52.178% lr=0.099975328 time=43.4s
+ref_01 epoch 002/100 loss=0.664062 acc=62.015% lr=0.099901336 time=25.2s
+ref_01 epoch 003/100 loss=0.623799 acc=66.482% lr=0.099778098 time=25.1s
+ref_01 epoch 004/100 loss=0.596015 acc=68.684% lr=0.099605735 time=25.1s
+ref_01 epoch 005/100 loss=0.577690 acc=70.743% lr=0.099384417 time=25.3s
+ref_01 epoch 006/100 loss=0.634114 acc=64.724% lr=0.099114363 time=25.2s
+ref_01 epoch 007/100 loss=0.649102 acc=64.660% lr=0.098795838 time=25.1s
+ref_01 epoch 008/100 loss=0.597236 acc=69.222% lr=0.098429158 time=25.1s
+ref_01 epoch 009/100 loss=0.559445 acc=71.741% lr=0.098014684 time=25.2s
+ref_01 epoch 010/100 loss=0.540374 acc=73.182% lr=0.097552826 time=25.3s
+ref_01 epoch 011/100 loss=0.523558 acc=74.339% lr=0.097044038 time=25.5s
+ref_01 epoch 012/100 loss=0.493282 acc=76.271% lr=0.096488824 time=25.3s
+ref_01 epoch 013/100 loss=0.484544 acc=76.746% lr=0.095887731 time=25.2s
+ref_01 epoch 014/100 loss=0.483803 acc=76.921% lr=0.095241353 time=25.2s
+ref_01 epoch 015/100 loss=0.468752 acc=78.346% lr=0.094550326 time=25.3s
+ref_01 epoch 016/100 loss=0.465833 acc=77.839% lr=0.093815334 time=25.4s
+ref_01 epoch 017/100 loss=0.461766 acc=77.744% lr=0.093037101 time=25.2s
+ref_01 epoch 018/100 loss=0.452127 acc=78.790% lr=0.092216396 time=25.4s
+ref_01 epoch 019/100 loss=0.452793 acc=78.996% lr=0.091354029 time=25.5s
+ref_01 epoch 020/100 loss=0.443243 acc=79.518% lr=0.09045085 time=25.4s
+ref_01 epoch 021/100 loss=0.438274 acc=79.709% lr=0.089507751 time=25.3s
+ref_01 epoch 022/100 loss=0.436366 acc=79.835% lr=0.088525662 time=25.5s
+ref_01 epoch 023/100 loss=0.420593 acc=80.453% lr=0.087505553 time=25.4s
+ref_01 epoch 024/100 loss=0.430637 acc=80.231% lr=0.086448431 time=24.8s
+ref_01 epoch 025/100 loss=0.423069 acc=80.611% lr=0.085355339 time=24.7s
+ref_01 epoch 026/100 loss=0.417157 acc=81.166% lr=0.084227355 time=24.8s
+ref_01 epoch 027/100 loss=0.418828 acc=80.912% lr=0.083065593 time=24.9s
+ref_01 epoch 028/100 loss=0.414969 acc=80.722% lr=0.081871199 time=24.7s
+ref_01 epoch 029/100 loss=0.411794 acc=81.007% lr=0.080645353 time=24.8s
+ref_01 epoch 030/100 loss=0.404665 acc=81.419% lr=0.079389263 time=24.6s
+ref_01 epoch 031/100 loss=0.400503 acc=81.720% lr=0.078104169 time=24.5s
+ref_01 epoch 032/100 loss=0.403116 acc=81.530% lr=0.07679134 time=24.6s
+ref_01 epoch 033/100 loss=0.383882 acc=82.972% lr=0.075452071 time=24.7s
+ref_01 epoch 034/100 loss=0.387221 acc=82.291% lr=0.074087684 time=25.0s
+ref_01 epoch 035/100 loss=0.395243 acc=82.100% lr=0.072699525 time=25.2s
+ref_01 epoch 036/100 loss=0.384166 acc=82.560% lr=0.071288965 time=25.5s
+ref_01 epoch 037/100 loss=0.392047 acc=82.100% lr=0.069857395 time=25.4s
+ref_01 epoch 038/100 loss=0.381343 acc=82.829% lr=0.068406228 time=25.3s
+ref_01 epoch 039/100 loss=0.377496 acc=82.861% lr=0.066936896 time=25.6s
+ref_01 epoch 040/100 loss=0.368932 acc=83.209% lr=0.06545085 time=25.4s
+ref_01 epoch 041/100 loss=0.368354 acc=83.241% lr=0.063949555 time=25.0s
+ref_01 epoch 042/100 loss=0.387650 acc=82.037% lr=0.062434494 time=25.2s
+ref_01 epoch 043/100 loss=0.367360 acc=83.320% lr=0.060907162 time=25.0s
+ref_01 epoch 044/100 loss=0.379028 acc=82.702% lr=0.059369066 time=25.1s
+ref_01 epoch 045/100 loss=0.373070 acc=83.098% lr=0.057821723 time=25.4s
+ref_01 epoch 046/100 loss=0.357790 acc=83.985% lr=0.056266662 time=25.3s
+ref_01 epoch 047/100 loss=0.360355 acc=83.716% lr=0.054705416 time=25.1s
+ref_01 epoch 048/100 loss=0.352194 acc=84.461% lr=0.053139526 time=25.3s
+ref_01 epoch 049/100 loss=0.352717 acc=84.366% lr=0.051570538 time=25.4s
+ref_01 epoch 050/100 loss=0.338352 acc=84.936% lr=0.05 time=25.1s
+ref_01 epoch 051/100 loss=0.344397 acc=84.682% lr=0.048429462 time=25.2s
+ref_01 epoch 052/100 loss=0.335141 acc=84.667% lr=0.046860474 time=25.3s
+ref_01 epoch 053/100 loss=0.336082 acc=85.316% lr=0.045294584 time=25.3s
+ref_01 epoch 054/100 loss=0.330463 acc=84.635% lr=0.043733338 time=25.3s
+ref_01 epoch 055/100 loss=0.331408 acc=85.332% lr=0.042178277 time=25.1s
+ref_01 epoch 056/100 loss=0.319691 acc=85.554% lr=0.040630934 time=25.2s
+ref_01 epoch 057/100 loss=0.319957 acc=85.459% lr=0.039092838 time=25.3s
+ref_01 epoch 058/100 loss=0.319762 acc=86.219% lr=0.037565506 time=25.0s
+ref_01 epoch 059/100 loss=0.309089 acc=86.457% lr=0.036050445 time=25.3s
+ref_01 epoch 060/100 loss=0.306565 acc=86.599% lr=0.03454915 time=25.2s
+ref_01 epoch 061/100 loss=0.302088 acc=86.789% lr=0.033063104 time=25.5s
+ref_01 epoch 062/100 loss=0.301138 acc=87.122% lr=0.031593772 time=25.7s
+ref_01 epoch 063/100 loss=0.291648 acc=87.502% lr=0.030142605 time=25.6s
+ref_01 epoch 064/100 loss=0.295944 acc=86.948% lr=0.028711035 time=25.6s
+ref_01 epoch 065/100 loss=0.286957 acc=87.581% lr=0.027300475 time=25.5s
+ref_01 epoch 066/100 loss=0.284715 acc=87.565% lr=0.025912316 time=25.2s
+ref_01 epoch 067/100 loss=0.264551 acc=88.722% lr=0.024547929 time=25.2s
+ref_01 epoch 068/100 loss=0.266465 acc=88.674% lr=0.02320866 time=25.2s
+ref_01 epoch 069/100 loss=0.261749 acc=88.421% lr=0.021895831 time=25.1s
+ref_01 epoch 070/100 loss=0.248159 acc=89.244% lr=0.020610737 time=25.4s
+ref_01 epoch 071/100 loss=0.246486 acc=89.181% lr=0.019354647 time=25.1s
+ref_01 epoch 072/100 loss=0.243966 acc=89.466% lr=0.018128801 time=25.3s
+ref_01 epoch 073/100 loss=0.242671 acc=89.561% lr=0.016934407 time=25.2s
+ref_01 epoch 074/100 loss=0.229121 acc=90.195% lr=0.015772645 time=25.2s
+ref_01 epoch 075/100 loss=0.218359 acc=90.828% lr=0.014644661 time=25.6s
+ref_01 epoch 076/100 loss=0.222737 acc=90.686% lr=0.013551569 time=25.6s
+ref_01 epoch 077/100 loss=0.209179 acc=91.209% lr=0.012494447 time=25.2s
+ref_01 epoch 078/100 loss=0.199907 acc=91.446% lr=0.011474338 time=25.3s
+ref_01 epoch 079/100 loss=0.191594 acc=92.080% lr=0.010492249 time=25.4s
+ref_01 epoch 080/100 loss=0.172899 acc=92.872% lr=0.0095491503 time=25.3s
+ref_01 epoch 081/100 loss=0.173166 acc=92.713% lr=0.0086459713 time=25.1s
+ref_01 epoch 082/100 loss=0.176292 acc=92.888% lr=0.0077836037 time=25.1s
+ref_01 epoch 083/100 loss=0.159742 acc=93.505% lr=0.0069628986 time=25.1s
+ref_01 epoch 084/100 loss=0.150835 acc=93.886% lr=0.006184666 time=25.3s
+ref_01 epoch 085/100 loss=0.140642 acc=94.313% lr=0.0054496738 time=25.4s
+ref_01 epoch 086/100 loss=0.123322 acc=95.026% lr=0.0047586474 time=25.2s
+ref_01 epoch 087/100 loss=0.114496 acc=95.406% lr=0.0041122687 time=25.1s
+ref_01 epoch 088/100 loss=0.119212 acc=95.026% lr=0.0035111757 time=25.1s
+ref_01 epoch 089/100 loss=0.093929 acc=95.913% lr=0.0029559616 time=25.3s
+ref_01 epoch 090/100 loss=0.092124 acc=96.309% lr=0.0024471742 time=25.4s
+ref_01 epoch 091/100 loss=0.095792 acc=96.452% lr=0.0019853157 time=25.3s
+ref_01 epoch 092/100 loss=0.073127 acc=97.149% lr=0.0015708419 time=25.3s
+ref_01 epoch 093/100 loss=0.074948 acc=97.054% lr=0.0012041619 time=25.3s
+ref_01 epoch 094/100 loss=0.069799 acc=97.307% lr=0.00088563746 time=25.2s
+ref_01 epoch 095/100 loss=0.060018 acc=97.782% lr=0.00061558297 time=25.4s
+ref_01 epoch 096/100 loss=0.053545 acc=98.115% lr=0.00039426493 time=25.7s
+ref_01 epoch 097/100 loss=0.053771 acc=98.036% lr=0.00022190177 time=25.7s
+ref_01 epoch 098/100 loss=0.053539 acc=97.988% lr=9.8663579e-05 time=25.8s
+ref_01 epoch 099/100 loss=0.048117 acc=98.289% lr=2.4671982e-05 time=25.8s
+ref_01 epoch 100/100 loss=0.047894 acc=98.067% lr=0 time=25.4s
+
+========================================================================
+TRAIN ref_02: n=6393 seed=314160267 device=cuda
+========================================================================
+ref_02 epoch 001/100 loss=1.485994 acc=50.242% lr=0.099975328 time=43.5s
+ref_02 epoch 002/100 loss=0.684044 acc=59.268% lr=0.099901336 time=24.5s
+ref_02 epoch 003/100 loss=0.625375 acc=65.885% lr=0.099778098 time=24.5s
+ref_02 epoch 004/100 loss=0.588968 acc=69.295% lr=0.099605735 time=24.5s
+ref_02 epoch 005/100 loss=0.564684 acc=71.563% lr=0.099384417 time=24.4s
+ref_02 epoch 006/100 loss=0.541579 acc=73.096% lr=0.099114363 time=24.4s
+ref_02 epoch 007/100 loss=0.534077 acc=73.612% lr=0.098795838 time=24.5s
+ref_02 epoch 008/100 loss=0.518184 acc=74.550% lr=0.098429158 time=24.6s
+ref_02 epoch 009/100 loss=0.502288 acc=75.129% lr=0.098014684 time=24.5s
+ref_02 epoch 010/100 loss=0.493501 acc=76.208% lr=0.097552826 time=24.6s
+ref_02 epoch 011/100 loss=0.482237 acc=76.662% lr=0.097044038 time=24.6s
+ref_02 epoch 012/100 loss=0.475693 acc=77.569% lr=0.096488824 time=25.2s
+ref_02 epoch 013/100 loss=0.470852 acc=77.272% lr=0.095887731 time=25.4s
+ref_02 epoch 014/100 loss=0.461166 acc=78.523% lr=0.095241353 time=25.7s
+ref_02 epoch 015/100 loss=0.455752 acc=78.304% lr=0.094550326 time=25.5s
+ref_02 epoch 016/100 loss=0.454146 acc=77.882% lr=0.093815334 time=25.7s
+ref_02 epoch 017/100 loss=0.459350 acc=78.211% lr=0.093037101 time=25.6s
+ref_02 epoch 018/100 loss=0.452435 acc=78.633% lr=0.092216396 time=25.7s
+ref_02 epoch 019/100 loss=0.444700 acc=78.946% lr=0.091354029 time=25.9s
+ref_02 epoch 020/100 loss=0.442411 acc=79.180% lr=0.09045085 time=25.7s
+ref_02 epoch 021/100 loss=0.446601 acc=79.352% lr=0.089507751 time=26.1s
+ref_02 epoch 022/100 loss=0.423873 acc=80.260% lr=0.088525662 time=25.9s
+ref_02 epoch 023/100 loss=0.433875 acc=80.119% lr=0.087505553 time=25.9s
+ref_02 epoch 024/100 loss=0.430119 acc=80.213% lr=0.086448431 time=25.8s
+ref_02 epoch 025/100 loss=0.422292 acc=80.666% lr=0.085355339 time=25.8s
+ref_02 epoch 026/100 loss=0.409775 acc=81.120% lr=0.084227355 time=25.8s
+ref_02 epoch 027/100 loss=0.426143 acc=79.916% lr=0.083065593 time=26.0s
+ref_02 epoch 028/100 loss=0.421527 acc=80.713% lr=0.081871199 time=25.6s
+ref_02 epoch 029/100 loss=0.414568 acc=81.183% lr=0.080645353 time=25.5s
+ref_02 epoch 030/100 loss=0.418344 acc=80.760% lr=0.079389263 time=25.4s
+ref_02 epoch 031/100 loss=0.407247 acc=81.026% lr=0.078104169 time=25.8s
+ref_02 epoch 032/100 loss=0.398259 acc=81.902% lr=0.07679134 time=25.8s
+ref_02 epoch 033/100 loss=0.398247 acc=81.996% lr=0.075452071 time=25.9s
+ref_02 epoch 034/100 loss=0.388769 acc=82.950% lr=0.074087684 time=25.9s
+ref_02 epoch 035/100 loss=0.395332 acc=81.918% lr=0.072699525 time=25.5s
+ref_02 epoch 036/100 loss=0.393856 acc=81.886% lr=0.071288965 time=25.5s
+ref_02 epoch 037/100 loss=0.386567 acc=81.824% lr=0.069857395 time=25.5s
+ref_02 epoch 038/100 loss=0.387363 acc=82.371% lr=0.068406228 time=25.4s
+ref_02 epoch 039/100 loss=0.379845 acc=82.262% lr=0.066936896 time=25.6s
+ref_02 epoch 040/100 loss=0.379063 acc=82.888% lr=0.06545085 time=25.8s
+ref_02 epoch 041/100 loss=0.374028 acc=82.825% lr=0.063949555 time=26.0s
+ref_02 epoch 042/100 loss=0.371103 acc=83.294% lr=0.062434494 time=25.7s
+ref_02 epoch 043/100 loss=0.363661 acc=83.607% lr=0.060907162 time=25.8s
+ref_02 epoch 044/100 loss=0.369083 acc=83.388% lr=0.059369066 time=25.4s
+ref_02 epoch 045/100 loss=0.362836 acc=84.108% lr=0.057821723 time=25.6s
+ref_02 epoch 046/100 loss=0.361330 acc=83.810% lr=0.056266662 time=25.4s
+ref_02 epoch 047/100 loss=0.361743 acc=83.857% lr=0.054705416 time=25.5s
+ref_02 epoch 048/100 loss=0.345641 acc=84.780% lr=0.053139526 time=25.7s
+ref_02 epoch 049/100 loss=0.345889 acc=84.233% lr=0.051570538 time=25.6s
+ref_02 epoch 050/100 loss=0.345199 acc=84.827% lr=0.05 time=25.5s
+ref_02 epoch 051/100 loss=0.346167 acc=84.827% lr=0.048429462 time=25.4s
+ref_02 epoch 052/100 loss=0.338759 acc=85.031% lr=0.046860474 time=25.6s
+ref_02 epoch 053/100 loss=0.333807 acc=85.484% lr=0.045294584 time=25.5s
+ref_02 epoch 054/100 loss=0.331063 acc=85.296% lr=0.043733338 time=25.5s
+ref_02 epoch 055/100 loss=0.327994 acc=85.531% lr=0.042178277 time=25.4s
+ref_02 epoch 056/100 loss=0.324865 acc=84.999% lr=0.040630934 time=25.5s
+ref_02 epoch 057/100 loss=0.325675 acc=85.531% lr=0.039092838 time=25.6s
+ref_02 epoch 058/100 loss=0.312798 acc=86.125% lr=0.037565506 time=26.1s
+ref_02 epoch 059/100 loss=0.302473 acc=86.861% lr=0.036050445 time=25.8s
+ref_02 epoch 060/100 loss=0.311670 acc=86.141% lr=0.03454915 time=25.8s
+ref_02 epoch 061/100 loss=0.290122 acc=86.970% lr=0.033063104 time=25.6s
+ref_02 epoch 062/100 loss=0.301236 acc=86.610% lr=0.031593772 time=25.4s
+ref_02 epoch 063/100 loss=0.295411 acc=87.158% lr=0.030142605 time=25.4s
+ref_02 epoch 064/100 loss=0.299578 acc=86.861% lr=0.028711035 time=25.5s
+ref_02 epoch 065/100 loss=0.271965 acc=88.049% lr=0.027300475 time=25.5s
+ref_02 epoch 066/100 loss=0.278485 acc=87.768% lr=0.025912316 time=25.7s
+ref_02 epoch 067/100 loss=0.274066 acc=88.378% lr=0.024547929 time=25.4s
+ref_02 epoch 068/100 loss=0.272171 acc=88.081% lr=0.02320866 time=25.6s
+ref_02 epoch 069/100 loss=0.260363 acc=88.925% lr=0.021895831 time=25.4s
+ref_02 epoch 070/100 loss=0.257048 acc=88.706% lr=0.020610737 time=25.4s
+ref_02 epoch 071/100 loss=0.246294 acc=88.957% lr=0.019354647 time=25.5s
+ref_02 epoch 072/100 loss=0.233938 acc=90.036% lr=0.018128801 time=25.8s
+ref_02 epoch 073/100 loss=0.231813 acc=90.114% lr=0.016934407 time=25.9s
+ref_02 epoch 074/100 loss=0.224562 acc=90.411% lr=0.015772645 time=26.1s
+ref_02 epoch 075/100 loss=0.214657 acc=90.568% lr=0.014644661 time=25.5s
+ref_02 epoch 076/100 loss=0.206514 acc=90.912% lr=0.013551569 time=25.4s
+ref_02 epoch 077/100 loss=0.212502 acc=91.100% lr=0.012494447 time=25.5s
+ref_02 epoch 078/100 loss=0.193128 acc=92.132% lr=0.011474338 time=25.6s
+ref_02 epoch 079/100 loss=0.187893 acc=92.116% lr=0.010492249 time=25.4s
+ref_02 epoch 080/100 loss=0.177292 acc=92.554% lr=0.0095491503 time=25.0s
+ref_02 epoch 081/100 loss=0.172729 acc=92.648% lr=0.0086459713 time=24.7s
+ref_02 epoch 082/100 loss=0.169574 acc=92.852% lr=0.0077836037 time=25.0s
+ref_02 epoch 083/100 loss=0.161921 acc=93.086% lr=0.0069628986 time=24.9s
+ref_02 epoch 084/100 loss=0.141601 acc=94.056% lr=0.006184666 time=24.9s
+ref_02 epoch 085/100 loss=0.133011 acc=94.697% lr=0.0054496738 time=24.9s
+ref_02 epoch 086/100 loss=0.122106 acc=94.854% lr=0.0047586474 time=24.9s
+ref_02 epoch 087/100 loss=0.117922 acc=95.401% lr=0.0041122687 time=25.0s
+ref_02 epoch 088/100 loss=0.103482 acc=95.714% lr=0.0035111757 time=24.9s
+ref_02 epoch 089/100 loss=0.108500 acc=95.558% lr=0.0029559616 time=24.8s
+ref_02 epoch 090/100 loss=0.086295 acc=96.512% lr=0.0024471742 time=25.5s
+ref_02 epoch 091/100 loss=0.081585 acc=96.825% lr=0.0019853157 time=25.2s
+ref_02 epoch 092/100 loss=0.076306 acc=97.122% lr=0.0015708419 time=25.3s
+ref_02 epoch 093/100 loss=0.065500 acc=97.356% lr=0.0012041619 time=24.9s
+ref_02 epoch 094/100 loss=0.063030 acc=97.654% lr=0.00088563746 time=25.1s
+ref_02 epoch 095/100 loss=0.059593 acc=97.794% lr=0.00061558297 time=25.4s
+ref_02 epoch 096/100 loss=0.055860 acc=97.935% lr=0.00039426493 time=25.6s
+ref_02 epoch 097/100 loss=0.050964 acc=98.186% lr=0.00022190177 time=25.4s
+ref_02 epoch 098/100 loss=0.052116 acc=98.123% lr=9.8663579e-05 time=25.4s
+ref_02 epoch 099/100 loss=0.044726 acc=98.561% lr=2.4671982e-05 time=25.2s
+ref_02 epoch 100/100 loss=0.048098 acc=98.326% lr=0 time=25.4s
+
+========================================================================
+TRAIN ref_03: n=6330 seed=314160268 device=cuda
+========================================================================
+ref_03 epoch 001/100 loss=1.558178 acc=51.517% lr=0.099975328 time=43.1s
+ref_03 epoch 002/100 loss=0.734401 acc=53.002% lr=0.099901336 time=25.7s
+ref_03 epoch 003/100 loss=0.656677 acc=61.469% lr=0.099778098 time=25.5s
+ref_03 epoch 004/100 loss=0.604844 acc=67.536% lr=0.099605735 time=25.6s
+ref_03 epoch 005/100 loss=0.567589 acc=71.169% lr=0.099384417 time=25.7s
+ref_03 epoch 006/100 loss=0.539588 acc=73.507% lr=0.099114363 time=25.4s
+ref_03 epoch 007/100 loss=0.511881 acc=75.150% lr=0.098795838 time=25.3s
+ref_03 epoch 008/100 loss=0.509970 acc=74.945% lr=0.098429158 time=25.2s
+ref_03 epoch 009/100 loss=0.487377 acc=76.730% lr=0.098014684 time=25.5s
+ref_03 epoch 010/100 loss=0.477806 acc=77.709% lr=0.097552826 time=25.7s
+ref_03 epoch 011/100 loss=0.472850 acc=77.678% lr=0.097044038 time=25.7s
+ref_03 epoch 012/100 loss=0.466323 acc=77.836% lr=0.096488824 time=25.5s
+ref_03 epoch 013/100 loss=0.458410 acc=78.404% lr=0.095887731 time=25.7s
+ref_03 epoch 014/100 loss=0.460294 acc=78.799% lr=0.095241353 time=25.6s
+ref_03 epoch 015/100 loss=0.442519 acc=79.068% lr=0.094550326 time=25.5s
+ref_03 epoch 016/100 loss=0.446546 acc=79.415% lr=0.093815334 time=25.3s
+ref_03 epoch 017/100 loss=0.430355 acc=80.300% lr=0.093037101 time=25.3s
+ref_03 epoch 018/100 loss=0.440004 acc=79.400% lr=0.092216396 time=25.3s
+ref_03 epoch 019/100 loss=0.441158 acc=79.479% lr=0.091354029 time=25.2s
+ref_03 epoch 020/100 loss=0.430488 acc=80.379% lr=0.09045085 time=25.4s
+ref_03 epoch 021/100 loss=0.423920 acc=80.221% lr=0.089507751 time=25.3s
+ref_03 epoch 022/100 loss=0.410135 acc=81.564% lr=0.088525662 time=25.2s
+ref_03 epoch 023/100 loss=0.419718 acc=81.453% lr=0.087505553 time=25.5s
+ref_03 epoch 024/100 loss=0.414614 acc=80.632% lr=0.086448431 time=25.6s
+ref_03 epoch 025/100 loss=0.404854 acc=81.517% lr=0.085355339 time=25.6s
+ref_03 epoch 026/100 loss=0.401940 acc=81.927% lr=0.084227355 time=25.7s
+ref_03 epoch 027/100 loss=0.395882 acc=82.038% lr=0.083065593 time=25.6s
+ref_03 epoch 028/100 loss=0.408991 acc=81.453% lr=0.081871199 time=25.3s
+ref_03 epoch 029/100 loss=0.393982 acc=82.385% lr=0.080645353 time=25.4s
+ref_03 epoch 030/100 loss=0.396377 acc=82.180% lr=0.079389263 time=25.2s
+ref_03 epoch 031/100 loss=0.397269 acc=82.496% lr=0.078104169 time=25.3s
+ref_03 epoch 032/100 loss=0.376493 acc=83.002% lr=0.07679134 time=25.2s
+ref_03 epoch 033/100 loss=0.387796 acc=82.796% lr=0.075452071 time=25.3s
+ref_03 epoch 034/100 loss=0.377866 acc=82.907% lr=0.074087684 time=25.3s
+ref_03 epoch 035/100 loss=0.385777 acc=82.449% lr=0.072699525 time=25.3s
+ref_03 epoch 036/100 loss=0.378816 acc=82.733% lr=0.071288965 time=25.3s
+ref_03 epoch 037/100 loss=0.378791 acc=82.859% lr=0.069857395 time=25.4s
+ref_03 epoch 038/100 loss=0.375836 acc=83.128% lr=0.068406228 time=25.3s
+ref_03 epoch 039/100 loss=0.369491 acc=83.760% lr=0.066936896 time=25.7s
+ref_03 epoch 040/100 loss=0.367221 acc=83.839% lr=0.06545085 time=25.3s
+ref_03 epoch 041/100 loss=0.366472 acc=84.028% lr=0.063949555 time=25.3s
+ref_03 epoch 042/100 loss=0.351781 acc=84.171% lr=0.062434494 time=25.5s
+ref_03 epoch 043/100 loss=0.362273 acc=84.234% lr=0.060907162 time=25.5s
+ref_03 epoch 044/100 loss=0.352290 acc=84.755% lr=0.059369066 time=25.2s
+ref_03 epoch 045/100 loss=0.356748 acc=84.186% lr=0.057821723 time=25.4s
+ref_03 epoch 046/100 loss=0.344874 acc=84.708% lr=0.056266662 time=25.2s
+ref_03 epoch 047/100 loss=0.356037 acc=83.997% lr=0.054705416 time=25.4s
+ref_03 epoch 048/100 loss=0.350725 acc=84.487% lr=0.053139526 time=25.3s
+ref_03 epoch 049/100 loss=0.347649 acc=84.692% lr=0.051570538 time=25.4s
+ref_03 epoch 050/100 loss=0.332937 acc=85.134% lr=0.05 time=25.3s
+ref_03 epoch 051/100 loss=0.333002 acc=85.624% lr=0.048429462 time=25.4s
+ref_03 epoch 052/100 loss=0.339046 acc=84.834% lr=0.046860474 time=25.3s
+ref_03 epoch 053/100 loss=0.323006 acc=85.545% lr=0.045294584 time=25.3s
+ref_03 epoch 054/100 loss=0.323752 acc=85.213% lr=0.043733338 time=25.7s
+ref_03 epoch 055/100 loss=0.329865 acc=85.355% lr=0.042178277 time=25.5s
+ref_03 epoch 056/100 loss=0.316046 acc=85.798% lr=0.040630934 time=25.3s
+ref_03 epoch 057/100 loss=0.318889 acc=86.256% lr=0.039092838 time=25.5s
+ref_03 epoch 058/100 loss=0.306426 acc=86.967% lr=0.037565506 time=24.9s
+ref_03 epoch 059/100 loss=0.302687 acc=86.730% lr=0.036050445 time=24.9s
+ref_03 epoch 060/100 loss=0.304119 acc=86.761% lr=0.03454915 time=24.9s
+ref_03 epoch 061/100 loss=0.300189 acc=87.156% lr=0.033063104 time=24.7s
+ref_03 epoch 062/100 loss=0.290383 acc=86.998% lr=0.031593772 time=24.9s
+ref_03 epoch 063/100 loss=0.298455 acc=87.077% lr=0.030142605 time=24.8s
+ref_03 epoch 064/100 loss=0.277774 acc=88.231% lr=0.028711035 time=24.9s
+ref_03 epoch 065/100 loss=0.278022 acc=87.899% lr=0.027300475 time=24.6s
+ref_03 epoch 066/100 loss=0.272515 acc=88.341% lr=0.025912316 time=24.6s
+ref_03 epoch 067/100 loss=0.265956 acc=88.673% lr=0.024547929 time=24.5s
+ref_03 epoch 068/100 loss=0.265790 acc=88.815% lr=0.02320866 time=24.6s
+ref_03 epoch 069/100 loss=0.258438 acc=89.036% lr=0.021895831 time=25.4s
+ref_03 epoch 070/100 loss=0.260120 acc=88.910% lr=0.020610737 time=25.5s
+ref_03 epoch 071/100 loss=0.247703 acc=89.100% lr=0.019354647 time=25.5s
+ref_03 epoch 072/100 loss=0.238244 acc=90.474% lr=0.018128801 time=25.1s
+ref_03 epoch 073/100 loss=0.236924 acc=90.032% lr=0.016934407 time=25.1s
+ref_03 epoch 074/100 loss=0.228746 acc=90.379% lr=0.015772645 time=25.4s
+ref_03 epoch 075/100 loss=0.227122 acc=90.506% lr=0.014644661 time=25.3s
+ref_03 epoch 076/100 loss=0.215684 acc=90.821% lr=0.013551569 time=25.3s
+ref_03 epoch 077/100 loss=0.205504 acc=91.074% lr=0.012494447 time=25.2s
+ref_03 epoch 078/100 loss=0.203924 acc=91.611% lr=0.011474338 time=25.4s
+ref_03 epoch 079/100 loss=0.200115 acc=91.801% lr=0.010492249 time=25.3s
+ref_03 epoch 080/100 loss=0.181286 acc=92.338% lr=0.0095491503 time=25.4s
+ref_03 epoch 081/100 loss=0.180639 acc=92.543% lr=0.0086459713 time=25.4s
+ref_03 epoch 082/100 loss=0.173972 acc=93.270% lr=0.0077836037 time=25.5s
+ref_03 epoch 083/100 loss=0.164112 acc=93.191% lr=0.0069628986 time=25.4s
+ref_03 epoch 084/100 loss=0.162738 acc=93.160% lr=0.006184666 time=25.4s
+ref_03 epoch 085/100 loss=0.151941 acc=93.839% lr=0.0054496738 time=25.3s
+ref_03 epoch 086/100 loss=0.142319 acc=94.344% lr=0.0047586474 time=25.2s
+ref_03 epoch 087/100 loss=0.133221 acc=94.945% lr=0.0041122687 time=25.4s
+ref_03 epoch 088/100 loss=0.124150 acc=95.197% lr=0.0035111757 time=25.3s
+ref_03 epoch 089/100 loss=0.120225 acc=95.434% lr=0.0029559616 time=25.3s
+ref_03 epoch 090/100 loss=0.111573 acc=95.513% lr=0.0024471742 time=25.6s
+ref_03 epoch 091/100 loss=0.106352 acc=95.814% lr=0.0019853157 time=25.4s
+ref_03 epoch 092/100 loss=0.099089 acc=96.303% lr=0.0015708419 time=25.4s
+ref_03 epoch 093/100 loss=0.095117 acc=96.272% lr=0.0012041619 time=25.3s
+ref_03 epoch 094/100 loss=0.086909 acc=96.588% lr=0.00088563746 time=25.7s
+ref_03 epoch 095/100 loss=0.089992 acc=96.461% lr=0.00061558297 time=25.6s
+ref_03 epoch 096/100 loss=0.084196 acc=96.667% lr=0.00039426493 time=25.6s
+ref_03 epoch 097/100 loss=0.075699 acc=97.188% lr=0.00022190177 time=25.5s
+ref_03 epoch 098/100 loss=0.077070 acc=96.983% lr=9.8663579e-05 time=25.6s
+ref_03 epoch 099/100 loss=0.073329 acc=97.330% lr=2.4671982e-05 time=25.8s
+ref_03 epoch 100/100 loss=0.070369 acc=97.346% lr=0 time=25.7s
+
+========================================================================
+TRAIN ref_04: n=6291 seed=314160269 device=cuda
+========================================================================
+ref_04 epoch 001/100 loss=0.931395 acc=55.746% lr=0.099975328 time=44.0s
+ref_04 epoch 002/100 loss=0.642707 acc=63.933% lr=0.099901336 time=25.1s
+ref_04 epoch 003/100 loss=0.599860 acc=67.986% lr=0.099778098 time=25.2s
+ref_04 epoch 004/100 loss=0.608427 acc=68.860% lr=0.099605735 time=25.3s
+ref_04 epoch 005/100 loss=0.578133 acc=70.704% lr=0.099384417 time=25.7s
+ref_04 epoch 006/100 loss=0.560458 acc=72.262% lr=0.099114363 time=25.6s
+ref_04 epoch 007/100 loss=0.556285 acc=73.152% lr=0.098795838 time=25.5s
+ref_04 epoch 008/100 loss=0.512571 acc=75.028% lr=0.098429158 time=25.5s
+ref_04 epoch 009/100 loss=0.501015 acc=76.013% lr=0.098014684 time=25.1s
+ref_04 epoch 010/100 loss=0.488979 acc=76.490% lr=0.097552826 time=25.0s
+ref_04 epoch 011/100 loss=0.486221 acc=76.919% lr=0.097044038 time=25.1s
+ref_04 epoch 012/100 loss=0.478331 acc=77.412% lr=0.096488824 time=25.3s
+ref_04 epoch 013/100 loss=0.462737 acc=78.366% lr=0.095887731 time=25.3s
+ref_04 epoch 014/100 loss=0.469410 acc=77.555% lr=0.095241353 time=25.0s
+ref_04 epoch 015/100 loss=0.464595 acc=78.080% lr=0.094550326 time=25.3s
+ref_04 epoch 016/100 loss=0.458277 acc=77.794% lr=0.093815334 time=25.6s
+ref_04 epoch 017/100 loss=0.456209 acc=79.399% lr=0.093037101 time=25.6s
+ref_04 epoch 018/100 loss=0.450389 acc=78.779% lr=0.092216396 time=25.2s
+ref_04 epoch 019/100 loss=0.450107 acc=78.890% lr=0.091354029 time=25.3s
+ref_04 epoch 020/100 loss=0.441430 acc=79.685% lr=0.09045085 time=25.2s
+ref_04 epoch 021/100 loss=0.442643 acc=79.669% lr=0.089507751 time=25.1s
+ref_04 epoch 022/100 loss=0.439561 acc=78.811% lr=0.088525662 time=25.2s
+ref_04 epoch 023/100 loss=0.430181 acc=80.130% lr=0.087505553 time=25.3s
+ref_04 epoch 024/100 loss=0.438056 acc=79.542% lr=0.086448431 time=25.1s
+ref_04 epoch 025/100 loss=0.429739 acc=79.510% lr=0.085355339 time=25.1s
+ref_04 epoch 026/100 loss=0.419913 acc=80.512% lr=0.084227355 time=24.9s
+ref_04 epoch 027/100 loss=0.422485 acc=80.210% lr=0.083065593 time=25.1s
+ref_04 epoch 028/100 loss=0.413238 acc=80.766% lr=0.081871199 time=25.1s
+ref_04 epoch 029/100 loss=0.413711 acc=80.639% lr=0.080645353 time=25.0s
+ref_04 epoch 030/100 loss=0.408624 acc=81.593% lr=0.079389263 time=25.2s
+ref_04 epoch 031/100 loss=0.414626 acc=80.591% lr=0.078104169 time=25.1s
+ref_04 epoch 032/100 loss=0.414600 acc=81.100% lr=0.07679134 time=25.0s
+ref_04 epoch 033/100 loss=0.409039 acc=81.211% lr=0.075452071 time=25.1s
+ref_04 epoch 034/100 loss=0.403031 acc=81.370% lr=0.074087684 time=25.2s
+ref_04 epoch 035/100 loss=0.416014 acc=80.448% lr=0.072699525 time=25.0s
+ref_04 epoch 036/100 loss=0.394844 acc=81.561% lr=0.071288965 time=24.9s
+ref_04 epoch 037/100 loss=0.398080 acc=81.768% lr=0.069857395 time=24.6s
+ref_04 epoch 038/100 loss=0.387873 acc=82.244% lr=0.068406228 time=24.8s
+ref_04 epoch 039/100 loss=0.395939 acc=81.847% lr=0.066936896 time=24.6s
+ref_04 epoch 040/100 loss=0.379680 acc=82.340% lr=0.06545085 time=24.6s
+ref_04 epoch 041/100 loss=0.389911 acc=81.466% lr=0.063949555 time=24.7s
+ref_04 epoch 042/100 loss=0.392301 acc=82.260% lr=0.062434494 time=24.5s
+ref_04 epoch 043/100 loss=0.393401 acc=81.370% lr=0.060907162 time=24.8s
+ref_04 epoch 044/100 loss=0.381074 acc=82.769% lr=0.059369066 time=24.4s
+ref_04 epoch 045/100 loss=0.378275 acc=83.023% lr=0.057821723 time=24.8s
+ref_04 epoch 046/100 loss=0.371602 acc=82.737% lr=0.056266662 time=24.7s
+ref_04 epoch 047/100 loss=0.371757 acc=83.309% lr=0.054705416 time=25.2s
+ref_04 epoch 048/100 loss=0.359702 acc=83.357% lr=0.053139526 time=25.5s
+ref_04 epoch 049/100 loss=0.357662 acc=84.025% lr=0.051570538 time=25.6s
+ref_04 epoch 050/100 loss=0.355214 acc=83.898% lr=0.05 time=25.4s
+ref_04 epoch 051/100 loss=0.351233 acc=84.629% lr=0.048429462 time=25.2s
+ref_04 epoch 052/100 loss=0.348050 acc=84.152% lr=0.046860474 time=25.2s
+ref_04 epoch 053/100 loss=0.340257 acc=84.645% lr=0.045294584 time=25.3s
+ref_04 epoch 054/100 loss=0.331817 acc=84.835% lr=0.043733338 time=25.1s
+ref_04 epoch 055/100 loss=0.338229 acc=84.311% lr=0.042178277 time=25.3s
+ref_04 epoch 056/100 loss=0.338489 acc=85.122% lr=0.040630934 time=25.4s
+ref_04 epoch 057/100 loss=0.318882 acc=85.948% lr=0.039092838 time=25.4s
+ref_04 epoch 058/100 loss=0.324015 acc=85.408% lr=0.037565506 time=25.4s
+ref_04 epoch 059/100 loss=0.331634 acc=85.217% lr=0.036050445 time=25.6s
+ref_04 epoch 060/100 loss=0.314853 acc=85.821% lr=0.03454915 time=25.4s
+ref_04 epoch 061/100 loss=0.314515 acc=86.314% lr=0.033063104 time=25.3s
+ref_04 epoch 062/100 loss=0.316005 acc=85.932% lr=0.031593772 time=25.0s
+ref_04 epoch 063/100 loss=0.301485 acc=86.870% lr=0.030142605 time=25.1s
+ref_04 epoch 064/100 loss=0.291193 acc=87.013% lr=0.028711035 time=25.1s
+ref_04 epoch 065/100 loss=0.288754 acc=87.411% lr=0.027300475 time=25.3s
+ref_04 epoch 066/100 loss=0.277420 acc=87.665% lr=0.025912316 time=25.5s
+ref_04 epoch 067/100 loss=0.262841 acc=88.476% lr=0.024547929 time=25.7s
+ref_04 epoch 068/100 loss=0.267131 acc=88.269% lr=0.02320866 time=25.7s
+ref_04 epoch 069/100 loss=0.266858 acc=88.253% lr=0.021895831 time=25.7s
+ref_04 epoch 070/100 loss=0.262414 acc=88.587% lr=0.020610737 time=25.2s
+ref_04 epoch 071/100 loss=0.246554 acc=89.572% lr=0.019354647 time=25.3s
+ref_04 epoch 072/100 loss=0.247234 acc=89.429% lr=0.018128801 time=25.3s
+ref_04 epoch 073/100 loss=0.227400 acc=89.890% lr=0.016934407 time=25.1s
+ref_04 epoch 074/100 loss=0.226392 acc=89.938% lr=0.015772645 time=25.7s
+ref_04 epoch 075/100 loss=0.208056 acc=91.337% lr=0.014644661 time=25.5s
+ref_04 epoch 076/100 loss=0.198541 acc=91.702% lr=0.013551569 time=25.2s
+ref_04 epoch 077/100 loss=0.205444 acc=91.114% lr=0.012494447 time=34.9s
+ref_04 epoch 078/100 loss=0.184923 acc=92.259% lr=0.011474338 time=43.9s
+ref_04 epoch 079/100 loss=0.185477 acc=92.195% lr=0.010492249 time=25.7s
+ref_04 epoch 080/100 loss=0.168610 acc=92.863% lr=0.0095491503 time=25.3s
+ref_04 epoch 081/100 loss=0.160968 acc=93.371% lr=0.0086459713 time=25.5s
+ref_04 epoch 082/100 loss=0.153709 acc=93.626% lr=0.0077836037 time=25.8s
+ref_04 epoch 083/100 loss=0.138819 acc=93.880% lr=0.0069628986 time=25.5s
+ref_04 epoch 084/100 loss=0.122309 acc=95.056% lr=0.006184666 time=25.2s
+ref_04 epoch 085/100 loss=0.116730 acc=95.088% lr=0.0054496738 time=25.1s
+ref_04 epoch 086/100 loss=0.110775 acc=95.676% lr=0.0047586474 time=25.2s
+ref_04 epoch 087/100 loss=0.101753 acc=96.010% lr=0.0041122687 time=25.4s
+ref_04 epoch 088/100 loss=0.091261 acc=96.265% lr=0.0035111757 time=25.3s
+ref_04 epoch 089/100 loss=0.076836 acc=97.107% lr=0.0029559616 time=25.7s
+ref_04 epoch 090/100 loss=0.068430 acc=97.425% lr=0.0024471742 time=25.2s
+ref_04 epoch 091/100 loss=0.059874 acc=97.806% lr=0.0019853157 time=25.7s
+ref_04 epoch 092/100 loss=0.057525 acc=97.997% lr=0.0015708419 time=25.8s
+ref_04 epoch 093/100 loss=0.051263 acc=98.124% lr=0.0012041619 time=26.0s
+ref_04 epoch 094/100 loss=0.042354 acc=98.363% lr=0.00088563746 time=25.3s
+ref_04 epoch 095/100 loss=0.039531 acc=98.728% lr=0.00061558297 time=25.3s
+ref_04 epoch 096/100 loss=0.036748 acc=98.617% lr=0.00039426493 time=25.4s
+ref_04 epoch 097/100 loss=0.035485 acc=98.776% lr=0.00022190177 time=25.2s
+ref_04 epoch 098/100 loss=0.033632 acc=98.776% lr=9.8663579e-05 time=25.4s
+ref_04 epoch 099/100 loss=0.033743 acc=98.903% lr=2.4671982e-05 time=25.3s
+ref_04 epoch 100/100 loss=0.034057 acc=98.792% lr=0 time=25.2s
+
+========================================================================
+TRAIN ref_05: n=6281 seed=314160270 device=cuda
+========================================================================
+ref_05 epoch 001/100 loss=1.122858 acc=54.084% lr=0.099975328 time=43.6s
+ref_05 epoch 002/100 loss=0.761846 acc=55.437% lr=0.099901336 time=25.2s
+ref_05 epoch 003/100 loss=0.715349 acc=58.367% lr=0.099778098 time=25.2s
+ref_05 epoch 004/100 loss=0.687855 acc=62.012% lr=0.099605735 time=25.2s
+ref_05 epoch 005/100 loss=0.622851 acc=65.770% lr=0.099384417 time=25.1s
+ref_05 epoch 006/100 loss=0.645223 acc=63.573% lr=0.099114363 time=25.3s
+ref_05 epoch 007/100 loss=0.603598 acc=68.126% lr=0.098795838 time=25.2s
+ref_05 epoch 008/100 loss=0.582535 acc=70.132% lr=0.098429158 time=25.2s
+ref_05 epoch 009/100 loss=0.566203 acc=71.103% lr=0.098014684 time=25.0s
+ref_05 epoch 010/100 loss=0.532726 acc=74.065% lr=0.097552826 time=25.0s
+ref_05 epoch 011/100 loss=0.529252 acc=74.367% lr=0.097044038 time=25.1s
+ref_05 epoch 012/100 loss=0.519713 acc=74.415% lr=0.096488824 time=25.1s
+ref_05 epoch 013/100 loss=0.522475 acc=74.781% lr=0.095887731 time=24.9s
+ref_05 epoch 014/100 loss=0.502019 acc=76.055% lr=0.095241353 time=24.4s
+ref_05 epoch 015/100 loss=0.483934 acc=77.201% lr=0.094550326 time=24.1s
+ref_05 epoch 016/100 loss=0.479082 acc=77.121% lr=0.093815334 time=24.2s
+ref_05 epoch 017/100 loss=0.481650 acc=76.755% lr=0.093037101 time=24.1s
+ref_05 epoch 018/100 loss=0.480324 acc=77.392% lr=0.092216396 time=24.0s
+ref_05 epoch 019/100 loss=0.468859 acc=77.758% lr=0.091354029 time=24.2s
+ref_05 epoch 020/100 loss=0.461508 acc=77.902% lr=0.09045085 time=24.0s
+ref_05 epoch 021/100 loss=0.453778 acc=79.303% lr=0.089507751 time=24.1s
+ref_05 epoch 022/100 loss=0.450990 acc=79.303% lr=0.088525662 time=24.0s
+ref_05 epoch 023/100 loss=0.452949 acc=78.507% lr=0.087505553 time=24.1s
+ref_05 epoch 024/100 loss=0.437468 acc=79.271% lr=0.086448431 time=24.0s
+ref_05 epoch 025/100 loss=0.443063 acc=79.414% lr=0.085355339 time=24.9s
+ref_05 epoch 026/100 loss=0.423600 acc=79.971% lr=0.084227355 time=25.1s
+ref_05 epoch 027/100 loss=0.420394 acc=80.481% lr=0.083065593 time=25.1s
+ref_05 epoch 028/100 loss=0.409757 acc=80.958% lr=0.081871199 time=25.3s
+ref_05 epoch 029/100 loss=0.424909 acc=80.895% lr=0.080645353 time=25.4s
+ref_05 epoch 030/100 loss=0.412916 acc=80.799% lr=0.079389263 time=25.4s
+ref_05 epoch 031/100 loss=0.424963 acc=80.051% lr=0.078104169 time=25.4s
+ref_05 epoch 032/100 loss=0.413259 acc=80.767% lr=0.07679134 time=25.4s
+ref_05 epoch 033/100 loss=0.400034 acc=81.404% lr=0.075452071 time=25.0s
+ref_05 epoch 034/100 loss=0.399769 acc=82.073% lr=0.074087684 time=25.2s
+ref_05 epoch 035/100 loss=0.395546 acc=82.248% lr=0.072699525 time=25.1s
+ref_05 epoch 036/100 loss=0.401088 acc=81.675% lr=0.071288965 time=25.1s
+ref_05 epoch 037/100 loss=0.407817 acc=81.325% lr=0.069857395 time=25.0s
+ref_05 epoch 038/100 loss=0.398060 acc=82.121% lr=0.068406228 time=25.1s
+ref_05 epoch 039/100 loss=0.397806 acc=82.280% lr=0.066936896 time=25.1s
+ref_05 epoch 040/100 loss=0.391272 acc=82.280% lr=0.06545085 time=25.0s
+ref_05 epoch 041/100 loss=0.386632 acc=82.359% lr=0.063949555 time=25.2s
+ref_05 epoch 042/100 loss=0.380572 acc=82.837% lr=0.062434494 time=25.2s
+ref_05 epoch 043/100 loss=0.374839 acc=83.156% lr=0.060907162 time=25.2s
+ref_05 epoch 044/100 loss=0.366842 acc=82.980% lr=0.059369066 time=25.1s
+ref_05 epoch 045/100 loss=0.370663 acc=83.203% lr=0.057821723 time=25.1s
+ref_05 epoch 046/100 loss=0.368170 acc=83.633% lr=0.056266662 time=25.2s
+ref_05 epoch 047/100 loss=0.377504 acc=82.901% lr=0.054705416 time=25.1s
+ref_05 epoch 048/100 loss=0.366118 acc=83.490% lr=0.053139526 time=24.9s
+ref_05 epoch 049/100 loss=0.376232 acc=82.933% lr=0.051570538 time=25.1s
+ref_05 epoch 050/100 loss=0.364172 acc=83.792% lr=0.05 time=25.1s
+ref_05 epoch 051/100 loss=0.348233 acc=84.079% lr=0.048429462 time=25.3s
+ref_05 epoch 052/100 loss=0.343407 acc=84.955% lr=0.046860474 time=25.4s
+ref_05 epoch 053/100 loss=0.346589 acc=84.907% lr=0.045294584 time=25.4s
+ref_05 epoch 054/100 loss=0.327860 acc=85.512% lr=0.043733338 time=25.4s
+ref_05 epoch 055/100 loss=0.346111 acc=84.684% lr=0.042178277 time=25.1s
+ref_05 epoch 056/100 loss=0.327459 acc=85.814% lr=0.040630934 time=25.1s
+ref_05 epoch 057/100 loss=0.332248 acc=85.432% lr=0.039092838 time=25.0s
+ref_05 epoch 058/100 loss=0.321492 acc=86.212% lr=0.037565506 time=25.1s
+ref_05 epoch 059/100 loss=0.312206 acc=86.451% lr=0.036050445 time=25.1s
+ref_05 epoch 060/100 loss=0.319381 acc=85.703% lr=0.03454915 time=25.0s
+ref_05 epoch 061/100 loss=0.310129 acc=86.499% lr=0.033063104 time=25.0s
+ref_05 epoch 062/100 loss=0.302771 acc=87.008% lr=0.031593772 time=25.1s
+ref_05 epoch 063/100 loss=0.312036 acc=86.403% lr=0.030142605 time=25.2s
+ref_05 epoch 064/100 loss=0.299427 acc=86.674% lr=0.028711035 time=25.3s
+ref_05 epoch 065/100 loss=0.289162 acc=87.024% lr=0.027300475 time=25.3s
+ref_05 epoch 066/100 loss=0.287621 acc=87.247% lr=0.025912316 time=24.9s
+ref_05 epoch 067/100 loss=0.283243 acc=87.598% lr=0.024547929 time=25.1s
+ref_05 epoch 068/100 loss=0.282021 acc=87.645% lr=0.02320866 time=25.0s
+ref_05 epoch 069/100 loss=0.268499 acc=88.123% lr=0.021895831 time=25.4s
+ref_05 epoch 070/100 loss=0.257099 acc=88.935% lr=0.020610737 time=25.1s
+ref_05 epoch 071/100 loss=0.270202 acc=88.314% lr=0.019354647 time=25.0s
+ref_05 epoch 072/100 loss=0.248076 acc=89.253% lr=0.018128801 time=25.0s
+ref_05 epoch 073/100 loss=0.251701 acc=88.839% lr=0.016934407 time=25.0s
+ref_05 epoch 074/100 loss=0.244155 acc=89.811% lr=0.015772645 time=25.1s
+ref_05 epoch 075/100 loss=0.244651 acc=89.285% lr=0.014644661 time=25.1s
+ref_05 epoch 076/100 loss=0.228033 acc=90.209% lr=0.013551569 time=25.1s
+ref_05 epoch 077/100 loss=0.220181 acc=90.623% lr=0.012494447 time=25.1s
+ref_05 epoch 078/100 loss=0.216453 acc=90.670% lr=0.011474338 time=25.3s
+ref_05 epoch 079/100 loss=0.201560 acc=91.212% lr=0.010492249 time=25.1s
+ref_05 epoch 080/100 loss=0.200632 acc=91.371% lr=0.0095491503 time=25.2s
+ref_05 epoch 081/100 loss=0.195629 acc=91.864% lr=0.0086459713 time=25.4s
+ref_05 epoch 082/100 loss=0.181585 acc=92.231% lr=0.0077836037 time=25.2s
+ref_05 epoch 083/100 loss=0.176740 acc=92.804% lr=0.0069628986 time=25.1s
+ref_05 epoch 084/100 loss=0.161567 acc=93.409% lr=0.006184666 time=25.1s
+ref_05 epoch 085/100 loss=0.158646 acc=93.425% lr=0.0054496738 time=25.3s
+ref_05 epoch 086/100 loss=0.153255 acc=93.584% lr=0.0047586474 time=25.2s
+ref_05 epoch 087/100 loss=0.146288 acc=93.902% lr=0.0041122687 time=25.3s
+ref_05 epoch 088/100 loss=0.135309 acc=94.491% lr=0.0035111757 time=25.2s
+ref_05 epoch 089/100 loss=0.129807 acc=94.889% lr=0.0029559616 time=25.0s
+ref_05 epoch 090/100 loss=0.117596 acc=95.415% lr=0.0024471742 time=25.1s
+ref_05 epoch 091/100 loss=0.105377 acc=95.797% lr=0.0019853157 time=25.0s
+ref_05 epoch 092/100 loss=0.096216 acc=96.131% lr=0.0015708419 time=25.3s
+ref_05 epoch 093/100 loss=0.089170 acc=96.338% lr=0.0012041619 time=25.1s
+ref_05 epoch 094/100 loss=0.090039 acc=96.147% lr=0.00088563746 time=24.0s
+ref_05 epoch 095/100 loss=0.083086 acc=96.736% lr=0.00061558297 time=24.2s
+ref_05 epoch 096/100 loss=0.073883 acc=97.134% lr=0.00039426493 time=24.2s
+ref_05 epoch 097/100 loss=0.066783 acc=97.532% lr=0.00022190177 time=24.3s
+ref_05 epoch 098/100 loss=0.066778 acc=97.596% lr=9.8663579e-05 time=24.0s
+ref_05 epoch 099/100 loss=0.064891 acc=97.564% lr=2.4671982e-05 time=24.0s
+ref_05 epoch 100/100 loss=0.068871 acc=97.469% lr=0 time=24.0s
+
+========================================================================
+TRAIN ref_06: n=6290 seed=314160271 device=cuda
+========================================================================
+ref_06 epoch 001/100 loss=1.149177 acc=51.892% lr=0.099975328 time=42.1s
+ref_06 epoch 002/100 loss=0.663140 acc=62.226% lr=0.099901336 time=24.1s
+ref_06 epoch 003/100 loss=0.607975 acc=68.680% lr=0.099778098 time=24.3s
+ref_06 epoch 004/100 loss=0.574879 acc=71.749% lr=0.099605735 time=25.5s
+ref_06 epoch 005/100 loss=0.551728 acc=73.609% lr=0.099384417 time=25.2s
+ref_06 epoch 006/100 loss=0.525378 acc=74.610% lr=0.099114363 time=25.1s
+ref_06 epoch 007/100 loss=0.517524 acc=75.421% lr=0.098795838 time=25.2s
+ref_06 epoch 008/100 loss=0.500112 acc=75.803% lr=0.098429158 time=25.3s
+ref_06 epoch 009/100 loss=0.493833 acc=76.836% lr=0.098014684 time=25.5s
+ref_06 epoch 010/100 loss=0.486730 acc=77.091% lr=0.097552826 time=25.4s
+ref_06 epoch 011/100 loss=0.470487 acc=78.235% lr=0.097044038 time=25.3s
+ref_06 epoch 012/100 loss=0.470814 acc=78.537% lr=0.096488824 time=25.5s
+ref_06 epoch 013/100 loss=0.462211 acc=78.744% lr=0.095887731 time=25.3s
+ref_06 epoch 014/100 loss=0.461807 acc=78.728% lr=0.095241353 time=25.1s
+ref_06 epoch 015/100 loss=0.455410 acc=78.824% lr=0.094550326 time=25.3s
+ref_06 epoch 016/100 loss=0.457744 acc=79.078% lr=0.093815334 time=25.5s
+ref_06 epoch 017/100 loss=0.450994 acc=78.824% lr=0.093037101 time=25.5s
+ref_06 epoch 018/100 loss=0.442477 acc=79.793% lr=0.092216396 time=25.3s
+ref_06 epoch 019/100 loss=0.434437 acc=79.889% lr=0.091354029 time=25.1s
+ref_06 epoch 020/100 loss=0.434787 acc=79.650% lr=0.09045085 time=25.0s
+ref_06 epoch 021/100 loss=0.428220 acc=80.254% lr=0.089507751 time=25.3s
+ref_06 epoch 022/100 loss=0.429708 acc=80.382% lr=0.088525662 time=25.6s
+ref_06 epoch 023/100 loss=0.422454 acc=80.413% lr=0.087505553 time=25.4s
+ref_06 epoch 024/100 loss=0.414420 acc=81.065% lr=0.086448431 time=25.4s
+ref_06 epoch 025/100 loss=0.408113 acc=81.653% lr=0.085355339 time=25.3s
+ref_06 epoch 026/100 loss=0.421447 acc=80.652% lr=0.084227355 time=25.5s
+ref_06 epoch 027/100 loss=0.420919 acc=81.002% lr=0.083065593 time=25.5s
+ref_06 epoch 028/100 loss=0.407982 acc=81.192% lr=0.081871199 time=25.3s
+ref_06 epoch 029/100 loss=0.420341 acc=80.493% lr=0.080645353 time=25.1s
+ref_06 epoch 030/100 loss=0.415007 acc=80.700% lr=0.079389263 time=25.2s
+ref_06 epoch 031/100 loss=0.421205 acc=81.033% lr=0.078104169 time=25.2s
+ref_06 epoch 032/100 loss=0.415246 acc=80.715% lr=0.07679134 time=25.2s
+ref_06 epoch 033/100 loss=0.406145 acc=81.828% lr=0.075452071 time=25.2s
+ref_06 epoch 034/100 loss=0.404552 acc=81.669% lr=0.074087684 time=25.6s
+ref_06 epoch 035/100 loss=0.387442 acc=82.671% lr=0.072699525 time=25.4s
+ref_06 epoch 036/100 loss=0.394903 acc=82.464% lr=0.071288965 time=25.6s
+ref_06 epoch 037/100 loss=0.377205 acc=82.862% lr=0.069857395 time=25.7s
+ref_06 epoch 038/100 loss=0.382196 acc=82.782% lr=0.068406228 time=25.5s
+ref_06 epoch 039/100 loss=0.392421 acc=82.401% lr=0.066936896 time=25.2s
+ref_06 epoch 040/100 loss=0.375931 acc=83.196% lr=0.06545085 time=25.1s
+ref_06 epoch 041/100 loss=0.380407 acc=83.386% lr=0.063949555 time=25.2s
+ref_06 epoch 042/100 loss=0.372855 acc=83.641% lr=0.062434494 time=25.2s
+ref_06 epoch 043/100 loss=0.368210 acc=83.243% lr=0.060907162 time=25.3s
+ref_06 epoch 044/100 loss=0.365844 acc=83.498% lr=0.059369066 time=25.2s
+ref_06 epoch 045/100 loss=0.389969 acc=82.432% lr=0.057821723 time=25.1s
+ref_06 epoch 046/100 loss=0.363843 acc=83.498% lr=0.056266662 time=25.2s
+ref_06 epoch 047/100 loss=0.361430 acc=83.704% lr=0.054705416 time=25.1s
+ref_06 epoch 048/100 loss=0.350719 acc=84.452% lr=0.053139526 time=25.3s
+ref_06 epoch 049/100 loss=0.348489 acc=84.833% lr=0.051570538 time=25.3s
+ref_06 epoch 050/100 loss=0.344327 acc=84.436% lr=0.05 time=25.3s
+ref_06 epoch 051/100 loss=0.350018 acc=84.769% lr=0.048429462 time=25.6s
+ref_06 epoch 052/100 loss=0.337863 acc=85.262% lr=0.046860474 time=25.5s
+ref_06 epoch 053/100 loss=0.343221 acc=85.024% lr=0.045294584 time=25.1s
+ref_06 epoch 054/100 loss=0.336130 acc=85.103% lr=0.043733338 time=25.1s
+ref_06 epoch 055/100 loss=0.325834 acc=85.167% lr=0.042178277 time=25.1s
+ref_06 epoch 056/100 loss=0.316838 acc=86.057% lr=0.040630934 time=25.2s
+ref_06 epoch 057/100 loss=0.328589 acc=85.437% lr=0.039092838 time=25.5s
+ref_06 epoch 058/100 loss=0.312708 acc=86.105% lr=0.037565506 time=25.5s
+ref_06 epoch 059/100 loss=0.306861 acc=86.661% lr=0.036050445 time=25.6s
+ref_06 epoch 060/100 loss=0.306564 acc=86.359% lr=0.03454915 time=25.3s
+ref_06 epoch 061/100 loss=0.305286 acc=86.820% lr=0.033063104 time=25.6s
+ref_06 epoch 062/100 loss=0.282799 acc=87.758% lr=0.031593772 time=25.4s
+ref_06 epoch 063/100 loss=0.305176 acc=86.868% lr=0.030142605 time=25.4s
+ref_06 epoch 064/100 loss=0.290346 acc=87.138% lr=0.028711035 time=25.3s
+ref_06 epoch 065/100 loss=0.282188 acc=87.695% lr=0.027300475 time=25.4s
+ref_06 epoch 066/100 loss=0.268747 acc=88.474% lr=0.025912316 time=25.4s
+ref_06 epoch 067/100 loss=0.269374 acc=88.045% lr=0.024547929 time=25.2s
+ref_06 epoch 068/100 loss=0.263704 acc=88.601% lr=0.02320866 time=25.1s
+ref_06 epoch 069/100 loss=0.262369 acc=88.601% lr=0.021895831 time=25.3s
+ref_06 epoch 070/100 loss=0.242971 acc=89.634% lr=0.020610737 time=25.2s
+ref_06 epoch 071/100 loss=0.246848 acc=89.348% lr=0.019354647 time=25.3s
+ref_06 epoch 072/100 loss=0.238124 acc=89.587% lr=0.018128801 time=25.2s
+ref_06 epoch 073/100 loss=0.235960 acc=89.746% lr=0.016934407 time=25.2s
+ref_06 epoch 074/100 loss=0.231804 acc=90.032% lr=0.015772645 time=24.8s
+ref_06 epoch 075/100 loss=0.223750 acc=90.254% lr=0.014644661 time=24.6s
+ref_06 epoch 076/100 loss=0.206688 acc=91.320% lr=0.013551569 time=24.8s
+ref_06 epoch 077/100 loss=0.211148 acc=91.081% lr=0.012494447 time=24.4s
+ref_06 epoch 078/100 loss=0.195428 acc=91.908% lr=0.011474338 time=24.8s
+ref_06 epoch 079/100 loss=0.191681 acc=92.035% lr=0.010492249 time=24.6s
+ref_06 epoch 080/100 loss=0.180561 acc=92.353% lr=0.0095491503 time=24.9s
+ref_06 epoch 081/100 loss=0.172698 acc=92.925% lr=0.0086459713 time=24.6s
+ref_06 epoch 082/100 loss=0.166640 acc=93.291% lr=0.0077836037 time=24.9s
+ref_06 epoch 083/100 loss=0.156055 acc=93.434% lr=0.0069628986 time=24.6s
+ref_06 epoch 084/100 loss=0.140433 acc=94.229% lr=0.006184666 time=25.1s
+ref_06 epoch 085/100 loss=0.138438 acc=94.547% lr=0.0054496738 time=25.7s
+ref_06 epoch 086/100 loss=0.119405 acc=95.151% lr=0.0047586474 time=25.2s
+ref_06 epoch 087/100 loss=0.111280 acc=95.421% lr=0.0041122687 time=25.6s
+ref_06 epoch 088/100 loss=0.117164 acc=94.849% lr=0.0035111757 time=25.5s
+ref_06 epoch 089/100 loss=0.096812 acc=96.169% lr=0.0029559616 time=25.3s
+ref_06 epoch 090/100 loss=0.099250 acc=95.962% lr=0.0024471742 time=25.4s
+ref_06 epoch 091/100 loss=0.082490 acc=96.693% lr=0.0019853157 time=25.2s
+ref_06 epoch 092/100 loss=0.077280 acc=97.122% lr=0.0015708419 time=25.2s
+ref_06 epoch 093/100 loss=0.067960 acc=97.361% lr=0.0012041619 time=25.0s
+ref_06 epoch 094/100 loss=0.064362 acc=97.409% lr=0.00088563746 time=25.1s
+ref_06 epoch 095/100 loss=0.056855 acc=97.997% lr=0.00061558297 time=25.1s
+ref_06 epoch 096/100 loss=0.054065 acc=98.124% lr=0.00039426493 time=25.1s
+ref_06 epoch 097/100 loss=0.053704 acc=97.949% lr=0.00022190177 time=25.2s
+ref_06 epoch 098/100 loss=0.049143 acc=98.124% lr=9.8663579e-05 time=25.0s
+ref_06 epoch 099/100 loss=0.053523 acc=97.949% lr=2.4671982e-05 time=25.0s
+ref_06 epoch 100/100 loss=0.053321 acc=97.997% lr=0 time=25.0s
+
+========================================================================
+TRAIN ref_07: n=6221 seed=314160272 device=cuda
+========================================================================
+ref_07 epoch 001/100 loss=1.301618 acc=50.426% lr=0.099975328 time=40.7s
+ref_07 epoch 002/100 loss=0.660186 acc=61.855% lr=0.099901336 time=24.9s
+ref_07 epoch 003/100 loss=0.624193 acc=66.935% lr=0.099778098 time=24.8s
+ref_07 epoch 004/100 loss=0.615530 acc=67.947% lr=0.099605735 time=24.7s
+ref_07 epoch 005/100 loss=0.591467 acc=68.992% lr=0.099384417 time=24.9s
+ref_07 epoch 006/100 loss=0.554613 acc=72.271% lr=0.099114363 time=24.6s
+ref_07 epoch 007/100 loss=0.542208 acc=72.995% lr=0.098795838 time=24.8s
+ref_07 epoch 008/100 loss=0.527882 acc=74.361% lr=0.098429158 time=24.8s
+ref_07 epoch 009/100 loss=0.506537 acc=75.309% lr=0.098014684 time=24.8s
+ref_07 epoch 010/100 loss=0.512303 acc=75.695% lr=0.097552826 time=24.7s
+ref_07 epoch 011/100 loss=0.504436 acc=75.743% lr=0.097044038 time=24.6s
+ref_07 epoch 012/100 loss=0.485266 acc=76.708% lr=0.096488824 time=24.9s
+ref_07 epoch 013/100 loss=0.479177 acc=76.997% lr=0.095887731 time=24.8s
+ref_07 epoch 014/100 loss=0.477519 acc=77.576% lr=0.095241353 time=24.7s
+ref_07 epoch 015/100 loss=0.461412 acc=78.991% lr=0.094550326 time=24.8s
+ref_07 epoch 016/100 loss=0.453115 acc=79.039% lr=0.093815334 time=25.0s
+ref_07 epoch 017/100 loss=0.460047 acc=78.315% lr=0.093037101 time=24.8s
+ref_07 epoch 018/100 loss=0.451609 acc=78.701% lr=0.092216396 time=24.9s
+ref_07 epoch 019/100 loss=0.451562 acc=79.183% lr=0.091354029 time=24.9s
+ref_07 epoch 020/100 loss=0.440674 acc=79.489% lr=0.09045085 time=25.0s
+ref_07 epoch 021/100 loss=0.438812 acc=79.055% lr=0.089507751 time=25.4s
+ref_07 epoch 022/100 loss=0.427273 acc=80.180% lr=0.088525662 time=25.3s
+ref_07 epoch 023/100 loss=0.427188 acc=79.810% lr=0.087505553 time=25.3s
+ref_07 epoch 024/100 loss=0.428644 acc=80.212% lr=0.086448431 time=25.1s
+ref_07 epoch 025/100 loss=0.445593 acc=79.007% lr=0.085355339 time=25.4s
+ref_07 epoch 026/100 loss=0.436138 acc=80.084% lr=0.084227355 time=25.4s
+ref_07 epoch 027/100 loss=0.422971 acc=80.244% lr=0.083065593 time=25.3s
+ref_07 epoch 028/100 loss=0.422153 acc=80.389% lr=0.081871199 time=25.6s
+ref_07 epoch 029/100 loss=0.417744 acc=80.694% lr=0.080645353 time=25.3s
+ref_07 epoch 030/100 loss=0.411135 acc=81.016% lr=0.079389263 time=25.3s
+ref_07 epoch 031/100 loss=0.414313 acc=81.016% lr=0.078104169 time=25.4s
+ref_07 epoch 032/100 loss=0.400917 acc=81.386% lr=0.07679134 time=25.1s
+ref_07 epoch 033/100 loss=0.403372 acc=82.141% lr=0.075452071 time=25.3s
+ref_07 epoch 034/100 loss=0.393373 acc=82.157% lr=0.074087684 time=24.8s
+ref_07 epoch 035/100 loss=0.388675 acc=82.447% lr=0.072699525 time=25.2s
+ref_07 epoch 036/100 loss=0.401162 acc=81.177% lr=0.071288965 time=25.2s
+ref_07 epoch 037/100 loss=0.392300 acc=82.270% lr=0.069857395 time=25.1s
+ref_07 epoch 038/100 loss=0.390767 acc=82.109% lr=0.068406228 time=24.8s
+ref_07 epoch 039/100 loss=0.389520 acc=81.739% lr=0.066936896 time=24.8s
+ref_07 epoch 040/100 loss=0.383503 acc=82.382% lr=0.06545085 time=25.1s
+ref_07 epoch 041/100 loss=0.393236 acc=82.302% lr=0.063949555 time=25.3s
+ref_07 epoch 042/100 loss=0.367938 acc=83.974% lr=0.062434494 time=25.1s
+ref_07 epoch 043/100 loss=0.369231 acc=82.961% lr=0.060907162 time=25.0s
+ref_07 epoch 044/100 loss=0.365457 acc=83.700% lr=0.059369066 time=25.0s
+ref_07 epoch 045/100 loss=0.365265 acc=83.797% lr=0.057821723 time=24.9s
+ref_07 epoch 046/100 loss=0.364959 acc=83.202% lr=0.056266662 time=25.0s
+ref_07 epoch 047/100 loss=0.355730 acc=84.006% lr=0.054705416 time=25.0s
+ref_07 epoch 048/100 loss=0.360849 acc=83.765% lr=0.053139526 time=25.0s
+ref_07 epoch 049/100 loss=0.343116 acc=84.938% lr=0.051570538 time=25.2s
+ref_07 epoch 050/100 loss=0.351372 acc=84.327% lr=0.05 time=24.9s
+ref_07 epoch 051/100 loss=0.351420 acc=83.974% lr=0.048429462 time=25.0s
+ref_07 epoch 052/100 loss=0.339246 acc=84.793% lr=0.046860474 time=24.8s
+ref_07 epoch 053/100 loss=0.344334 acc=84.376% lr=0.045294584 time=23.8s
+ref_07 epoch 054/100 loss=0.334358 acc=85.260% lr=0.043733338 time=23.9s
+ref_07 epoch 055/100 loss=0.331245 acc=84.938% lr=0.042178277 time=24.1s
+ref_07 epoch 056/100 loss=0.334902 acc=85.115% lr=0.040630934 time=23.9s
+ref_07 epoch 057/100 loss=0.326584 acc=85.806% lr=0.039092838 time=23.9s
+ref_07 epoch 058/100 loss=0.311465 acc=86.192% lr=0.037565506 time=23.8s
+ref_07 epoch 059/100 loss=0.309421 acc=85.887% lr=0.036050445 time=24.0s
+ref_07 epoch 060/100 loss=0.307096 acc=86.176% lr=0.03454915 time=23.8s
+ref_07 epoch 061/100 loss=0.305048 acc=86.144% lr=0.033063104 time=23.9s
+ref_07 epoch 062/100 loss=0.306212 acc=86.208% lr=0.031593772 time=23.9s
+ref_07 epoch 063/100 loss=0.294394 acc=86.835% lr=0.030142605 time=24.0s
+ref_07 epoch 064/100 loss=0.286504 acc=87.526% lr=0.028711035 time=24.9s
+ref_07 epoch 065/100 loss=0.278822 acc=87.992% lr=0.027300475 time=25.1s
+ref_07 epoch 066/100 loss=0.281549 acc=87.623% lr=0.025912316 time=25.0s
+ref_07 epoch 067/100 loss=0.273529 acc=88.217% lr=0.024547929 time=25.0s
+ref_07 epoch 068/100 loss=0.258129 acc=88.812% lr=0.02320866 time=25.1s
+ref_07 epoch 069/100 loss=0.277688 acc=88.169% lr=0.021895831 time=25.0s
+ref_07 epoch 070/100 loss=0.266459 acc=88.716% lr=0.020610737 time=25.2s
+ref_07 epoch 071/100 loss=0.252458 acc=89.294% lr=0.019354647 time=25.1s
+ref_07 epoch 072/100 loss=0.264542 acc=88.458% lr=0.018128801 time=25.0s
+ref_07 epoch 073/100 loss=0.234312 acc=90.002% lr=0.016934407 time=25.2s
+ref_07 epoch 074/100 loss=0.239008 acc=89.294% lr=0.015772645 time=25.0s
+ref_07 epoch 075/100 loss=0.219378 acc=90.468% lr=0.014644661 time=25.2s
+ref_07 epoch 076/100 loss=0.208848 acc=91.191% lr=0.013551569 time=25.1s
+ref_07 epoch 077/100 loss=0.215039 acc=90.645% lr=0.012494447 time=25.0s
+ref_07 epoch 078/100 loss=0.194811 acc=92.075% lr=0.011474338 time=24.9s
+ref_07 epoch 079/100 loss=0.200722 acc=91.159% lr=0.010492249 time=24.8s
+ref_07 epoch 080/100 loss=0.183953 acc=92.541% lr=0.0095491503 time=24.9s
+ref_07 epoch 081/100 loss=0.182611 acc=92.397% lr=0.0086459713 time=25.0s
+ref_07 epoch 082/100 loss=0.178691 acc=92.718% lr=0.0077836037 time=25.2s
+ref_07 epoch 083/100 loss=0.159175 acc=93.281% lr=0.0069628986 time=25.2s
+ref_07 epoch 084/100 loss=0.159801 acc=93.361% lr=0.006184666 time=24.8s
+ref_07 epoch 085/100 loss=0.138020 acc=94.277% lr=0.0054496738 time=24.8s
+ref_07 epoch 086/100 loss=0.134302 acc=94.535% lr=0.0047586474 time=24.9s
+ref_07 epoch 087/100 loss=0.125458 acc=94.679% lr=0.0041122687 time=24.9s
+ref_07 epoch 088/100 loss=0.116249 acc=95.097% lr=0.0035111757 time=24.9s
+ref_07 epoch 089/100 loss=0.114519 acc=95.531% lr=0.0029559616 time=24.9s
+ref_07 epoch 090/100 loss=0.098474 acc=96.335% lr=0.0024471742 time=24.9s
+ref_07 epoch 091/100 loss=0.086714 acc=96.753% lr=0.0019853157 time=24.9s
+ref_07 epoch 092/100 loss=0.084892 acc=96.817% lr=0.0015708419 time=24.9s
+ref_07 epoch 093/100 loss=0.073241 acc=97.074% lr=0.0012041619 time=24.9s
+ref_07 epoch 094/100 loss=0.070872 acc=97.316% lr=0.00088563746 time=25.1s
+ref_07 epoch 095/100 loss=0.064297 acc=97.476% lr=0.00061558297 time=25.1s
+ref_07 epoch 096/100 loss=0.063025 acc=97.589% lr=0.00039426493 time=25.3s
+ref_07 epoch 097/100 loss=0.055096 acc=98.103% lr=0.00022190177 time=25.5s
+ref_07 epoch 098/100 loss=0.056986 acc=98.039% lr=9.8663579e-05 time=25.4s
+ref_07 epoch 099/100 loss=0.056755 acc=97.846% lr=2.4671982e-05 time=25.4s
+ref_07 epoch 100/100 loss=0.051285 acc=98.071% lr=0 time=25.2s
+
+========================================================================
+TRAIN ref_08: n=6294 seed=314160273 device=cuda
+========================================================================
+ref_08 epoch 001/100 loss=1.165074 acc=50.207% lr=0.099975328 time=43.3s
+ref_08 epoch 002/100 loss=0.719308 acc=53.940% lr=0.099901336 time=25.2s
+ref_08 epoch 003/100 loss=0.641122 acc=64.125% lr=0.099778098 time=25.4s
+ref_08 epoch 004/100 loss=0.605000 acc=67.398% lr=0.099605735 time=25.3s
+ref_08 epoch 005/100 loss=0.594500 acc=68.621% lr=0.099384417 time=25.3s
+ref_08 epoch 006/100 loss=0.562120 acc=71.767% lr=0.099114363 time=25.4s
+ref_08 epoch 007/100 loss=0.545062 acc=72.641% lr=0.098795838 time=25.3s
+ref_08 epoch 008/100 loss=0.540638 acc=73.371% lr=0.098429158 time=25.2s
+ref_08 epoch 009/100 loss=0.511714 acc=74.976% lr=0.098014684 time=25.2s
+ref_08 epoch 010/100 loss=0.491824 acc=76.057% lr=0.097552826 time=25.1s
+ref_08 epoch 011/100 loss=0.485974 acc=76.644% lr=0.097044038 time=25.1s
+ref_08 epoch 012/100 loss=0.473393 acc=77.439% lr=0.096488824 time=25.2s
+ref_08 epoch 013/100 loss=0.464114 acc=77.884% lr=0.095887731 time=25.5s
+ref_08 epoch 014/100 loss=0.468949 acc=77.582% lr=0.095241353 time=25.6s
+ref_08 epoch 015/100 loss=0.487229 acc=76.660% lr=0.094550326 time=25.3s
+ref_08 epoch 016/100 loss=0.461037 acc=78.011% lr=0.093815334 time=25.1s
+ref_08 epoch 017/100 loss=0.465147 acc=77.931% lr=0.093037101 time=25.3s
+ref_08 epoch 018/100 loss=0.448212 acc=78.646% lr=0.092216396 time=25.3s
+ref_08 epoch 019/100 loss=0.448699 acc=78.837% lr=0.091354029 time=25.3s
+ref_08 epoch 020/100 loss=0.458628 acc=78.233% lr=0.09045085 time=25.5s
+ref_08 epoch 021/100 loss=0.444647 acc=79.218% lr=0.089507751 time=25.3s
+ref_08 epoch 022/100 loss=0.433857 acc=79.965% lr=0.088525662 time=25.2s
+ref_08 epoch 023/100 loss=0.433007 acc=79.774% lr=0.087505553 time=25.3s
+ref_08 epoch 024/100 loss=0.439972 acc=79.631% lr=0.086448431 time=25.2s
+ref_08 epoch 025/100 loss=0.428881 acc=80.013% lr=0.085355339 time=25.3s
+ref_08 epoch 026/100 loss=0.418198 acc=80.680% lr=0.084227355 time=25.2s
+ref_08 epoch 027/100 loss=0.424339 acc=80.299% lr=0.083065593 time=25.3s
+ref_08 epoch 028/100 loss=0.414322 acc=81.141% lr=0.081871199 time=25.8s
+ref_08 epoch 029/100 loss=0.410256 acc=80.902% lr=0.080645353 time=25.8s
+ref_08 epoch 030/100 loss=0.418395 acc=80.664% lr=0.079389263 time=25.4s
+ref_08 epoch 031/100 loss=0.409474 acc=81.347% lr=0.078104169 time=25.6s
+ref_08 epoch 032/100 loss=0.409247 acc=81.300% lr=0.07679134 time=25.3s
+ref_08 epoch 033/100 loss=0.407381 acc=81.109% lr=0.075452071 time=24.3s
+ref_08 epoch 034/100 loss=0.399746 acc=82.015% lr=0.074087684 time=24.2s
+ref_08 epoch 035/100 loss=0.414496 acc=80.902% lr=0.072699525 time=24.2s
+ref_08 epoch 036/100 loss=0.403666 acc=82.078% lr=0.071288965 time=24.6s
+ref_08 epoch 037/100 loss=0.402108 acc=81.093% lr=0.069857395 time=24.7s
+ref_08 epoch 038/100 loss=0.392606 acc=81.919% lr=0.068406228 time=24.5s
+ref_08 epoch 039/100 loss=0.384084 acc=82.968% lr=0.066936896 time=24.7s
+ref_08 epoch 040/100 loss=0.379624 acc=82.730% lr=0.06545085 time=24.6s
+ref_08 epoch 041/100 loss=0.385308 acc=82.428% lr=0.063949555 time=24.6s
+ref_08 epoch 042/100 loss=0.363883 acc=83.524% lr=0.062434494 time=24.6s
+ref_08 epoch 043/100 loss=0.379583 acc=82.952% lr=0.060907162 time=24.5s
+ref_08 epoch 044/100 loss=0.379031 acc=83.349% lr=0.059369066 time=24.8s
+ref_08 epoch 045/100 loss=0.359902 acc=83.429% lr=0.057821723 time=24.9s
+ref_08 epoch 046/100 loss=0.360990 acc=83.556% lr=0.056266662 time=24.7s
+ref_08 epoch 047/100 loss=0.380160 acc=83.508% lr=0.054705416 time=25.2s
+ref_08 epoch 048/100 loss=0.363564 acc=83.635% lr=0.053139526 time=25.1s
+ref_08 epoch 049/100 loss=0.362107 acc=84.064% lr=0.051570538 time=24.8s
+ref_08 epoch 050/100 loss=0.357583 acc=84.191% lr=0.05 time=25.2s
+ref_08 epoch 051/100 loss=0.348334 acc=84.446% lr=0.048429462 time=25.1s
+ref_08 epoch 052/100 loss=0.351410 acc=83.762% lr=0.046860474 time=25.2s
+ref_08 epoch 053/100 loss=0.339431 acc=85.002% lr=0.045294584 time=25.0s
+ref_08 epoch 054/100 loss=0.340957 acc=84.922% lr=0.043733338 time=25.1s
+ref_08 epoch 055/100 loss=0.331794 acc=85.462% lr=0.042178277 time=25.2s
+ref_08 epoch 056/100 loss=0.333426 acc=85.335% lr=0.040630934 time=25.2s
+ref_08 epoch 057/100 loss=0.320406 acc=86.130% lr=0.039092838 time=25.2s
+ref_08 epoch 058/100 loss=0.332816 acc=84.938% lr=0.037565506 time=25.6s
+ref_08 epoch 059/100 loss=0.315053 acc=85.780% lr=0.036050445 time=25.6s
+ref_08 epoch 060/100 loss=0.318748 acc=86.177% lr=0.03454915 time=25.7s
+ref_08 epoch 061/100 loss=0.301434 acc=87.083% lr=0.033063104 time=25.5s
+ref_08 epoch 062/100 loss=0.303743 acc=86.559% lr=0.031593772 time=25.9s
+ref_08 epoch 063/100 loss=0.303652 acc=86.432% lr=0.030142605 time=25.6s
+ref_08 epoch 064/100 loss=0.288876 acc=87.544% lr=0.028711035 time=25.7s
+ref_08 epoch 065/100 loss=0.282554 acc=87.655% lr=0.027300475 time=25.7s
+ref_08 epoch 066/100 loss=0.281831 acc=87.877% lr=0.025912316 time=25.4s
+ref_08 epoch 067/100 loss=0.281788 acc=87.607% lr=0.024547929 time=25.5s
+ref_08 epoch 068/100 loss=0.266790 acc=88.608% lr=0.02320866 time=25.2s
+ref_08 epoch 069/100 loss=0.272400 acc=88.068% lr=0.021895831 time=25.3s
+ref_08 epoch 070/100 loss=0.259963 acc=88.719% lr=0.020610737 time=25.1s
+ref_08 epoch 071/100 loss=0.252023 acc=89.228% lr=0.019354647 time=25.3s
+ref_08 epoch 072/100 loss=0.252875 acc=88.624% lr=0.018128801 time=25.3s
+ref_08 epoch 073/100 loss=0.245497 acc=89.625% lr=0.016934407 time=25.2s
+ref_08 epoch 074/100 loss=0.228875 acc=90.292% lr=0.015772645 time=25.2s
+ref_08 epoch 075/100 loss=0.225515 acc=90.531% lr=0.014644661 time=25.2s
+ref_08 epoch 076/100 loss=0.215838 acc=90.896% lr=0.013551569 time=25.2s
+ref_08 epoch 077/100 loss=0.212502 acc=90.626% lr=0.012494447 time=25.2s
+ref_08 epoch 078/100 loss=0.207879 acc=91.119% lr=0.011474338 time=25.2s
+ref_08 epoch 079/100 loss=0.192464 acc=92.262% lr=0.010492249 time=25.2s
+ref_08 epoch 080/100 loss=0.186819 acc=92.405% lr=0.0095491503 time=25.4s
+ref_08 epoch 081/100 loss=0.184573 acc=92.405% lr=0.0086459713 time=25.3s
+ref_08 epoch 082/100 loss=0.166952 acc=93.248% lr=0.0077836037 time=25.2s
+ref_08 epoch 083/100 loss=0.158560 acc=93.438% lr=0.0069628986 time=25.2s
+ref_08 epoch 084/100 loss=0.150869 acc=94.058% lr=0.006184666 time=25.3s
+ref_08 epoch 085/100 loss=0.158430 acc=93.454% lr=0.0054496738 time=25.2s
+ref_08 epoch 086/100 loss=0.136235 acc=94.789% lr=0.0047586474 time=25.2s
+ref_08 epoch 087/100 loss=0.126186 acc=94.725% lr=0.0041122687 time=25.2s
+ref_08 epoch 088/100 loss=0.119840 acc=95.186% lr=0.0035111757 time=25.2s
+ref_08 epoch 089/100 loss=0.107695 acc=95.758% lr=0.0029559616 time=25.4s
+ref_08 epoch 090/100 loss=0.109381 acc=95.615% lr=0.0024471742 time=25.4s
+ref_08 epoch 091/100 loss=0.091336 acc=96.711% lr=0.0019853157 time=25.2s
+ref_08 epoch 092/100 loss=0.084242 acc=96.584% lr=0.0015708419 time=25.4s
+ref_08 epoch 093/100 loss=0.076889 acc=96.918% lr=0.0012041619 time=25.2s
+ref_08 epoch 094/100 loss=0.077421 acc=96.886% lr=0.00088563746 time=25.2s
+ref_08 epoch 095/100 loss=0.069179 acc=97.251% lr=0.00061558297 time=25.2s
+ref_08 epoch 096/100 loss=0.065975 acc=97.696% lr=0.00039426493 time=25.3s
+ref_08 epoch 097/100 loss=0.062805 acc=97.633% lr=0.00022190177 time=25.2s
+ref_08 epoch 098/100 loss=0.063492 acc=97.649% lr=9.8663579e-05 time=25.2s
+ref_08 epoch 099/100 loss=0.060162 acc=97.537% lr=2.4671982e-05 time=25.2s
+ref_08 epoch 100/100 loss=0.061791 acc=97.664% lr=0 time=25.3s
+
+========================================================================
+TRAIN ref_09: n=6253 seed=314160274 device=cuda
+========================================================================
+ref_09 epoch 001/100 loss=1.123448 acc=53.111% lr=0.099975328 time=42.6s
+ref_09 epoch 002/100 loss=0.683694 acc=60.563% lr=0.099901336 time=25.5s
+ref_09 epoch 003/100 loss=0.664406 acc=62.738% lr=0.099778098 time=25.5s
+ref_09 epoch 004/100 loss=0.663550 acc=63.346% lr=0.099605735 time=25.3s
+ref_09 epoch 005/100 loss=0.603751 acc=68.527% lr=0.099384417 time=25.4s
+ref_09 epoch 006/100 loss=0.578292 acc=70.302% lr=0.099114363 time=25.5s
+ref_09 epoch 007/100 loss=0.574078 acc=71.342% lr=0.098795838 time=25.5s
+ref_09 epoch 008/100 loss=0.554169 acc=72.365% lr=0.098429158 time=25.5s
+ref_09 epoch 009/100 loss=0.533914 acc=74.124% lr=0.098014684 time=25.0s
+ref_09 epoch 010/100 loss=0.520868 acc=74.652% lr=0.097552826 time=25.3s
+ref_09 epoch 011/100 loss=0.518673 acc=75.052% lr=0.097044038 time=24.6s
+ref_09 epoch 012/100 loss=0.503027 acc=76.155% lr=0.096488824 time=24.6s
+ref_09 epoch 013/100 loss=0.488810 acc=77.083% lr=0.095887731 time=24.7s
+ref_09 epoch 014/100 loss=0.480730 acc=76.971% lr=0.095241353 time=24.6s
+ref_09 epoch 015/100 loss=0.484449 acc=76.939% lr=0.094550326 time=24.4s
+ref_09 epoch 016/100 loss=0.471050 acc=77.851% lr=0.093815334 time=24.4s
+ref_09 epoch 017/100 loss=0.466017 acc=78.091% lr=0.093037101 time=24.7s
+ref_09 epoch 018/100 loss=0.451981 acc=79.306% lr=0.092216396 time=24.5s
+ref_09 epoch 019/100 loss=0.461715 acc=78.234% lr=0.091354029 time=24.5s
+ref_09 epoch 020/100 loss=0.449050 acc=79.034% lr=0.09045085 time=24.3s
+ref_09 epoch 021/100 loss=0.447151 acc=78.730% lr=0.089507751 time=24.3s
+ref_09 epoch 022/100 loss=0.440037 acc=79.690% lr=0.088525662 time=25.1s
+ref_09 epoch 023/100 loss=0.428453 acc=80.010% lr=0.087505553 time=25.2s
+ref_09 epoch 024/100 loss=0.444578 acc=79.466% lr=0.086448431 time=25.0s
+ref_09 epoch 025/100 loss=0.434098 acc=79.914% lr=0.085355339 time=25.2s
+ref_09 epoch 026/100 loss=0.434980 acc=79.706% lr=0.084227355 time=25.4s
+ref_09 epoch 027/100 loss=0.439310 acc=79.562% lr=0.083065593 time=25.0s
+ref_09 epoch 028/100 loss=0.416332 acc=80.633% lr=0.081871199 time=25.1s
+ref_09 epoch 029/100 loss=0.428497 acc=80.345% lr=0.080645353 time=25.0s
+ref_09 epoch 030/100 loss=0.419787 acc=79.914% lr=0.079389263 time=24.9s
+ref_09 epoch 031/100 loss=0.414588 acc=80.473% lr=0.078104169 time=25.0s
+ref_09 epoch 032/100 loss=0.405689 acc=81.785% lr=0.07679134 time=25.2s
+ref_09 epoch 033/100 loss=0.409820 acc=81.401% lr=0.075452071 time=25.0s
+ref_09 epoch 034/100 loss=0.401004 acc=81.529% lr=0.074087684 time=25.0s
+ref_09 epoch 035/100 loss=0.394393 acc=82.249% lr=0.072699525 time=25.2s
+ref_09 epoch 036/100 loss=0.391741 acc=82.041% lr=0.071288965 time=25.4s
+ref_09 epoch 037/100 loss=0.395806 acc=82.296% lr=0.069857395 time=25.3s
+ref_09 epoch 038/100 loss=0.399289 acc=81.833% lr=0.068406228 time=25.3s
+ref_09 epoch 039/100 loss=0.379844 acc=83.016% lr=0.066936896 time=25.2s
+ref_09 epoch 040/100 loss=0.393966 acc=82.249% lr=0.06545085 time=25.2s
+ref_09 epoch 041/100 loss=0.397683 acc=82.153% lr=0.063949555 time=24.9s
+ref_09 epoch 042/100 loss=0.388883 acc=82.073% lr=0.062434494 time=24.9s
+ref_09 epoch 043/100 loss=0.385775 acc=82.616% lr=0.060907162 time=25.1s
+ref_09 epoch 044/100 loss=0.373917 acc=83.368% lr=0.059369066 time=25.0s
+ref_09 epoch 045/100 loss=0.375068 acc=83.576% lr=0.057821723 time=25.1s
+ref_09 epoch 046/100 loss=0.376367 acc=83.464% lr=0.056266662 time=25.0s
+ref_09 epoch 047/100 loss=0.361593 acc=84.040% lr=0.054705416 time=25.1s
+ref_09 epoch 048/100 loss=0.366876 acc=83.656% lr=0.053139526 time=25.1s
+ref_09 epoch 049/100 loss=0.358528 acc=83.720% lr=0.051570538 time=25.2s
+ref_09 epoch 050/100 loss=0.352453 acc=84.711% lr=0.05 time=25.6s
+ref_09 epoch 051/100 loss=0.351959 acc=84.615% lr=0.048429462 time=25.5s
+ref_09 epoch 052/100 loss=0.349828 acc=84.551% lr=0.046860474 time=25.4s
+ref_09 epoch 053/100 loss=0.344836 acc=84.663% lr=0.045294584 time=25.3s
+ref_09 epoch 054/100 loss=0.336325 acc=85.095% lr=0.043733338 time=25.0s
+ref_09 epoch 055/100 loss=0.329850 acc=85.063% lr=0.042178277 time=25.0s
+ref_09 epoch 056/100 loss=0.338848 acc=84.823% lr=0.040630934 time=25.3s
+ref_09 epoch 057/100 loss=0.329793 acc=85.543% lr=0.039092838 time=25.0s
+ref_09 epoch 058/100 loss=0.322412 acc=85.671% lr=0.037565506 time=25.0s
+ref_09 epoch 059/100 loss=0.316680 acc=85.943% lr=0.036050445 time=25.5s
+ref_09 epoch 060/100 loss=0.310947 acc=86.199% lr=0.03454915 time=25.5s
+ref_09 epoch 061/100 loss=0.307935 acc=86.790% lr=0.033063104 time=25.5s
+ref_09 epoch 062/100 loss=0.306953 acc=86.455% lr=0.031593772 time=25.5s
+ref_09 epoch 063/100 loss=0.299296 acc=86.550% lr=0.030142605 time=25.5s
+ref_09 epoch 064/100 loss=0.297935 acc=86.678% lr=0.028711035 time=25.0s
+ref_09 epoch 065/100 loss=0.291302 acc=87.718% lr=0.027300475 time=25.1s
+ref_09 epoch 066/100 loss=0.292275 acc=87.270% lr=0.025912316 time=25.1s
+ref_09 epoch 067/100 loss=0.270486 acc=88.549% lr=0.024547929 time=25.3s
+ref_09 epoch 068/100 loss=0.277511 acc=88.006% lr=0.02320866 time=25.1s
+ref_09 epoch 069/100 loss=0.264502 acc=88.693% lr=0.021895831 time=24.9s
+ref_09 epoch 070/100 loss=0.256156 acc=88.821% lr=0.020610737 time=25.2s
+ref_09 epoch 071/100 loss=0.251469 acc=89.157% lr=0.019354647 time=25.1s
+ref_09 epoch 072/100 loss=0.247741 acc=89.093% lr=0.018128801 time=25.0s
+ref_09 epoch 073/100 loss=0.249717 acc=89.157% lr=0.016934407 time=25.0s
+ref_09 epoch 074/100 loss=0.229323 acc=90.517% lr=0.015772645 time=24.9s
+ref_09 epoch 075/100 loss=0.219158 acc=90.932% lr=0.014644661 time=25.0s
+ref_09 epoch 076/100 loss=0.213949 acc=91.124% lr=0.013551569 time=25.1s
+ref_09 epoch 077/100 loss=0.209652 acc=90.820% lr=0.012494447 time=25.1s
+ref_09 epoch 078/100 loss=0.208403 acc=91.076% lr=0.011474338 time=24.9s
+ref_09 epoch 079/100 loss=0.191080 acc=92.100% lr=0.010492249 time=24.9s
+ref_09 epoch 080/100 loss=0.180445 acc=92.148% lr=0.0095491503 time=24.8s
+ref_09 epoch 081/100 loss=0.179408 acc=92.356% lr=0.0086459713 time=24.9s
+ref_09 epoch 082/100 loss=0.162786 acc=92.867% lr=0.0077836037 time=25.0s
+ref_09 epoch 083/100 loss=0.154673 acc=93.715% lr=0.0069628986 time=24.8s
+ref_09 epoch 084/100 loss=0.151965 acc=93.811% lr=0.006184666 time=25.1s
+ref_09 epoch 085/100 loss=0.141708 acc=94.083% lr=0.0054496738 time=25.0s
+ref_09 epoch 086/100 loss=0.129587 acc=94.403% lr=0.0047586474 time=24.9s
+ref_09 epoch 087/100 loss=0.130061 acc=94.994% lr=0.0041122687 time=25.0s
+ref_09 epoch 088/100 loss=0.112819 acc=95.442% lr=0.0035111757 time=24.8s
+ref_09 epoch 089/100 loss=0.093307 acc=96.274% lr=0.0029559616 time=25.1s
+ref_09 epoch 090/100 loss=0.081738 acc=96.881% lr=0.0024471742 time=24.9s
+ref_09 epoch 091/100 loss=0.087383 acc=96.562% lr=0.0019853157 time=24.3s
+ref_09 epoch 092/100 loss=0.075028 acc=97.121% lr=0.0015708419 time=24.4s
+ref_09 epoch 093/100 loss=0.072268 acc=97.377% lr=0.0012041619 time=24.4s
+ref_09 epoch 094/100 loss=0.072001 acc=97.345% lr=0.00088563746 time=24.5s
+ref_09 epoch 095/100 loss=0.055874 acc=97.857% lr=0.00061558297 time=24.4s
+ref_09 epoch 096/100 loss=0.057645 acc=97.825% lr=0.00039426493 time=24.4s
+ref_09 epoch 097/100 loss=0.051815 acc=98.001% lr=0.00022190177 time=24.3s
+ref_09 epoch 098/100 loss=0.055823 acc=97.937% lr=9.8663579e-05 time=24.4s
+ref_09 epoch 099/100 loss=0.051823 acc=98.225% lr=2.4671982e-05 time=24.5s
+ref_09 epoch 100/100 loss=0.044963 acc=98.561% lr=0 time=24.5s
+
+========================================================================
+TRAIN ref_10: n=6386 seed=314160275 device=cuda
+========================================================================
+ref_10 epoch 001/100 loss=1.281321 acc=50.877% lr=0.099975328 time=43.8s
+ref_10 epoch 002/100 loss=0.679395 acc=59.333% lr=0.099901336 time=25.5s
+ref_10 epoch 003/100 loss=0.634179 acc=65.644% lr=0.099778098 time=25.3s
+ref_10 epoch 004/100 loss=0.608738 acc=67.303% lr=0.099605735 time=25.5s
+ref_10 epoch 005/100 loss=0.589574 acc=70.388% lr=0.099384417 time=25.6s
+ref_10 epoch 006/100 loss=0.551133 acc=72.440% lr=0.099114363 time=25.4s
+ref_10 epoch 007/100 loss=0.521644 acc=74.303% lr=0.098795838 time=25.6s
+ref_10 epoch 008/100 loss=0.501779 acc=76.026% lr=0.098429158 time=25.7s
+ref_10 epoch 009/100 loss=0.483755 acc=77.325% lr=0.098014684 time=25.6s
+ref_10 epoch 010/100 loss=0.485822 acc=76.683% lr=0.097552826 time=25.6s
+ref_10 epoch 011/100 loss=0.475496 acc=77.795% lr=0.097044038 time=25.6s
+ref_10 epoch 012/100 loss=0.471297 acc=77.529% lr=0.096488824 time=25.5s
+ref_10 epoch 013/100 loss=0.455553 acc=79.048% lr=0.095887731 time=25.6s
+ref_10 epoch 014/100 loss=0.451592 acc=79.064% lr=0.095241353 time=25.4s
+ref_10 epoch 015/100 loss=0.451468 acc=78.735% lr=0.094550326 time=25.6s
+ref_10 epoch 016/100 loss=0.450273 acc=78.813% lr=0.093815334 time=25.5s
+ref_10 epoch 017/100 loss=0.440579 acc=79.205% lr=0.093037101 time=25.5s
+ref_10 epoch 018/100 loss=0.433428 acc=79.189% lr=0.092216396 time=25.9s
+ref_10 epoch 019/100 loss=0.441924 acc=79.439% lr=0.091354029 time=26.0s
+ref_10 epoch 020/100 loss=0.432941 acc=79.940% lr=0.09045085 time=26.0s
+ref_10 epoch 021/100 loss=0.432223 acc=79.956% lr=0.089507751 time=25.3s
+ref_10 epoch 022/100 loss=0.425432 acc=80.144% lr=0.088525662 time=25.5s
+ref_10 epoch 023/100 loss=0.428740 acc=79.987% lr=0.087505553 time=25.6s
+ref_10 epoch 024/100 loss=0.420782 acc=80.050% lr=0.086448431 time=25.6s
+ref_10 epoch 025/100 loss=0.422337 acc=80.849% lr=0.085355339 time=25.6s
+ref_10 epoch 026/100 loss=0.403221 acc=81.694% lr=0.084227355 time=25.5s
+ref_10 epoch 027/100 loss=0.416624 acc=81.193% lr=0.083065593 time=25.6s
+ref_10 epoch 028/100 loss=0.417879 acc=80.849% lr=0.081871199 time=25.3s
+ref_10 epoch 029/100 loss=0.403765 acc=81.397% lr=0.080645353 time=25.5s
+ref_10 epoch 030/100 loss=0.409310 acc=81.585% lr=0.079389263 time=25.5s
+ref_10 epoch 031/100 loss=0.400456 acc=82.274% lr=0.078104169 time=25.5s
+ref_10 epoch 032/100 loss=0.403471 acc=81.710% lr=0.07679134 time=25.6s
+ref_10 epoch 033/100 loss=0.401058 acc=82.008% lr=0.075452071 time=25.6s
+ref_10 epoch 034/100 loss=0.388080 acc=82.681% lr=0.074087684 time=25.5s
+ref_10 epoch 035/100 loss=0.390649 acc=82.587% lr=0.072699525 time=25.6s
+ref_10 epoch 036/100 loss=0.408964 acc=81.506% lr=0.071288965 time=25.6s
+ref_10 epoch 037/100 loss=0.398386 acc=82.070% lr=0.069857395 time=25.4s
+ref_10 epoch 038/100 loss=0.397415 acc=81.851% lr=0.068406228 time=26.4s
+ref_10 epoch 039/100 loss=0.381687 acc=82.947% lr=0.066936896 time=26.2s
+ref_10 epoch 040/100 loss=0.380502 acc=83.088% lr=0.06545085 time=26.4s
+ref_10 epoch 041/100 loss=0.377577 acc=82.994% lr=0.063949555 time=24.8s
+ref_10 epoch 042/100 loss=0.364651 acc=83.213% lr=0.062434494 time=25.0s
+ref_10 epoch 043/100 loss=0.375827 acc=83.323% lr=0.060907162 time=26.5s
+ref_10 epoch 044/100 loss=0.366746 acc=83.777% lr=0.059369066 time=26.4s
+ref_10 epoch 045/100 loss=0.361992 acc=84.168% lr=0.057821723 time=26.8s
+ref_10 epoch 046/100 loss=0.368643 acc=83.824% lr=0.056266662 time=26.2s
+ref_10 epoch 047/100 loss=0.356654 acc=84.388% lr=0.054705416 time=26.4s
+ref_10 epoch 048/100 loss=0.361528 acc=83.981% lr=0.053139526 time=26.5s
+ref_10 epoch 049/100 loss=0.352840 acc=84.372% lr=0.051570538 time=26.4s
+ref_10 epoch 050/100 loss=0.347861 acc=84.466% lr=0.05 time=26.8s
+ref_10 epoch 051/100 loss=0.350567 acc=83.996% lr=0.048429462 time=26.4s
+ref_10 epoch 052/100 loss=0.345035 acc=84.591% lr=0.046860474 time=26.8s
+ref_10 epoch 053/100 loss=0.348008 acc=84.529% lr=0.045294584 time=26.3s
+ref_10 epoch 054/100 loss=0.335214 acc=84.998% lr=0.043733338 time=26.5s
+ref_10 epoch 055/100 loss=0.332667 acc=85.734% lr=0.042178277 time=26.4s
+ref_10 epoch 056/100 loss=0.330155 acc=85.672% lr=0.040630934 time=26.6s
+ref_10 epoch 057/100 loss=0.332433 acc=84.685% lr=0.039092838 time=26.6s
+ref_10 epoch 058/100 loss=0.318681 acc=85.891% lr=0.037565506 time=26.7s
+ref_10 epoch 059/100 loss=0.329468 acc=85.265% lr=0.036050445 time=26.6s
+ref_10 epoch 060/100 loss=0.317069 acc=86.846% lr=0.03454915 time=26.5s
+ref_10 epoch 061/100 loss=0.301342 acc=86.956% lr=0.033063104 time=26.6s
+ref_10 epoch 062/100 loss=0.296089 acc=86.972% lr=0.031593772 time=26.3s
+ref_10 epoch 063/100 loss=0.308712 acc=86.204% lr=0.030142605 time=26.3s
+ref_10 epoch 064/100 loss=0.295474 acc=87.018% lr=0.028711035 time=26.6s
+ref_10 epoch 065/100 loss=0.289594 acc=87.379% lr=0.027300475 time=26.5s
+ref_10 epoch 066/100 loss=0.285148 acc=87.614% lr=0.025912316 time=26.5s
+ref_10 epoch 067/100 loss=0.282768 acc=87.379% lr=0.024547929 time=26.4s
+ref_10 epoch 068/100 loss=0.278359 acc=88.162% lr=0.02320866 time=26.5s
+ref_10 epoch 069/100 loss=0.268402 acc=87.989% lr=0.021895831 time=26.5s
+ref_10 epoch 070/100 loss=0.260837 acc=89.242% lr=0.020610737 time=26.5s
+ref_10 epoch 071/100 loss=0.254229 acc=88.960% lr=0.019354647 time=26.5s
+ref_10 epoch 072/100 loss=0.246835 acc=89.273% lr=0.018128801 time=26.6s
+ref_10 epoch 073/100 loss=0.244244 acc=89.602% lr=0.016934407 time=26.4s
+ref_10 epoch 074/100 loss=0.232519 acc=89.962% lr=0.015772645 time=26.5s
+ref_10 epoch 075/100 loss=0.221252 acc=90.338% lr=0.014644661 time=26.7s
+ref_10 epoch 076/100 loss=0.225028 acc=90.385% lr=0.013551569 time=26.5s
+ref_10 epoch 077/100 loss=0.209929 acc=90.698% lr=0.012494447 time=26.5s
+ref_10 epoch 078/100 loss=0.206783 acc=91.027% lr=0.011474338 time=26.7s
+ref_10 epoch 079/100 loss=0.199375 acc=91.685% lr=0.010492249 time=26.5s
+ref_10 epoch 080/100 loss=0.193160 acc=91.607% lr=0.0095491503 time=26.3s
+ref_10 epoch 081/100 loss=0.189493 acc=91.795% lr=0.0086459713 time=26.0s
+ref_10 epoch 082/100 loss=0.179974 acc=92.217% lr=0.0077836037 time=46.0s
+ref_10 epoch 083/100 loss=0.166808 acc=93.282% lr=0.0069628986 time=30.6s
+ref_10 epoch 084/100 loss=0.145529 acc=94.065% lr=0.006184666 time=26.6s
+ref_10 epoch 085/100 loss=0.154321 acc=93.517% lr=0.0054496738 time=40.4s
+ref_10 epoch 086/100 loss=0.143543 acc=94.284% lr=0.0047586474 time=40.0s
+ref_10 epoch 087/100 loss=0.133529 acc=94.660% lr=0.0041122687 time=26.2s
+ref_10 epoch 088/100 loss=0.122085 acc=95.161% lr=0.0035111757 time=26.2s
+ref_10 epoch 089/100 loss=0.108426 acc=95.600% lr=0.0029559616 time=26.6s
+ref_10 epoch 090/100 loss=0.109635 acc=95.631% lr=0.0024471742 time=26.3s
+ref_10 epoch 091/100 loss=0.099226 acc=96.054% lr=0.0019853157 time=26.4s
+ref_10 epoch 092/100 loss=0.091477 acc=96.367% lr=0.0015708419 time=26.2s
+ref_10 epoch 093/100 loss=0.084163 acc=96.633% lr=0.0012041619 time=26.3s
+ref_10 epoch 094/100 loss=0.076246 acc=97.119% lr=0.00088563746 time=26.3s
+ref_10 epoch 095/100 loss=0.072909 acc=97.040% lr=0.00061558297 time=26.3s
+ref_10 epoch 096/100 loss=0.067741 acc=97.401% lr=0.00039426493 time=26.2s
+ref_10 epoch 097/100 loss=0.066458 acc=97.244% lr=0.00022190177 time=26.3s
+ref_10 epoch 098/100 loss=0.062403 acc=97.761% lr=9.8663579e-05 time=26.2s
+ref_10 epoch 099/100 loss=0.056418 acc=98.011% lr=2.4671982e-05 time=26.4s
+ref_10 epoch 100/100 loss=0.059962 acc=97.761% lr=0 time=26.4s
+
+========================================================================
+TRAIN ref_11: n=6289 seed=314160276 device=cuda
+========================================================================
+ref_11 epoch 001/100 loss=1.090938 acc=52.950% lr=0.099975328 time=42.0s
+ref_11 epoch 002/100 loss=0.692002 acc=59.135% lr=0.099901336 time=25.9s
+ref_11 epoch 003/100 loss=0.644628 acc=63.396% lr=0.099778098 time=25.7s
+ref_11 epoch 004/100 loss=0.628554 acc=65.161% lr=0.099605735 time=26.0s
+ref_11 epoch 005/100 loss=0.605934 acc=68.278% lr=0.099384417 time=25.9s
+ref_11 epoch 006/100 loss=0.585156 acc=69.948% lr=0.099114363 time=25.7s
+ref_11 epoch 007/100 loss=0.565197 acc=70.615% lr=0.098795838 time=25.8s
+ref_11 epoch 008/100 loss=0.562226 acc=72.015% lr=0.098429158 time=25.2s
+ref_11 epoch 009/100 loss=0.549997 acc=72.523% lr=0.098014684 time=24.8s
+ref_11 epoch 010/100 loss=0.523575 acc=74.670% lr=0.097552826 time=24.8s
+ref_11 epoch 011/100 loss=0.501706 acc=75.815% lr=0.097044038 time=24.7s
+ref_11 epoch 012/100 loss=0.497102 acc=76.387% lr=0.096488824 time=24.7s
+ref_11 epoch 013/100 loss=0.481649 acc=76.976% lr=0.095887731 time=25.0s
+ref_11 epoch 014/100 loss=0.471489 acc=77.580% lr=0.095241353 time=24.9s
+ref_11 epoch 015/100 loss=0.451133 acc=78.184% lr=0.094550326 time=24.8s
+ref_11 epoch 016/100 loss=0.455844 acc=78.629% lr=0.093815334 time=23.4s
+ref_11 epoch 017/100 loss=0.454914 acc=78.486% lr=0.093037101 time=23.7s
+ref_11 epoch 018/100 loss=0.456625 acc=78.375% lr=0.092216396 time=23.9s
+ref_11 epoch 019/100 loss=0.457079 acc=78.407% lr=0.091354029 time=24.8s
+ref_11 epoch 020/100 loss=0.440916 acc=79.408% lr=0.09045085 time=24.9s
+ref_11 epoch 021/100 loss=0.443038 acc=78.836% lr=0.089507751 time=25.3s
+ref_11 epoch 022/100 loss=0.431237 acc=79.583% lr=0.088525662 time=25.5s
+ref_11 epoch 023/100 loss=0.430044 acc=80.029% lr=0.087505553 time=25.6s
+ref_11 epoch 024/100 loss=0.418586 acc=80.712% lr=0.086448431 time=25.6s
+ref_11 epoch 025/100 loss=0.415990 acc=81.094% lr=0.085355339 time=25.8s
+ref_11 epoch 026/100 loss=0.416271 acc=80.840% lr=0.084227355 time=25.4s
+ref_11 epoch 027/100 loss=0.410614 acc=80.744% lr=0.083065593 time=25.8s
+ref_11 epoch 028/100 loss=0.402721 acc=81.253% lr=0.081871199 time=26.6s
+ref_11 epoch 029/100 loss=0.409678 acc=80.251% lr=0.080645353 time=25.9s
+ref_11 epoch 030/100 loss=0.402746 acc=81.189% lr=0.079389263 time=26.0s
+ref_11 epoch 031/100 loss=0.405128 acc=81.110% lr=0.078104169 time=25.9s
+ref_11 epoch 032/100 loss=0.394090 acc=81.460% lr=0.07679134 time=25.5s
+ref_11 epoch 033/100 loss=0.405873 acc=81.396% lr=0.075452071 time=25.9s
+ref_11 epoch 034/100 loss=0.407491 acc=81.237% lr=0.074087684 time=26.5s
+ref_11 epoch 035/100 loss=0.396634 acc=82.080% lr=0.072699525 time=26.1s
+ref_11 epoch 036/100 loss=0.395274 acc=82.032% lr=0.071288965 time=26.1s
+ref_11 epoch 037/100 loss=0.391184 acc=81.984% lr=0.069857395 time=25.9s
+ref_11 epoch 038/100 loss=0.393243 acc=82.493% lr=0.068406228 time=26.1s
+ref_11 epoch 039/100 loss=0.393102 acc=82.239% lr=0.066936896 time=26.1s
+ref_11 epoch 040/100 loss=0.379439 acc=83.097% lr=0.06545085 time=26.0s
+ref_11 epoch 041/100 loss=0.378423 acc=82.573% lr=0.063949555 time=26.1s
+ref_11 epoch 042/100 loss=0.363546 acc=83.590% lr=0.062434494 time=26.0s
+ref_11 epoch 043/100 loss=0.366931 acc=83.209% lr=0.060907162 time=26.0s
+ref_11 epoch 044/100 loss=0.375225 acc=83.066% lr=0.059369066 time=25.8s
+ref_11 epoch 045/100 loss=0.360855 acc=83.638% lr=0.057821723 time=24.0s
+ref_11 epoch 046/100 loss=0.365080 acc=83.606% lr=0.056266662 time=24.6s
+ref_11 epoch 047/100 loss=0.358575 acc=84.338% lr=0.054705416 time=24.2s
+ref_11 epoch 048/100 loss=0.355354 acc=83.845% lr=0.053139526 time=25.2s
+ref_11 epoch 049/100 loss=0.358811 acc=83.622% lr=0.051570538 time=25.8s
+ref_11 epoch 050/100 loss=0.349576 acc=84.497% lr=0.05 time=25.9s
+ref_11 epoch 051/100 loss=0.345227 acc=84.608% lr=0.048429462 time=26.1s
+ref_11 epoch 052/100 loss=0.347748 acc=83.845% lr=0.046860474 time=25.9s
+ref_11 epoch 053/100 loss=0.336005 acc=84.354% lr=0.045294584 time=26.0s
+ref_11 epoch 054/100 loss=0.331472 acc=85.228% lr=0.043733338 time=26.1s
+ref_11 epoch 055/100 loss=0.326745 acc=85.673% lr=0.042178277 time=25.9s
+ref_11 epoch 056/100 loss=0.325473 acc=85.276% lr=0.040630934 time=25.9s
+ref_11 epoch 057/100 loss=0.320208 acc=85.546% lr=0.039092838 time=26.0s
+ref_11 epoch 058/100 loss=0.317827 acc=85.912% lr=0.037565506 time=26.0s
+ref_11 epoch 059/100 loss=0.310709 acc=85.864% lr=0.036050445 time=25.8s
+ref_11 epoch 060/100 loss=0.309993 acc=86.309% lr=0.03454915 time=26.0s
+ref_11 epoch 061/100 loss=0.310225 acc=86.119% lr=0.033063104 time=25.9s
+ref_11 epoch 062/100 loss=0.300126 acc=86.612% lr=0.031593772 time=25.8s
+ref_11 epoch 063/100 loss=0.300425 acc=86.818% lr=0.030142605 time=25.8s
+ref_11 epoch 064/100 loss=0.282114 acc=87.502% lr=0.028711035 time=25.9s
+ref_11 epoch 065/100 loss=0.290251 acc=87.089% lr=0.027300475 time=25.7s
+ref_11 epoch 066/100 loss=0.282774 acc=87.804% lr=0.025912316 time=25.8s
+ref_11 epoch 067/100 loss=0.279835 acc=87.407% lr=0.024547929 time=25.8s
+ref_11 epoch 068/100 loss=0.267950 acc=87.931% lr=0.02320866 time=26.1s
+ref_11 epoch 069/100 loss=0.264024 acc=88.758% lr=0.021895831 time=25.8s
+ref_11 epoch 070/100 loss=0.257116 acc=88.726% lr=0.020610737 time=26.0s
+ref_11 epoch 071/100 loss=0.257404 acc=89.028% lr=0.019354647 time=25.7s
+ref_11 epoch 072/100 loss=0.264052 acc=88.202% lr=0.018128801 time=25.8s
+ref_11 epoch 073/100 loss=0.238919 acc=89.585% lr=0.016934407 time=26.0s
+ref_11 epoch 074/100 loss=0.231540 acc=90.078% lr=0.015772645 time=26.0s
+ref_11 epoch 075/100 loss=0.231494 acc=90.237% lr=0.014644661 time=26.0s
+ref_11 epoch 076/100 loss=0.216724 acc=90.682% lr=0.013551569 time=26.1s
+ref_11 epoch 077/100 loss=0.220039 acc=90.348% lr=0.012494447 time=25.9s
+ref_11 epoch 078/100 loss=0.205349 acc=90.952% lr=0.011474338 time=25.8s
+ref_11 epoch 079/100 loss=0.184522 acc=92.543% lr=0.010492249 time=25.8s
+ref_11 epoch 080/100 loss=0.191462 acc=91.922% lr=0.0095491503 time=25.9s
+ref_11 epoch 081/100 loss=0.177204 acc=92.590% lr=0.0086459713 time=25.9s
+ref_11 epoch 082/100 loss=0.165608 acc=93.051% lr=0.0077836037 time=26.0s
+ref_11 epoch 083/100 loss=0.163909 acc=93.449% lr=0.0069628986 time=25.8s
+ref_11 epoch 084/100 loss=0.153706 acc=93.671% lr=0.006184666 time=26.1s
+ref_11 epoch 085/100 loss=0.136932 acc=94.053% lr=0.0054496738 time=25.9s
+ref_11 epoch 086/100 loss=0.127927 acc=94.928% lr=0.0047586474 time=25.7s
+ref_11 epoch 087/100 loss=0.127210 acc=95.055% lr=0.0041122687 time=25.9s
+ref_11 epoch 088/100 loss=0.125776 acc=95.071% lr=0.0035111757 time=26.0s
+ref_11 epoch 089/100 loss=0.099472 acc=96.232% lr=0.0029559616 time=26.0s
+ref_11 epoch 090/100 loss=0.101712 acc=95.516% lr=0.0024471742 time=25.6s
+ref_11 epoch 091/100 loss=0.087486 acc=96.645% lr=0.0019853157 time=24.8s
+ref_11 epoch 092/100 loss=0.078936 acc=96.931% lr=0.0015708419 time=24.9s
+ref_11 epoch 093/100 loss=0.068783 acc=97.519% lr=0.0012041619 time=24.8s
+ref_11 epoch 094/100 loss=0.073640 acc=97.265% lr=0.00088563746 time=24.8s
+ref_11 epoch 095/100 loss=0.064279 acc=97.678% lr=0.00061558297 time=24.8s
+ref_11 epoch 096/100 loss=0.059490 acc=97.997% lr=0.00039426493 time=24.7s
+ref_11 epoch 097/100 loss=0.061099 acc=97.774% lr=0.00022190177 time=24.8s
+ref_11 epoch 098/100 loss=0.057566 acc=97.885% lr=9.8663579e-05 time=24.8s
+ref_11 epoch 099/100 loss=0.054246 acc=98.092% lr=2.4671982e-05 time=24.6s
+ref_11 epoch 100/100 loss=0.058335 acc=97.822% lr=0 time=24.9s
+
+========================================================================
+TRAIN ref_12: n=6252 seed=314160277 device=cuda
+========================================================================
+ref_12 epoch 001/100 loss=1.393068 acc=53.375% lr=0.099975328 time=44.1s
+ref_12 epoch 002/100 loss=0.649022 acc=62.828% lr=0.099901336 time=25.5s
+ref_12 epoch 003/100 loss=0.631947 acc=65.627% lr=0.099778098 time=25.6s
+ref_12 epoch 004/100 loss=0.613911 acc=68.170% lr=0.099605735 time=25.3s
+ref_12 epoch 005/100 loss=0.578394 acc=69.818% lr=0.099384417 time=25.7s
+ref_12 epoch 006/100 loss=0.541962 acc=72.649% lr=0.099114363 time=25.4s
+ref_12 epoch 007/100 loss=0.535940 acc=73.608% lr=0.098795838 time=25.2s
+ref_12 epoch 008/100 loss=0.539179 acc=73.129% lr=0.098429158 time=25.6s
+ref_12 epoch 009/100 loss=0.514066 acc=74.968% lr=0.098014684 time=25.3s
+ref_12 epoch 010/100 loss=0.500946 acc=76.552% lr=0.097552826 time=25.5s
+ref_12 epoch 011/100 loss=0.494460 acc=75.992% lr=0.097044038 time=25.6s
+ref_12 epoch 012/100 loss=0.484582 acc=76.392% lr=0.096488824 time=25.4s
+ref_12 epoch 013/100 loss=0.479560 acc=78.055% lr=0.095887731 time=25.6s
+ref_12 epoch 014/100 loss=0.470696 acc=77.223% lr=0.095241353 time=25.9s
+ref_12 epoch 015/100 loss=0.469817 acc=77.991% lr=0.094550326 time=25.5s
+ref_12 epoch 016/100 loss=0.461913 acc=78.279% lr=0.093815334 time=25.8s
+ref_12 epoch 017/100 loss=0.450889 acc=79.367% lr=0.093037101 time=25.8s
+ref_12 epoch 018/100 loss=0.451818 acc=78.983% lr=0.092216396 time=25.7s
+ref_12 epoch 019/100 loss=0.444321 acc=79.367% lr=0.091354029 time=25.7s
+ref_12 epoch 020/100 loss=0.431584 acc=79.639% lr=0.09045085 time=35.8s
+ref_12 epoch 021/100 loss=0.433954 acc=80.390% lr=0.089507751 time=24.6s
+ref_12 epoch 022/100 loss=0.433893 acc=79.958% lr=0.088525662 time=25.8s
+ref_12 epoch 023/100 loss=0.423076 acc=80.342% lr=0.087505553 time=25.9s
+ref_12 epoch 024/100 loss=0.432965 acc=79.878% lr=0.086448431 time=25.8s
+ref_12 epoch 025/100 loss=0.427947 acc=80.246% lr=0.085355339 time=25.8s
+ref_12 epoch 026/100 loss=0.422934 acc=80.854% lr=0.084227355 time=26.0s
+ref_12 epoch 027/100 loss=0.415396 acc=81.126% lr=0.083065593 time=25.8s
+ref_12 epoch 028/100 loss=0.410741 acc=81.030% lr=0.081871199 time=25.7s
+ref_12 epoch 029/100 loss=0.411776 acc=81.606% lr=0.080645353 time=25.8s
+ref_12 epoch 030/100 loss=0.396501 acc=81.862% lr=0.079389263 time=25.6s
+ref_12 epoch 031/100 loss=0.407700 acc=81.206% lr=0.078104169 time=25.7s
+ref_12 epoch 032/100 loss=0.436032 acc=79.894% lr=0.07679134 time=25.9s
+ref_12 epoch 033/100 loss=0.411605 acc=80.934% lr=0.075452071 time=25.9s
+ref_12 epoch 034/100 loss=0.400573 acc=81.798% lr=0.074087684 time=25.8s
+ref_12 epoch 035/100 loss=0.390521 acc=82.230% lr=0.072699525 time=25.9s
+ref_12 epoch 036/100 loss=0.399096 acc=81.606% lr=0.071288965 time=25.8s
+ref_12 epoch 037/100 loss=0.393971 acc=82.502% lr=0.069857395 time=25.8s
+ref_12 epoch 038/100 loss=0.391305 acc=82.566% lr=0.068406228 time=25.9s
+ref_12 epoch 039/100 loss=0.390138 acc=81.958% lr=0.066936896 time=25.8s
+ref_12 epoch 040/100 loss=0.383435 acc=82.390% lr=0.06545085 time=25.9s
+ref_12 epoch 041/100 loss=0.386039 acc=82.086% lr=0.063949555 time=25.8s
+ref_12 epoch 042/100 loss=0.374224 acc=83.253% lr=0.062434494 time=25.9s
+ref_12 epoch 043/100 loss=0.366284 acc=83.733% lr=0.060907162 time=26.1s
+ref_12 epoch 044/100 loss=0.364383 acc=83.317% lr=0.059369066 time=25.8s
+ref_12 epoch 045/100 loss=0.368616 acc=83.349% lr=0.057821723 time=26.1s
+ref_12 epoch 046/100 loss=0.364631 acc=83.733% lr=0.056266662 time=25.9s
+ref_12 epoch 047/100 loss=0.364404 acc=83.733% lr=0.054705416 time=26.0s
+ref_12 epoch 048/100 loss=0.367268 acc=83.333% lr=0.053139526 time=26.0s
+ref_12 epoch 049/100 loss=0.352860 acc=84.245% lr=0.051570538 time=25.9s
+ref_12 epoch 050/100 loss=0.345541 acc=84.629% lr=0.05 time=25.9s
+ref_12 epoch 051/100 loss=0.353502 acc=84.405% lr=0.048429462 time=25.9s
+ref_12 epoch 052/100 loss=0.340317 acc=84.789% lr=0.046860474 time=25.8s
+ref_12 epoch 053/100 loss=0.350055 acc=84.101% lr=0.045294584 time=25.8s
+ref_12 epoch 054/100 loss=0.336500 acc=84.965% lr=0.043733338 time=26.0s
+ref_12 epoch 055/100 loss=0.335705 acc=85.621% lr=0.042178277 time=25.9s
+ref_12 epoch 056/100 loss=0.331626 acc=85.109% lr=0.040630934 time=26.0s
+ref_12 epoch 057/100 loss=0.326581 acc=85.733% lr=0.039092838 time=25.9s
+ref_12 epoch 058/100 loss=0.323741 acc=85.669% lr=0.037565506 time=26.0s
+ref_12 epoch 059/100 loss=0.320069 acc=85.621% lr=0.036050445 time=25.9s
+ref_12 epoch 060/100 loss=0.312363 acc=85.925% lr=0.03454915 time=25.7s
+ref_12 epoch 061/100 loss=0.305543 acc=86.356% lr=0.033063104 time=25.8s
+ref_12 epoch 062/100 loss=0.308438 acc=86.772% lr=0.031593772 time=25.9s
+ref_12 epoch 063/100 loss=0.307020 acc=86.244% lr=0.030142605 time=25.9s
+ref_12 epoch 064/100 loss=0.295941 acc=86.996% lr=0.028711035 time=26.1s
+ref_12 epoch 065/100 loss=0.293040 acc=87.012% lr=0.027300475 time=25.9s
+ref_12 epoch 066/100 loss=0.280511 acc=87.700% lr=0.025912316 time=26.0s
+ref_12 epoch 067/100 loss=0.275893 acc=87.572% lr=0.024547929 time=26.1s
+ref_12 epoch 068/100 loss=0.280750 acc=87.828% lr=0.02320866 time=25.9s
+ref_12 epoch 069/100 loss=0.273778 acc=88.164% lr=0.021895831 time=25.7s
+ref_12 epoch 070/100 loss=0.266628 acc=87.988% lr=0.020610737 time=25.0s
+ref_12 epoch 071/100 loss=0.258338 acc=88.852% lr=0.019354647 time=24.9s
+ref_12 epoch 072/100 loss=0.255248 acc=88.756% lr=0.018128801 time=24.8s
+ref_12 epoch 073/100 loss=0.244561 acc=89.395% lr=0.016934407 time=24.9s
+ref_12 epoch 074/100 loss=0.246059 acc=89.267% lr=0.015772645 time=24.7s
+ref_12 epoch 075/100 loss=0.242216 acc=89.299% lr=0.014644661 time=24.9s
+ref_12 epoch 076/100 loss=0.228425 acc=90.435% lr=0.013551569 time=24.8s
+ref_12 epoch 077/100 loss=0.220804 acc=90.499% lr=0.012494447 time=24.7s
+ref_12 epoch 078/100 loss=0.200535 acc=91.187% lr=0.011474338 time=24.7s
+ref_12 epoch 079/100 loss=0.199951 acc=91.347% lr=0.010492249 time=25.1s
+ref_12 epoch 080/100 loss=0.197841 acc=91.395% lr=0.0095491503 time=25.1s
+ref_12 epoch 081/100 loss=0.190686 acc=92.019% lr=0.0086459713 time=25.6s
+ref_12 epoch 082/100 loss=0.173678 acc=92.738% lr=0.0077836037 time=25.5s
+ref_12 epoch 083/100 loss=0.161780 acc=93.410% lr=0.0069628986 time=25.8s
+ref_12 epoch 084/100 loss=0.166553 acc=93.010% lr=0.006184666 time=25.2s
+ref_12 epoch 085/100 loss=0.150694 acc=93.730% lr=0.0054496738 time=25.4s
+ref_12 epoch 086/100 loss=0.145995 acc=94.050% lr=0.0047586474 time=25.5s
+ref_12 epoch 087/100 loss=0.135568 acc=94.546% lr=0.0041122687 time=25.4s
+ref_12 epoch 088/100 loss=0.125275 acc=94.962% lr=0.0035111757 time=25.7s
+ref_12 epoch 089/100 loss=0.113475 acc=95.473% lr=0.0029559616 time=25.7s
+ref_12 epoch 090/100 loss=0.104331 acc=95.585% lr=0.0024471742 time=25.7s
+ref_12 epoch 091/100 loss=0.090728 acc=96.449% lr=0.0019853157 time=25.9s
+ref_12 epoch 092/100 loss=0.088352 acc=96.417% lr=0.0015708419 time=25.7s
+ref_12 epoch 093/100 loss=0.080199 acc=96.801% lr=0.0012041619 time=26.0s
+ref_12 epoch 094/100 loss=0.070672 acc=97.521% lr=0.00088563746 time=25.7s
+ref_12 epoch 095/100 loss=0.074180 acc=97.217% lr=0.00061558297 time=25.8s
+ref_12 epoch 096/100 loss=0.069009 acc=97.425% lr=0.00039426493 time=26.0s
+ref_12 epoch 097/100 loss=0.063095 acc=97.665% lr=0.00022190177 time=25.7s
+ref_12 epoch 098/100 loss=0.058533 acc=97.841% lr=9.8663579e-05 time=25.7s
+ref_12 epoch 099/100 loss=0.059524 acc=97.889% lr=2.4671982e-05 time=25.8s
+ref_12 epoch 100/100 loss=0.064650 acc=97.729% lr=0 time=25.5s
+
+========================================================================
+TRAIN ref_13: n=6326 seed=314160278 device=cuda
+========================================================================
+ref_13 epoch 001/100 loss=1.287194 acc=50.980% lr=0.099975328 time=44.2s
+ref_13 epoch 002/100 loss=0.728677 acc=52.039% lr=0.099901336 time=26.0s
+ref_13 epoch 003/100 loss=0.686351 acc=58.884% lr=0.099778098 time=26.0s
+ref_13 epoch 004/100 loss=0.653737 acc=62.678% lr=0.099605735 time=25.9s
+ref_13 epoch 005/100 loss=0.618673 acc=66.503% lr=0.099384417 time=26.0s
+ref_13 epoch 006/100 loss=0.573941 acc=70.756% lr=0.099114363 time=26.0s
+ref_13 epoch 007/100 loss=0.560667 acc=72.510% lr=0.098795838 time=25.9s
+ref_13 epoch 008/100 loss=0.542561 acc=73.569% lr=0.098429158 time=26.1s
+ref_13 epoch 009/100 loss=0.527534 acc=74.170% lr=0.098014684 time=26.0s
+ref_13 epoch 010/100 loss=0.526086 acc=73.980% lr=0.097552826 time=26.1s
+ref_13 epoch 011/100 loss=0.500145 acc=76.494% lr=0.097044038 time=26.0s
+ref_13 epoch 012/100 loss=0.488714 acc=76.889% lr=0.096488824 time=26.0s
+ref_13 epoch 013/100 loss=0.478998 acc=76.921% lr=0.095887731 time=26.1s
+ref_13 epoch 014/100 loss=0.481628 acc=77.189% lr=0.095241353 time=26.0s
+ref_13 epoch 015/100 loss=0.478530 acc=77.695% lr=0.094550326 time=26.1s
+ref_13 epoch 016/100 loss=0.456852 acc=78.944% lr=0.093815334 time=26.0s
+ref_13 epoch 017/100 loss=0.449689 acc=79.197% lr=0.093037101 time=26.1s
+ref_13 epoch 018/100 loss=0.450818 acc=79.055% lr=0.092216396 time=26.1s
+ref_13 epoch 019/100 loss=0.440231 acc=79.829% lr=0.091354029 time=26.1s
+ref_13 epoch 020/100 loss=0.436341 acc=79.719% lr=0.09045085 time=25.9s
+ref_13 epoch 021/100 loss=0.459031 acc=78.201% lr=0.089507751 time=26.1s
+ref_13 epoch 022/100 loss=0.436002 acc=79.908% lr=0.088525662 time=25.9s
+ref_13 epoch 023/100 loss=0.426900 acc=80.098% lr=0.087505553 time=26.1s
+ref_13 epoch 024/100 loss=0.428716 acc=80.351% lr=0.086448431 time=26.0s
+ref_13 epoch 025/100 loss=0.464580 acc=78.138% lr=0.085355339 time=26.0s
+ref_13 epoch 026/100 loss=0.439004 acc=80.098% lr=0.084227355 time=25.9s
+ref_13 epoch 027/100 loss=0.436609 acc=79.813% lr=0.083065593 time=26.1s
+ref_13 epoch 028/100 loss=0.419424 acc=80.873% lr=0.081871199 time=26.0s
+ref_13 epoch 029/100 loss=0.413006 acc=80.888% lr=0.080645353 time=25.9s
+ref_13 epoch 030/100 loss=0.411162 acc=81.031% lr=0.079389263 time=25.9s
+ref_13 epoch 031/100 loss=0.407455 acc=81.837% lr=0.078104169 time=26.2s
+ref_13 epoch 032/100 loss=0.393840 acc=82.359% lr=0.07679134 time=26.0s
+ref_13 epoch 033/100 loss=0.409583 acc=81.363% lr=0.075452071 time=26.2s
+ref_13 epoch 034/100 loss=0.403051 acc=81.710% lr=0.074087684 time=26.0s
+ref_13 epoch 035/100 loss=0.396379 acc=81.884% lr=0.072699525 time=26.1s
+ref_13 epoch 036/100 loss=0.393276 acc=82.548% lr=0.071288965 time=26.2s
+ref_13 epoch 037/100 loss=0.383098 acc=82.690% lr=0.069857395 time=26.0s
+ref_13 epoch 038/100 loss=0.385781 acc=81.853% lr=0.068406228 time=26.0s
+ref_13 epoch 039/100 loss=0.378662 acc=83.323% lr=0.066936896 time=26.2s
+ref_13 epoch 040/100 loss=0.375908 acc=83.086% lr=0.06545085 time=25.9s
+ref_13 epoch 041/100 loss=0.383105 acc=82.896% lr=0.063949555 time=25.8s
+ref_13 epoch 042/100 loss=0.381991 acc=82.738% lr=0.062434494 time=26.1s
+ref_13 epoch 043/100 loss=0.388443 acc=82.659% lr=0.060907162 time=26.0s
+ref_13 epoch 044/100 loss=0.365244 acc=83.734% lr=0.059369066 time=26.1s
+ref_13 epoch 045/100 loss=0.359214 acc=83.908% lr=0.057821723 time=25.9s
+ref_13 epoch 046/100 loss=0.370678 acc=83.418% lr=0.056266662 time=25.4s
+ref_13 epoch 047/100 loss=0.358110 acc=83.955% lr=0.054705416 time=24.9s
+ref_13 epoch 048/100 loss=0.353418 acc=84.034% lr=0.053139526 time=24.8s
+ref_13 epoch 049/100 loss=0.353629 acc=84.255% lr=0.051570538 time=24.8s
+ref_13 epoch 050/100 loss=0.348874 acc=84.303% lr=0.05 time=24.8s
+ref_13 epoch 051/100 loss=0.342994 acc=84.398% lr=0.048429462 time=25.0s
+ref_13 epoch 052/100 loss=0.342238 acc=84.730% lr=0.046860474 time=24.9s
+ref_13 epoch 053/100 loss=0.332793 acc=85.093% lr=0.045294584 time=24.8s
+ref_13 epoch 054/100 loss=0.327809 acc=85.979% lr=0.043733338 time=25.0s
+ref_13 epoch 055/100 loss=0.319297 acc=85.852% lr=0.042178277 time=24.8s
+ref_13 epoch 056/100 loss=0.324495 acc=85.473% lr=0.040630934 time=25.0s
+ref_13 epoch 057/100 loss=0.321869 acc=85.979% lr=0.039092838 time=25.5s
+ref_13 epoch 058/100 loss=0.313534 acc=86.769% lr=0.037565506 time=25.9s
+ref_13 epoch 059/100 loss=0.306785 acc=86.200% lr=0.036050445 time=25.8s
+ref_13 epoch 060/100 loss=0.312216 acc=86.358% lr=0.03454915 time=25.6s
+ref_13 epoch 061/100 loss=0.308078 acc=86.880% lr=0.033063104 time=25.7s
+ref_13 epoch 062/100 loss=0.297442 acc=87.291% lr=0.031593772 time=25.7s
+ref_13 epoch 063/100 loss=0.283410 acc=87.844% lr=0.030142605 time=25.7s
+ref_13 epoch 064/100 loss=0.286507 acc=87.686% lr=0.028711035 time=25.8s
+ref_13 epoch 065/100 loss=0.283369 acc=88.160% lr=0.027300475 time=26.1s
+ref_13 epoch 066/100 loss=0.281179 acc=87.654% lr=0.025912316 time=25.6s
+ref_13 epoch 067/100 loss=0.280110 acc=87.939% lr=0.024547929 time=25.8s
+ref_13 epoch 068/100 loss=0.269416 acc=88.713% lr=0.02320866 time=25.9s
+ref_13 epoch 069/100 loss=0.254762 acc=89.014% lr=0.021895831 time=25.8s
+ref_13 epoch 070/100 loss=0.249750 acc=89.235% lr=0.020610737 time=26.1s
+ref_13 epoch 071/100 loss=0.245257 acc=89.361% lr=0.019354647 time=26.2s
+ref_13 epoch 072/100 loss=0.244798 acc=89.251% lr=0.018128801 time=25.9s
+ref_13 epoch 073/100 loss=0.232482 acc=90.247% lr=0.016934407 time=26.0s
+ref_13 epoch 074/100 loss=0.225911 acc=90.958% lr=0.015772645 time=26.3s
+ref_13 epoch 075/100 loss=0.227855 acc=90.420% lr=0.014644661 time=25.9s
+ref_13 epoch 076/100 loss=0.214393 acc=91.021% lr=0.013551569 time=26.0s
+ref_13 epoch 077/100 loss=0.199045 acc=91.827% lr=0.012494447 time=26.0s
+ref_13 epoch 078/100 loss=0.201985 acc=91.337% lr=0.011474338 time=26.1s
+ref_13 epoch 079/100 loss=0.184820 acc=92.175% lr=0.010492249 time=26.0s
+ref_13 epoch 080/100 loss=0.173333 acc=93.108% lr=0.0095491503 time=26.1s
+ref_13 epoch 081/100 loss=0.172413 acc=93.282% lr=0.0086459713 time=26.2s
+ref_13 epoch 082/100 loss=0.166126 acc=92.934% lr=0.0077836037 time=26.2s
+ref_13 epoch 083/100 loss=0.148109 acc=94.072% lr=0.0069628986 time=26.1s
+ref_13 epoch 084/100 loss=0.145759 acc=94.183% lr=0.006184666 time=26.3s
+ref_13 epoch 085/100 loss=0.147079 acc=94.135% lr=0.0054496738 time=26.1s
+ref_13 epoch 086/100 loss=0.118775 acc=95.384% lr=0.0047586474 time=26.0s
+ref_13 epoch 087/100 loss=0.119560 acc=95.258% lr=0.0041122687 time=26.1s
+ref_13 epoch 088/100 loss=0.107207 acc=95.874% lr=0.0035111757 time=26.0s
+ref_13 epoch 089/100 loss=0.100494 acc=96.048% lr=0.0029559616 time=26.3s
+ref_13 epoch 090/100 loss=0.096597 acc=96.412% lr=0.0024471742 time=25.9s
+ref_13 epoch 091/100 loss=0.092163 acc=96.538% lr=0.0019853157 time=26.0s
+ref_13 epoch 092/100 loss=0.084818 acc=96.791% lr=0.0015708419 time=26.1s
+ref_13 epoch 093/100 loss=0.066048 acc=97.613% lr=0.0012041619 time=25.9s
+ref_13 epoch 094/100 loss=0.069955 acc=97.550% lr=0.00088563746 time=26.1s
+ref_13 epoch 095/100 loss=0.062821 acc=97.724% lr=0.00061558297 time=26.1s
+ref_13 epoch 096/100 loss=0.063243 acc=97.550% lr=0.00039426493 time=26.0s
+ref_13 epoch 097/100 loss=0.056922 acc=98.056% lr=0.00022190177 time=26.0s
+ref_13 epoch 098/100 loss=0.052822 acc=98.293% lr=9.8663579e-05 time=25.9s
+ref_13 epoch 099/100 loss=0.051267 acc=98.261% lr=2.4671982e-05 time=26.0s
+ref_13 epoch 100/100 loss=0.051352 acc=98.230% lr=0 time=25.9s
+
+========================================================================
+TRAIN ref_14: n=6333 seed=314160279 device=cuda
+========================================================================
+ref_14 epoch 001/100 loss=1.131104 acc=50.797% lr=0.099975328 time=43.6s
+ref_14 epoch 002/100 loss=0.678056 acc=58.187% lr=0.099901336 time=26.0s
+ref_14 epoch 003/100 loss=0.621652 acc=65.830% lr=0.099778098 time=25.9s
+ref_14 epoch 004/100 loss=0.581873 acc=70.125% lr=0.099605735 time=26.2s
+ref_14 epoch 005/100 loss=0.549910 acc=72.904% lr=0.099384417 time=25.9s
+ref_14 epoch 006/100 loss=0.526172 acc=74.925% lr=0.099114363 time=26.1s
+ref_14 epoch 007/100 loss=0.501124 acc=75.699% lr=0.098795838 time=26.0s
+ref_14 epoch 008/100 loss=0.485456 acc=76.962% lr=0.098429158 time=26.0s
+ref_14 epoch 009/100 loss=0.469325 acc=77.941% lr=0.098014684 time=25.8s
+ref_14 epoch 010/100 loss=0.492208 acc=76.315% lr=0.097552826 time=26.0s
+ref_14 epoch 011/100 loss=0.477852 acc=77.278% lr=0.097044038 time=26.3s
+ref_14 epoch 012/100 loss=0.449742 acc=79.094% lr=0.096488824 time=26.1s
+ref_14 epoch 013/100 loss=0.464594 acc=78.604% lr=0.095887731 time=26.0s
+ref_14 epoch 014/100 loss=0.438953 acc=79.457% lr=0.095241353 time=26.4s
+ref_14 epoch 015/100 loss=0.433523 acc=79.536% lr=0.094550326 time=26.2s
+ref_14 epoch 016/100 loss=0.436663 acc=79.694% lr=0.093815334 time=26.2s
+ref_14 epoch 017/100 loss=0.430000 acc=80.309% lr=0.093037101 time=26.5s
+ref_14 epoch 018/100 loss=0.421674 acc=80.357% lr=0.092216396 time=26.0s
+ref_14 epoch 019/100 loss=0.427953 acc=80.041% lr=0.091354029 time=26.1s
+ref_14 epoch 020/100 loss=0.415442 acc=81.052% lr=0.09045085 time=26.1s
+ref_14 epoch 021/100 loss=0.412715 acc=81.146% lr=0.089507751 time=26.1s
+ref_14 epoch 022/100 loss=0.403042 acc=81.825% lr=0.088525662 time=25.7s
+ref_14 epoch 023/100 loss=0.395390 acc=82.094% lr=0.087505553 time=25.1s
+ref_14 epoch 024/100 loss=0.395326 acc=81.778% lr=0.086448431 time=25.0s
+ref_14 epoch 025/100 loss=0.393123 acc=81.778% lr=0.085355339 time=25.0s
+ref_14 epoch 026/100 loss=0.389835 acc=82.378% lr=0.084227355 time=25.0s
+ref_14 epoch 027/100 loss=0.383428 acc=82.425% lr=0.083065593 time=25.2s
+ref_14 epoch 028/100 loss=0.386648 acc=82.378% lr=0.081871199 time=25.0s
+ref_14 epoch 029/100 loss=0.388826 acc=82.252% lr=0.080645353 time=25.0s
+ref_14 epoch 030/100 loss=0.378990 acc=82.836% lr=0.079389263 time=24.9s
+ref_14 epoch 031/100 loss=0.388672 acc=82.615% lr=0.078104169 time=25.0s
+ref_14 epoch 032/100 loss=0.373015 acc=83.231% lr=0.07679134 time=24.9s
+ref_14 epoch 033/100 loss=0.372316 acc=82.962% lr=0.075452071 time=25.4s
+ref_14 epoch 034/100 loss=0.370512 acc=82.962% lr=0.074087684 time=25.9s
+ref_14 epoch 035/100 loss=0.361354 acc=83.452% lr=0.072699525 time=25.7s
+ref_14 epoch 036/100 loss=0.375049 acc=82.599% lr=0.071288965 time=25.5s
+ref_14 epoch 037/100 loss=0.358851 acc=84.004% lr=0.069857395 time=26.4s
+ref_14 epoch 038/100 loss=0.363987 acc=84.147% lr=0.068406228 time=26.0s
+ref_14 epoch 039/100 loss=0.354442 acc=84.020% lr=0.066936896 time=26.1s
+ref_14 epoch 040/100 loss=0.357552 acc=84.368% lr=0.06545085 time=26.1s
+ref_14 epoch 041/100 loss=0.346451 acc=84.794% lr=0.063949555 time=25.9s
+ref_14 epoch 042/100 loss=0.352733 acc=84.099% lr=0.062434494 time=25.9s
+ref_14 epoch 043/100 loss=0.342690 acc=84.983% lr=0.060907162 time=26.2s
+ref_14 epoch 044/100 loss=0.346119 acc=84.462% lr=0.059369066 time=26.0s
+ref_14 epoch 045/100 loss=0.341473 acc=84.968% lr=0.057821723 time=26.2s
+ref_14 epoch 046/100 loss=0.340162 acc=85.426% lr=0.056266662 time=25.9s
+ref_14 epoch 047/100 loss=0.329597 acc=85.836% lr=0.054705416 time=26.0s
+ref_14 epoch 048/100 loss=0.333378 acc=84.857% lr=0.053139526 time=26.0s
+ref_14 epoch 049/100 loss=0.334020 acc=84.952% lr=0.051570538 time=26.0s
+ref_14 epoch 050/100 loss=0.319849 acc=85.741% lr=0.05 time=26.2s
+ref_14 epoch 051/100 loss=0.325496 acc=85.647% lr=0.048429462 time=26.0s
+ref_14 epoch 052/100 loss=0.315816 acc=86.057% lr=0.046860474 time=26.1s
+ref_14 epoch 053/100 loss=0.306878 acc=86.752% lr=0.045294584 time=26.1s
+ref_14 epoch 054/100 loss=0.299112 acc=87.273% lr=0.043733338 time=26.0s
+ref_14 epoch 055/100 loss=0.308915 acc=86.847% lr=0.042178277 time=26.0s
+ref_14 epoch 056/100 loss=0.294021 acc=87.210% lr=0.040630934 time=26.1s
+ref_14 epoch 057/100 loss=0.293456 acc=87.068% lr=0.039092838 time=26.1s
+ref_14 epoch 058/100 loss=0.277026 acc=87.889% lr=0.037565506 time=26.2s
+ref_14 epoch 059/100 loss=0.288360 acc=87.447% lr=0.036050445 time=26.1s
+ref_14 epoch 060/100 loss=0.286691 acc=87.652% lr=0.03454915 time=26.0s
+ref_14 epoch 061/100 loss=0.283982 acc=87.462% lr=0.033063104 time=26.2s
+ref_14 epoch 062/100 loss=0.280319 acc=87.889% lr=0.031593772 time=26.1s
+ref_14 epoch 063/100 loss=0.265890 acc=88.552% lr=0.030142605 time=26.0s
+ref_14 epoch 064/100 loss=0.267065 acc=88.299% lr=0.028711035 time=26.0s
+ref_14 epoch 065/100 loss=0.256541 acc=88.694% lr=0.027300475 time=26.2s
+ref_14 epoch 066/100 loss=0.242956 acc=89.878% lr=0.025912316 time=26.0s
+ref_14 epoch 067/100 loss=0.247658 acc=89.231% lr=0.024547929 time=26.1s
+ref_14 epoch 068/100 loss=0.238321 acc=89.468% lr=0.02320866 time=25.9s
+ref_14 epoch 069/100 loss=0.224423 acc=90.447% lr=0.021895831 time=26.0s
+ref_14 epoch 070/100 loss=0.237081 acc=89.768% lr=0.020610737 time=26.0s
+ref_14 epoch 071/100 loss=0.215376 acc=90.778% lr=0.019354647 time=26.0s
+ref_14 epoch 072/100 loss=0.209327 acc=91.252% lr=0.018128801 time=26.0s
+ref_14 epoch 073/100 loss=0.200877 acc=91.600% lr=0.016934407 time=25.8s
+ref_14 epoch 074/100 loss=0.195653 acc=92.121% lr=0.015772645 time=25.8s
+ref_14 epoch 075/100 loss=0.194245 acc=92.026% lr=0.014644661 time=26.2s
+ref_14 epoch 076/100 loss=0.181479 acc=92.452% lr=0.013551569 time=26.0s
+ref_14 epoch 077/100 loss=0.171000 acc=92.721% lr=0.012494447 time=26.1s
+ref_14 epoch 078/100 loss=0.159449 acc=93.084% lr=0.011474338 time=25.8s
+ref_14 epoch 079/100 loss=0.150495 acc=93.700% lr=0.010492249 time=26.3s
+ref_14 epoch 080/100 loss=0.143686 acc=93.810% lr=0.0095491503 time=26.0s
+ref_14 epoch 081/100 loss=0.139412 acc=94.347% lr=0.0086459713 time=25.9s
+ref_14 epoch 082/100 loss=0.127234 acc=94.805% lr=0.0077836037 time=25.9s
+ref_14 epoch 083/100 loss=0.127036 acc=94.916% lr=0.0069628986 time=26.1s
+ref_14 epoch 084/100 loss=0.112722 acc=95.200% lr=0.006184666 time=26.0s
+ref_14 epoch 085/100 loss=0.107537 acc=95.721% lr=0.0054496738 time=26.0s
+ref_14 epoch 086/100 loss=0.090319 acc=96.384% lr=0.0047586474 time=26.1s
+ref_14 epoch 087/100 loss=0.079638 acc=96.905% lr=0.0041122687 time=26.0s
+ref_14 epoch 088/100 loss=0.074916 acc=97.205% lr=0.0035111757 time=26.0s
+ref_14 epoch 089/100 loss=0.075540 acc=97.079% lr=0.0029559616 time=26.1s
+ref_14 epoch 090/100 loss=0.061696 acc=97.837% lr=0.0024471742 time=26.1s
+ref_14 epoch 091/100 loss=0.057313 acc=97.726% lr=0.0019853157 time=26.2s
+ref_14 epoch 092/100 loss=0.047447 acc=98.279% lr=0.0015708419 time=26.1s
+ref_14 epoch 093/100 loss=0.043436 acc=98.579% lr=0.0012041619 time=26.0s
+ref_14 epoch 094/100 loss=0.039291 acc=98.532% lr=0.00088563746 time=26.0s
+ref_14 epoch 095/100 loss=0.034939 acc=98.863% lr=0.00061558297 time=26.1s
+ref_14 epoch 096/100 loss=0.031213 acc=98.910% lr=0.00039426493 time=26.2s
+ref_14 epoch 097/100 loss=0.029793 acc=99.053% lr=0.00022190177 time=26.0s
+ref_14 epoch 098/100 loss=0.030576 acc=99.053% lr=9.8663579e-05 time=26.3s
+ref_14 epoch 099/100 loss=0.032417 acc=99.053% lr=2.4671982e-05 time=25.9s
+ref_14 epoch 100/100 loss=0.029480 acc=98.910% lr=0 time=25.0s
+
+========================================================================
+TRAIN ref_15: n=6319 seed=314160280 device=cuda
+========================================================================
+ref_15 epoch 001/100 loss=1.077795 acc=53.774% lr=0.099975328 time=42.8s
+ref_15 epoch 002/100 loss=0.668677 acc=62.478% lr=0.099901336 time=24.9s
+ref_15 epoch 003/100 loss=0.616616 acc=67.147% lr=0.099778098 time=25.0s
+ref_15 epoch 004/100 loss=0.606696 acc=68.460% lr=0.099605735 time=25.0s
+ref_15 epoch 005/100 loss=0.575542 acc=70.692% lr=0.099384417 time=24.8s
+ref_15 epoch 006/100 loss=0.559276 acc=71.973% lr=0.099114363 time=25.1s
+ref_15 epoch 007/100 loss=0.523781 acc=74.442% lr=0.098795838 time=25.0s
+ref_15 epoch 008/100 loss=0.520788 acc=74.252% lr=0.098429158 time=25.0s
+ref_15 epoch 009/100 loss=0.506985 acc=75.518% lr=0.098014684 time=25.1s
+ref_15 epoch 010/100 loss=0.490170 acc=76.135% lr=0.097552826 time=25.9s
+ref_15 epoch 011/100 loss=0.483811 acc=76.990% lr=0.097044038 time=26.1s
+ref_15 epoch 012/100 loss=0.477180 acc=77.069% lr=0.096488824 time=25.7s
+ref_15 epoch 013/100 loss=0.462585 acc=77.829% lr=0.095887731 time=26.0s
+ref_15 epoch 014/100 loss=0.456277 acc=78.509% lr=0.095241353 time=25.8s
+ref_15 epoch 015/100 loss=0.447063 acc=79.126% lr=0.094550326 time=26.0s
+ref_15 epoch 016/100 loss=0.454459 acc=78.446% lr=0.093815334 time=25.7s
+ref_15 epoch 017/100 loss=0.446095 acc=78.683% lr=0.093037101 time=26.1s
+ref_15 epoch 018/100 loss=0.437855 acc=80.013% lr=0.092216396 time=26.0s
+ref_15 epoch 019/100 loss=0.438295 acc=79.364% lr=0.091354029 time=25.8s
+ref_15 epoch 020/100 loss=0.437108 acc=79.190% lr=0.09045085 time=25.9s
+ref_15 epoch 021/100 loss=0.430000 acc=79.522% lr=0.089507751 time=25.8s
+ref_15 epoch 022/100 loss=0.427178 acc=80.361% lr=0.088525662 time=26.3s
+ref_15 epoch 023/100 loss=0.414965 acc=80.551% lr=0.087505553 time=26.0s
+ref_15 epoch 024/100 loss=0.422158 acc=80.551% lr=0.086448431 time=26.2s
+ref_15 epoch 025/100 loss=0.421882 acc=80.519% lr=0.085355339 time=26.2s
+ref_15 epoch 026/100 loss=0.426870 acc=80.709% lr=0.084227355 time=26.1s
+ref_15 epoch 027/100 loss=0.410902 acc=80.804% lr=0.083065593 time=26.1s
+ref_15 epoch 028/100 loss=0.414511 acc=80.946% lr=0.081871199 time=26.0s
+ref_15 epoch 029/100 loss=0.406563 acc=81.564% lr=0.080645353 time=26.1s
+ref_15 epoch 030/100 loss=0.400391 acc=81.611% lr=0.079389263 time=25.9s
+ref_15 epoch 031/100 loss=0.397380 acc=81.753% lr=0.078104169 time=26.1s
+ref_15 epoch 032/100 loss=0.401610 acc=81.215% lr=0.07679134 time=26.0s
+ref_15 epoch 033/100 loss=0.384873 acc=82.323% lr=0.075452071 time=26.2s
+ref_15 epoch 034/100 loss=0.388553 acc=82.466% lr=0.074087684 time=26.1s
+ref_15 epoch 035/100 loss=0.384500 acc=83.225% lr=0.072699525 time=26.0s
+ref_15 epoch 036/100 loss=0.395105 acc=82.197% lr=0.071288965 time=26.3s
+ref_15 epoch 037/100 loss=0.394973 acc=81.817% lr=0.069857395 time=26.2s
+ref_15 epoch 038/100 loss=0.379194 acc=82.893% lr=0.068406228 time=26.0s
+ref_15 epoch 039/100 loss=0.365722 acc=83.368% lr=0.066936896 time=26.1s
+ref_15 epoch 040/100 loss=0.375810 acc=83.194% lr=0.06545085 time=26.3s
+ref_15 epoch 041/100 loss=0.373445 acc=82.766% lr=0.063949555 time=26.0s
+ref_15 epoch 042/100 loss=0.375860 acc=82.798% lr=0.062434494 time=26.0s
+ref_15 epoch 043/100 loss=0.358652 acc=83.589% lr=0.060907162 time=26.0s
+ref_15 epoch 044/100 loss=0.365013 acc=83.573% lr=0.059369066 time=26.1s
+ref_15 epoch 045/100 loss=0.353941 acc=84.285% lr=0.057821723 time=26.0s
+ref_15 epoch 046/100 loss=0.368577 acc=83.146% lr=0.056266662 time=25.9s
+ref_15 epoch 047/100 loss=0.359556 acc=84.380% lr=0.054705416 time=26.0s
+ref_15 epoch 048/100 loss=0.352924 acc=83.842% lr=0.053139526 time=26.0s
+ref_15 epoch 049/100 loss=0.349175 acc=84.523% lr=0.051570538 time=26.0s
+ref_15 epoch 050/100 loss=0.365637 acc=83.985% lr=0.05 time=25.8s
+ref_15 epoch 051/100 loss=0.349907 acc=84.444% lr=0.048429462 time=26.1s
+ref_15 epoch 052/100 loss=0.340386 acc=85.219% lr=0.046860474 time=26.1s
+ref_15 epoch 053/100 loss=0.337917 acc=85.235% lr=0.045294584 time=26.1s
+ref_15 epoch 054/100 loss=0.336724 acc=85.267% lr=0.043733338 time=26.0s
+ref_15 epoch 055/100 loss=0.326672 acc=85.710% lr=0.042178277 time=26.2s
+ref_15 epoch 056/100 loss=0.325864 acc=85.013% lr=0.040630934 time=25.9s
+ref_15 epoch 057/100 loss=0.316207 acc=85.789% lr=0.039092838 time=25.8s
+ref_15 epoch 058/100 loss=0.330946 acc=85.805% lr=0.037565506 time=26.3s
+ref_15 epoch 059/100 loss=0.324294 acc=85.631% lr=0.036050445 time=26.2s
+ref_15 epoch 060/100 loss=0.304245 acc=86.549% lr=0.03454915 time=26.1s
+ref_15 epoch 061/100 loss=0.308162 acc=86.232% lr=0.033063104 time=26.0s
+ref_15 epoch 062/100 loss=0.298520 acc=86.928% lr=0.031593772 time=26.2s
+ref_15 epoch 063/100 loss=0.301283 acc=87.007% lr=0.030142605 time=26.1s
+ref_15 epoch 064/100 loss=0.289458 acc=87.640% lr=0.028711035 time=26.4s
+ref_15 epoch 065/100 loss=0.280673 acc=87.545% lr=0.027300475 time=26.1s
+ref_15 epoch 066/100 loss=0.266621 acc=88.337% lr=0.025912316 time=26.2s
+ref_15 epoch 067/100 loss=0.268508 acc=88.147% lr=0.024547929 time=26.1s
+ref_15 epoch 068/100 loss=0.266949 acc=88.321% lr=0.02320866 time=25.9s
+ref_15 epoch 069/100 loss=0.264760 acc=88.479% lr=0.021895831 time=26.0s
+ref_15 epoch 070/100 loss=0.249067 acc=89.476% lr=0.020610737 time=26.0s
+ref_15 epoch 071/100 loss=0.259227 acc=88.606% lr=0.019354647 time=26.0s
+ref_15 epoch 072/100 loss=0.242395 acc=89.365% lr=0.018128801 time=26.1s
+ref_15 epoch 073/100 loss=0.228281 acc=90.315% lr=0.016934407 time=25.9s
+ref_15 epoch 074/100 loss=0.225266 acc=90.616% lr=0.015772645 time=26.2s
+ref_15 epoch 075/100 loss=0.220471 acc=90.806% lr=0.014644661 time=26.1s
+ref_15 epoch 076/100 loss=0.208016 acc=91.391% lr=0.013551569 time=25.1s
+ref_15 epoch 077/100 loss=0.215208 acc=90.631% lr=0.012494447 time=24.9s
+ref_15 epoch 078/100 loss=0.205753 acc=91.423% lr=0.011474338 time=25.1s
+ref_15 epoch 079/100 loss=0.194224 acc=91.850% lr=0.010492249 time=25.0s
+ref_15 epoch 080/100 loss=0.187601 acc=92.182% lr=0.0095491503 time=25.1s
+ref_15 epoch 081/100 loss=0.174791 acc=92.562% lr=0.0086459713 time=25.0s
+ref_15 epoch 082/100 loss=0.159058 acc=93.527% lr=0.0077836037 time=25.0s
+ref_15 epoch 083/100 loss=0.146914 acc=93.971% lr=0.0069628986 time=25.0s
+ref_15 epoch 084/100 loss=0.144227 acc=94.192% lr=0.006184666 time=25.1s
+ref_15 epoch 085/100 loss=0.133891 acc=94.414% lr=0.0054496738 time=24.8s
+ref_15 epoch 086/100 loss=0.131601 acc=94.825% lr=0.0047586474 time=25.3s
+ref_15 epoch 087/100 loss=0.122063 acc=95.252% lr=0.0041122687 time=25.7s
+ref_15 epoch 088/100 loss=0.109469 acc=95.680% lr=0.0035111757 time=26.1s
+ref_15 epoch 089/100 loss=0.101409 acc=95.790% lr=0.0029559616 time=25.9s
+ref_15 epoch 090/100 loss=0.097712 acc=96.313% lr=0.0024471742 time=26.2s
+ref_15 epoch 091/100 loss=0.083394 acc=96.693% lr=0.0019853157 time=25.8s
+ref_15 epoch 092/100 loss=0.078761 acc=96.993% lr=0.0015708419 time=25.9s
+ref_15 epoch 093/100 loss=0.069724 acc=97.341% lr=0.0012041619 time=25.9s
+ref_15 epoch 094/100 loss=0.065135 acc=97.436% lr=0.00088563746 time=26.2s
+ref_15 epoch 095/100 loss=0.062578 acc=97.658% lr=0.00061558297 time=25.6s
+ref_15 epoch 096/100 loss=0.054668 acc=98.117% lr=0.00039426493 time=26.2s
+ref_15 epoch 097/100 loss=0.056610 acc=98.006% lr=0.00022190177 time=25.9s
+ref_15 epoch 098/100 loss=0.057466 acc=97.753% lr=9.8663579e-05 time=26.0s
+ref_15 epoch 099/100 loss=0.051358 acc=98.101% lr=2.4671982e-05 time=26.6s
+ref_15 epoch 100/100 loss=0.051467 acc=98.307% lr=0 time=26.0s
+
+============================================================================
+IN-CXR DENSENET-121 RMIA PREFLIGHT
+============================================================================
+Candidates          : 12600
+Members             : 6300
+Nonmembers          : 6300
+Reference models    : 16
+IN refs/candidate   : 8
+OUT refs/candidate  : 8
+Queries             : 18
+Target checkpoint   : D:\October_Experiments\INCXR\results\incxr_densenet121\target\target_densenet121.pt
+Architecture        : DenseNet-121 scratch
+Parameters          : 6955906
+Image size          : 224
+Reflect pad         : 28
+Normalization       : NONE
+Epochs              : 100
+Batch               : 64
+Grad accum          : 1
+LR / momentum / WD  : 0.1 0.9 0.0005
+RMIA a/gamma/T      : 0.3 2.0 2.0
+Taylor m/n          : 0.6 4
+Trim                : 0.2
+Min nonzero FPR     : 0.00015873015873015873 (0.015873%)
+Complete refs       : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Incomplete refs     : []
+Missing refs        : []
+NOTE: DenseNet preprocessing differs from the earlier ResNet-50 run; this is not a perfectly pure architecture-only ablation.
+============================================================================
+target: query 01/18 complete
+target: query 02/18 complete
+target: query 03/18 complete
+target: query 04/18 complete
+target: query 05/18 complete
+target: query 06/18 complete
+target: query 07/18 complete
+target: query 08/18 complete
+target: query 09/18 complete
+target: query 10/18 complete
+target: query 11/18 complete
+target: query 12/18 complete
+target: query 13/18 complete
+target: query 14/18 complete
+target: query 15/18 complete
+target: query 16/18 complete
+target: query 17/18 complete
+target: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\target_logits.npy
+ref_00: query 01/18 complete
+ref_00: query 02/18 complete
+ref_00: query 03/18 complete
+ref_00: query 04/18 complete
+ref_00: query 05/18 complete
+ref_00: query 06/18 complete
+ref_00: query 07/18 complete
+ref_00: query 08/18 complete
+ref_00: query 09/18 complete
+ref_00: query 10/18 complete
+ref_00: query 11/18 complete
+ref_00: query 12/18 complete
+ref_00: query 13/18 complete
+ref_00: query 14/18 complete
+ref_00: query 15/18 complete
+ref_00: query 16/18 complete
+ref_00: query 17/18 complete
+ref_00: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_00_logits.npy
+ref_01: query 01/18 complete
+ref_01: query 02/18 complete
+ref_01: query 03/18 complete
+ref_01: query 04/18 complete
+ref_01: query 05/18 complete
+ref_01: query 06/18 complete
+ref_01: query 07/18 complete
+ref_01: query 08/18 complete
+ref_01: query 09/18 complete
+ref_01: query 10/18 complete
+ref_01: query 11/18 complete
+ref_01: query 12/18 complete
+ref_01: query 13/18 complete
+ref_01: query 14/18 complete
+ref_01: query 15/18 complete
+ref_01: query 16/18 complete
+ref_01: query 17/18 complete
+ref_01: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_01_logits.npy
+ref_02: query 01/18 complete
+ref_02: query 02/18 complete
+ref_02: query 03/18 complete
+ref_02: query 04/18 complete
+ref_02: query 05/18 complete
+ref_02: query 06/18 complete
+ref_02: query 07/18 complete
+ref_02: query 08/18 complete
+ref_02: query 09/18 complete
+ref_02: query 10/18 complete
+ref_02: query 11/18 complete
+ref_02: query 12/18 complete
+ref_02: query 13/18 complete
+ref_02: query 14/18 complete
+ref_02: query 15/18 complete
+ref_02: query 16/18 complete
+ref_02: query 17/18 complete
+ref_02: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_02_logits.npy
+ref_03: query 01/18 complete
+ref_03: query 02/18 complete
+ref_03: query 03/18 complete
+ref_03: query 04/18 complete
+ref_03: query 05/18 complete
+ref_03: query 06/18 complete
+ref_03: query 07/18 complete
+ref_03: query 08/18 complete
+ref_03: query 09/18 complete
+ref_03: query 10/18 complete
+ref_03: query 11/18 complete
+ref_03: query 12/18 complete
+ref_03: query 13/18 complete
+ref_03: query 14/18 complete
+ref_03: query 15/18 complete
+ref_03: query 16/18 complete
+ref_03: query 17/18 complete
+ref_03: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_03_logits.npy
+ref_04: query 01/18 complete
+ref_04: query 02/18 complete
+ref_04: query 03/18 complete
+ref_04: query 04/18 complete
+ref_04: query 05/18 complete
+ref_04: query 06/18 complete
+ref_04: query 07/18 complete
+ref_04: query 08/18 complete
+ref_04: query 09/18 complete
+ref_04: query 10/18 complete
+ref_04: query 11/18 complete
+ref_04: query 12/18 complete
+ref_04: query 13/18 complete
+ref_04: query 14/18 complete
+ref_04: query 15/18 complete
+ref_04: query 16/18 complete
+ref_04: query 17/18 complete
+ref_04: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_04_logits.npy
+ref_05: query 01/18 complete
+ref_05: query 02/18 complete
+ref_05: query 03/18 complete
+ref_05: query 04/18 complete
+ref_05: query 05/18 complete
+ref_05: query 06/18 complete
+ref_05: query 07/18 complete
+ref_05: query 08/18 complete
+ref_05: query 09/18 complete
+ref_05: query 10/18 complete
+ref_05: query 11/18 complete
+ref_05: query 12/18 complete
+ref_05: query 13/18 complete
+ref_05: query 14/18 complete
+ref_05: query 15/18 complete
+ref_05: query 16/18 complete
+ref_05: query 17/18 complete
+ref_05: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_05_logits.npy
+ref_06: query 01/18 complete
+ref_06: query 02/18 complete
+ref_06: query 03/18 complete
+ref_06: query 04/18 complete
+ref_06: query 05/18 complete
+ref_06: query 06/18 complete
+ref_06: query 07/18 complete
+ref_06: query 08/18 complete
+ref_06: query 09/18 complete
+ref_06: query 10/18 complete
+ref_06: query 11/18 complete
+ref_06: query 12/18 complete
+ref_06: query 13/18 complete
+ref_06: query 14/18 complete
+ref_06: query 15/18 complete
+ref_06: query 16/18 complete
+ref_06: query 17/18 complete
+ref_06: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_06_logits.npy
+ref_07: query 01/18 complete
+ref_07: query 02/18 complete
+ref_07: query 03/18 complete
+ref_07: query 04/18 complete
+ref_07: query 05/18 complete
+ref_07: query 06/18 complete
+ref_07: query 07/18 complete
+ref_07: query 08/18 complete
+ref_07: query 09/18 complete
+ref_07: query 10/18 complete
+ref_07: query 11/18 complete
+ref_07: query 12/18 complete
+ref_07: query 13/18 complete
+ref_07: query 14/18 complete
+ref_07: query 15/18 complete
+ref_07: query 16/18 complete
+ref_07: query 17/18 complete
+ref_07: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_07_logits.npy
+ref_08: query 01/18 complete
+ref_08: query 02/18 complete
+ref_08: query 03/18 complete
+ref_08: query 04/18 complete
+ref_08: query 05/18 complete
+ref_08: query 06/18 complete
+ref_08: query 07/18 complete
+ref_08: query 08/18 complete
+ref_08: query 09/18 complete
+ref_08: query 10/18 complete
+ref_08: query 11/18 complete
+ref_08: query 12/18 complete
+ref_08: query 13/18 complete
+ref_08: query 14/18 complete
+ref_08: query 15/18 complete
+ref_08: query 16/18 complete
+ref_08: query 17/18 complete
+ref_08: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_08_logits.npy
+ref_09: query 01/18 complete
+ref_09: query 02/18 complete
+ref_09: query 03/18 complete
+ref_09: query 04/18 complete
+ref_09: query 05/18 complete
+ref_09: query 06/18 complete
+ref_09: query 07/18 complete
+ref_09: query 08/18 complete
+ref_09: query 09/18 complete
+ref_09: query 10/18 complete
+ref_09: query 11/18 complete
+ref_09: query 12/18 complete
+ref_09: query 13/18 complete
+ref_09: query 14/18 complete
+ref_09: query 15/18 complete
+ref_09: query 16/18 complete
+ref_09: query 17/18 complete
+ref_09: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_09_logits.npy
+ref_10: query 01/18 complete
+ref_10: query 02/18 complete
+ref_10: query 03/18 complete
+ref_10: query 04/18 complete
+ref_10: query 05/18 complete
+ref_10: query 06/18 complete
+ref_10: query 07/18 complete
+ref_10: query 08/18 complete
+ref_10: query 09/18 complete
+ref_10: query 10/18 complete
+ref_10: query 11/18 complete
+ref_10: query 12/18 complete
+ref_10: query 13/18 complete
+ref_10: query 14/18 complete
+ref_10: query 15/18 complete
+ref_10: query 16/18 complete
+ref_10: query 17/18 complete
+ref_10: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_10_logits.npy
+ref_11: query 01/18 complete
+ref_11: query 02/18 complete
+ref_11: query 03/18 complete
+ref_11: query 04/18 complete
+ref_11: query 05/18 complete
+ref_11: query 06/18 complete
+ref_11: query 07/18 complete
+ref_11: query 08/18 complete
+ref_11: query 09/18 complete
+ref_11: query 10/18 complete
+ref_11: query 11/18 complete
+ref_11: query 12/18 complete
+ref_11: query 13/18 complete
+ref_11: query 14/18 complete
+ref_11: query 15/18 complete
+ref_11: query 16/18 complete
+ref_11: query 17/18 complete
+ref_11: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_11_logits.npy
+ref_12: query 01/18 complete
+ref_12: query 02/18 complete
+ref_12: query 03/18 complete
+ref_12: query 04/18 complete
+ref_12: query 05/18 complete
+ref_12: query 06/18 complete
+ref_12: query 07/18 complete
+ref_12: query 08/18 complete
+ref_12: query 09/18 complete
+ref_12: query 10/18 complete
+ref_12: query 11/18 complete
+ref_12: query 12/18 complete
+ref_12: query 13/18 complete
+ref_12: query 14/18 complete
+ref_12: query 15/18 complete
+ref_12: query 16/18 complete
+ref_12: query 17/18 complete
+ref_12: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_12_logits.npy
+ref_13: query 01/18 complete
+ref_13: query 02/18 complete
+ref_13: query 03/18 complete
+ref_13: query 04/18 complete
+ref_13: query 05/18 complete
+ref_13: query 06/18 complete
+ref_13: query 07/18 complete
+ref_13: query 08/18 complete
+ref_13: query 09/18 complete
+ref_13: query 10/18 complete
+ref_13: query 11/18 complete
+ref_13: query 12/18 complete
+ref_13: query 13/18 complete
+ref_13: query 14/18 complete
+ref_13: query 15/18 complete
+ref_13: query 16/18 complete
+ref_13: query 17/18 complete
+ref_13: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_13_logits.npy
+ref_14: query 01/18 complete
+ref_14: query 02/18 complete
+ref_14: query 03/18 complete
+ref_14: query 04/18 complete
+ref_14: query 05/18 complete
+ref_14: query 06/18 complete
+ref_14: query 07/18 complete
+ref_14: query 08/18 complete
+ref_14: query 09/18 complete
+ref_14: query 10/18 complete
+ref_14: query 11/18 complete
+ref_14: query 12/18 complete
+ref_14: query 13/18 complete
+ref_14: query 14/18 complete
+ref_14: query 15/18 complete
+ref_14: query 16/18 complete
+ref_14: query 17/18 complete
+ref_14: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_14_logits.npy
+ref_15: query 01/18 complete
+ref_15: query 02/18 complete
+ref_15: query 03/18 complete
+ref_15: query 04/18 complete
+ref_15: query 05/18 complete
+ref_15: query 06/18 complete
+ref_15: query 07/18 complete
+ref_15: query 08/18 complete
+ref_15: query 09/18 complete
+ref_15: query 10/18 complete
+ref_15: query 11/18 complete
+ref_15: query 12/18 complete
+ref_15: query 13/18 complete
+ref_15: query 14/18 complete
+ref_15: query 15/18 complete
+ref_15: query 16/18 complete
+ref_15: query 17/18 complete
+ref_15: query 18/18 complete
+[DENSENET-RMIA] saved D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\inference\ref_15_logits.npy
+
+============================================================================
+IN-CXR DENSENET-121 RMIA PREFLIGHT
+============================================================================
+Candidates          : 12600
+Members             : 6300
+Nonmembers          : 6300
+Reference models    : 16
+IN refs/candidate   : 8
+OUT refs/candidate  : 8
+Queries             : 18
+Target checkpoint   : D:\October_Experiments\INCXR\results\incxr_densenet121\target\target_densenet121.pt
+Architecture        : DenseNet-121 scratch
+Parameters          : 6955906
+Image size          : 224
+Reflect pad         : 28
+Normalization       : NONE
+Epochs              : 100
+Batch               : 64
+Grad accum          : 1
+LR / momentum / WD  : 0.1 0.9 0.0005
+RMIA a/gamma/T      : 0.3 2.0 2.0
+Taylor m/n          : 0.6 4
+Trim                : 0.2
+Min nonzero FPR     : 0.00015873015873015873 (0.015873%)
+Complete refs       : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Incomplete refs     : []
+Missing refs        : []
+NOTE: DenseNet preprocessing differs from the earlier ResNet-50 run; this is not a perfectly pure architecture-only ablation.
+============================================================================
+ref_00 signal OK
+ref_01 signal OK
+ref_02 signal OK
+ref_03 signal OK
+ref_04 signal OK
+ref_05 signal OK
+ref_06 signal OK
+ref_07 signal OK
+ref_08 signal OK
+ref_09 signal OK
+ref_10 signal OK
+ref_11 signal OK
+ref_12 signal OK
+ref_13 signal OK
+ref_14 signal OK
+ref_15 signal OK
+RMIA pairwise scoring: 0:64/12600
+RMIA pairwise scoring: 64:128/12600
+RMIA pairwise scoring: 128:192/12600
+RMIA pairwise scoring: 192:256/12600
+RMIA pairwise scoring: 256:320/12600
+RMIA pairwise scoring: 320:384/12600
+RMIA pairwise scoring: 384:448/12600
+RMIA pairwise scoring: 448:512/12600
+RMIA pairwise scoring: 512:576/12600
+RMIA pairwise scoring: 576:640/12600
+RMIA pairwise scoring: 640:704/12600
+RMIA pairwise scoring: 704:768/12600
+RMIA pairwise scoring: 768:832/12600
+RMIA pairwise scoring: 832:896/12600
+RMIA pairwise scoring: 896:960/12600
+RMIA pairwise scoring: 960:1024/12600
+RMIA pairwise scoring: 1024:1088/12600
+RMIA pairwise scoring: 1088:1152/12600
+RMIA pairwise scoring: 1152:1216/12600
+RMIA pairwise scoring: 1216:1280/12600
+RMIA pairwise scoring: 1280:1344/12600
+RMIA pairwise scoring: 1344:1408/12600
+RMIA pairwise scoring: 1408:1472/12600
+RMIA pairwise scoring: 1472:1536/12600
+RMIA pairwise scoring: 1536:1600/12600
+RMIA pairwise scoring: 1600:1664/12600
+RMIA pairwise scoring: 1664:1728/12600
+RMIA pairwise scoring: 1728:1792/12600
+RMIA pairwise scoring: 1792:1856/12600
+RMIA pairwise scoring: 1856:1920/12600
+RMIA pairwise scoring: 1920:1984/12600
+RMIA pairwise scoring: 1984:2048/12600
+RMIA pairwise scoring: 2048:2112/12600
+RMIA pairwise scoring: 2112:2176/12600
+RMIA pairwise scoring: 2176:2240/12600
+RMIA pairwise scoring: 2240:2304/12600
+RMIA pairwise scoring: 2304:2368/12600
+RMIA pairwise scoring: 2368:2432/12600
+RMIA pairwise scoring: 2432:2496/12600
+RMIA pairwise scoring: 2496:2560/12600
+RMIA pairwise scoring: 2560:2624/12600
+RMIA pairwise scoring: 2624:2688/12600
+RMIA pairwise scoring: 2688:2752/12600
+RMIA pairwise scoring: 2752:2816/12600
+RMIA pairwise scoring: 2816:2880/12600
+RMIA pairwise scoring: 2880:2944/12600
+RMIA pairwise scoring: 2944:3008/12600
+RMIA pairwise scoring: 3008:3072/12600
+RMIA pairwise scoring: 3072:3136/12600
+RMIA pairwise scoring: 3136:3200/12600
+RMIA pairwise scoring: 3200:3264/12600
+RMIA pairwise scoring: 3264:3328/12600
+RMIA pairwise scoring: 3328:3392/12600
+RMIA pairwise scoring: 3392:3456/12600
+RMIA pairwise scoring: 3456:3520/12600
+RMIA pairwise scoring: 3520:3584/12600
+RMIA pairwise scoring: 3584:3648/12600
+RMIA pairwise scoring: 3648:3712/12600
+RMIA pairwise scoring: 3712:3776/12600
+RMIA pairwise scoring: 3776:3840/12600
+RMIA pairwise scoring: 3840:3904/12600
+RMIA pairwise scoring: 3904:3968/12600
+RMIA pairwise scoring: 3968:4032/12600
+RMIA pairwise scoring: 4032:4096/12600
+RMIA pairwise scoring: 4096:4160/12600
+RMIA pairwise scoring: 4160:4224/12600
+RMIA pairwise scoring: 4224:4288/12600
+RMIA pairwise scoring: 4288:4352/12600
+RMIA pairwise scoring: 4352:4416/12600
+RMIA pairwise scoring: 4416:4480/12600
+RMIA pairwise scoring: 4480:4544/12600
+RMIA pairwise scoring: 4544:4608/12600
+RMIA pairwise scoring: 4608:4672/12600
+RMIA pairwise scoring: 4672:4736/12600
+RMIA pairwise scoring: 4736:4800/12600
+RMIA pairwise scoring: 4800:4864/12600
+RMIA pairwise scoring: 4864:4928/12600
+RMIA pairwise scoring: 4928:4992/12600
+RMIA pairwise scoring: 4992:5056/12600
+RMIA pairwise scoring: 5056:5120/12600
+RMIA pairwise scoring: 5120:5184/12600
+RMIA pairwise scoring: 5184:5248/12600
+RMIA pairwise scoring: 5248:5312/12600
+RMIA pairwise scoring: 5312:5376/12600
+RMIA pairwise scoring: 5376:5440/12600
+RMIA pairwise scoring: 5440:5504/12600
+RMIA pairwise scoring: 5504:5568/12600
+RMIA pairwise scoring: 5568:5632/12600
+RMIA pairwise scoring: 5632:5696/12600
+RMIA pairwise scoring: 5696:5760/12600
+RMIA pairwise scoring: 5760:5824/12600
+RMIA pairwise scoring: 5824:5888/12600
+RMIA pairwise scoring: 5888:5952/12600
+RMIA pairwise scoring: 5952:6016/12600
+RMIA pairwise scoring: 6016:6080/12600
+RMIA pairwise scoring: 6080:6144/12600
+RMIA pairwise scoring: 6144:6208/12600
+RMIA pairwise scoring: 6208:6272/12600
+RMIA pairwise scoring: 6272:6336/12600
+RMIA pairwise scoring: 6336:6400/12600
+RMIA pairwise scoring: 6400:6464/12600
+RMIA pairwise scoring: 6464:6528/12600
+RMIA pairwise scoring: 6528:6592/12600
+RMIA pairwise scoring: 6592:6656/12600
+RMIA pairwise scoring: 6656:6720/12600
+RMIA pairwise scoring: 6720:6784/12600
+RMIA pairwise scoring: 6784:6848/12600
+RMIA pairwise scoring: 6848:6912/12600
+RMIA pairwise scoring: 6912:6976/12600
+RMIA pairwise scoring: 6976:7040/12600
+RMIA pairwise scoring: 7040:7104/12600
+RMIA pairwise scoring: 7104:7168/12600
+RMIA pairwise scoring: 7168:7232/12600
+RMIA pairwise scoring: 7232:7296/12600
+RMIA pairwise scoring: 7296:7360/12600
+RMIA pairwise scoring: 7360:7424/12600
+RMIA pairwise scoring: 7424:7488/12600
+RMIA pairwise scoring: 7488:7552/12600
+RMIA pairwise scoring: 7552:7616/12600
+RMIA pairwise scoring: 7616:7680/12600
+RMIA pairwise scoring: 7680:7744/12600
+RMIA pairwise scoring: 7744:7808/12600
+RMIA pairwise scoring: 7808:7872/12600
+RMIA pairwise scoring: 7872:7936/12600
+RMIA pairwise scoring: 7936:8000/12600
+RMIA pairwise scoring: 8000:8064/12600
+RMIA pairwise scoring: 8064:8128/12600
+RMIA pairwise scoring: 8128:8192/12600
+RMIA pairwise scoring: 8192:8256/12600
+RMIA pairwise scoring: 8256:8320/12600
+RMIA pairwise scoring: 8320:8384/12600
+RMIA pairwise scoring: 8384:8448/12600
+RMIA pairwise scoring: 8448:8512/12600
+RMIA pairwise scoring: 8512:8576/12600
+RMIA pairwise scoring: 8576:8640/12600
+RMIA pairwise scoring: 8640:8704/12600
+RMIA pairwise scoring: 8704:8768/12600
+RMIA pairwise scoring: 8768:8832/12600
+RMIA pairwise scoring: 8832:8896/12600
+RMIA pairwise scoring: 8896:8960/12600
+RMIA pairwise scoring: 8960:9024/12600
+RMIA pairwise scoring: 9024:9088/12600
+RMIA pairwise scoring: 9088:9152/12600
+RMIA pairwise scoring: 9152:9216/12600
+RMIA pairwise scoring: 9216:9280/12600
+RMIA pairwise scoring: 9280:9344/12600
+RMIA pairwise scoring: 9344:9408/12600
+RMIA pairwise scoring: 9408:9472/12600
+RMIA pairwise scoring: 9472:9536/12600
+RMIA pairwise scoring: 9536:9600/12600
+RMIA pairwise scoring: 9600:9664/12600
+RMIA pairwise scoring: 9664:9728/12600
+RMIA pairwise scoring: 9728:9792/12600
+RMIA pairwise scoring: 9792:9856/12600
+RMIA pairwise scoring: 9856:9920/12600
+RMIA pairwise scoring: 9920:9984/12600
+RMIA pairwise scoring: 9984:10048/12600
+RMIA pairwise scoring: 10048:10112/12600
+RMIA pairwise scoring: 10112:10176/12600
+RMIA pairwise scoring: 10176:10240/12600
+RMIA pairwise scoring: 10240:10304/12600
+RMIA pairwise scoring: 10304:10368/12600
+RMIA pairwise scoring: 10368:10432/12600
+RMIA pairwise scoring: 10432:10496/12600
+RMIA pairwise scoring: 10496:10560/12600
+RMIA pairwise scoring: 10560:10624/12600
+RMIA pairwise scoring: 10624:10688/12600
+RMIA pairwise scoring: 10688:10752/12600
+RMIA pairwise scoring: 10752:10816/12600
+RMIA pairwise scoring: 10816:10880/12600
+RMIA pairwise scoring: 10880:10944/12600
+RMIA pairwise scoring: 10944:11008/12600
+RMIA pairwise scoring: 11008:11072/12600
+RMIA pairwise scoring: 11072:11136/12600
+RMIA pairwise scoring: 11136:11200/12600
+RMIA pairwise scoring: 11200:11264/12600
+RMIA pairwise scoring: 11264:11328/12600
+RMIA pairwise scoring: 11328:11392/12600
+RMIA pairwise scoring: 11392:11456/12600
+RMIA pairwise scoring: 11456:11520/12600
+RMIA pairwise scoring: 11520:11584/12600
+RMIA pairwise scoring: 11584:11648/12600
+RMIA pairwise scoring: 11648:11712/12600
+RMIA pairwise scoring: 11712:11776/12600
+RMIA pairwise scoring: 11776:11840/12600
+RMIA pairwise scoring: 11840:11904/12600
+RMIA pairwise scoring: 11904:11968/12600
+RMIA pairwise scoring: 11968:12032/12600
+RMIA pairwise scoring: 12032:12096/12600
+RMIA pairwise scoring: 12096:12160/12600
+RMIA pairwise scoring: 12160:12224/12600
+RMIA pairwise scoring: 12224:12288/12600
+RMIA pairwise scoring: 12288:12352/12600
+RMIA pairwise scoring: 12352:12416/12600
+RMIA pairwise scoring: 12416:12480/12600
+RMIA pairwise scoring: 12480:12544/12600
+RMIA pairwise scoring: 12544:12600/12600
+
+============================================================================
+FINAL DENSENET-121 RMIA RESULT
+============================================================================
+AUC                  : 0.735069
+Best bal. accuracy   : 0.654048
+TPR @ FPR 1%         : 11.8571%  (actual FPR=1.000000%)
+TPR @ FPR 0.1%       : 5.3651%  (actual FPR=0.095238%)
+TPR @ FPR 0.01%      : 1.8730%  (actual FPR=0.000000%)
+TPR @ FPR 0%         : 1.8730%  (actual FPR=0.000000%)
+Diagnostics:
+  stage1_target_signal_mean: AUC=0.629447, member_mean=0.848448, nonmember_mean=0.71174
+  stage2_normalized_ratio_mean: AUC=0.736127, member_mean=1.08367, nonmember_mean=0.845647
+  stage3_final_rmia_score: AUC=0.735069, member_mean=0.173893, nonmember_mean=0.123226
+Saved: D:\October_Experiments\INCXR\results\incxr_densenet121\rmia\attack\rmia_metrics.json
+============================================================================
